@@ -1,0 +1,365 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,400;1,600;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+header{
+    width: 100%;
+    height: 80px;
+    margin-top: 40px;
+    position: fixed;
+    z-index: 1;
+    padding: 40px;
+}
+
+.container_menu{
+    max-width: 1200px;
+    height: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+  }
+
+.logo{
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.logo img{
+    width: 250px;
+}
+
+.menu{
+    display: flex;
+    align-items: center;
+
+}
+
+.menu ul{
+    display: flex;
+}
+
+.menu ul li{
+    list-style: none;
+    margin-left: 36px;
+    
+}
+
+.menu ul li a{
+    text-decoration: none;
+    font-size: 16px;
+    color: rgb(209, 207, 207);
+    text-transform: uppercase;
+}
+
+#selected{
+    background: #00bc9a;
+    padding: 10px 40px;
+    border-radius: 50px;
+    color: #00121a;
+}
+
+#selected:hover{
+    color: white;
+}
+
+.menu nav img{
+    display: none;
+}
+
+.menu #btn-menu {
+    display: none;
+}
+
+/* text */
+.container_cover{
+    
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.3),transparent),url(../img/Background-page.jpg);
+    background-position: center;
+    background-repeat: none;
+    background-size: cover;
+    padding: 0 8%;
+    position: relative;
+    color: white;
+}
+
+.cover{
+    max-width: 1200px;
+    height: 100%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.container_cover .text{
+    max-width: 400px;
+}
+
+.container_cover .text h1{
+    font-size: 36px;
+    font-weight: 600;
+    font-family: 'Bebas Neue', cursive;
+    color: rgba(255, 251, 251, 0.925);
+}
+
+.container_cover .text input{
+    padding: 18px 80px;
+    border: none;
+    font-size: 16px;
+    border-radius: 50px;
+    margin-top: 40px;
+    background: linear-gradient(to right, #00bc9a, #025445);
+    color: white;
+    cursor: pointer;
+    box-shadow: 1px 1px 30px -12px #025445;
+    transition: all 300ms;
+
+}
+
+.container_cover .text input:hover{
+    box-shadow: 1px 1px 30px -6px #025445;
+}
+
+/*text final*/
+/* img movimiento */
+.container_cover .svg img{
+    width: 600px;
+    animation: move 4s linear infinite;
+}
+
+@keyframes move {
+    0%{
+        transform: translateY(25px);
+    }
+    50%{
+        transform: translateY(0px);
+    }
+    100%{
+        transform: translateY(25px);
+    }
+}
+
+
+/* img movimiento final */
+
+
+/* responsive*/
+
+@media screen and (max-width:1700px){
+    .container_cover{
+        background-position: 50%;
+    }
+}
+
+@media screen and (max-width:1200px){
+    header{
+        padding: 40px;
+    }
+
+    .container_cover{
+        background-position: 30%;
+    }
+
+    .container_cover .svg img{
+        width: 100%;
+    }
+}
+
+
+
+@media screen and (max-width:768px){
+    .menu nav{
+        position: fixed;
+        top: 0;
+        right: -250px;
+        width: 250px;
+        height: 100vh;
+        padding: 40px;
+        z-index: 1;
+        transition: all 300ms;
+        background-color: #00121a;
+    }
+
+    .menu ul{
+        flex-direction: column;
+        margin-top: 40px;
+
+    }
+
+    .menu ul li{
+        margin-top: 30px;
+        margin-left: 0px;
+    }
+
+    #selected{
+        background: none;
+        padding: 0px;
+        border-radius: none;   
+        color: #00bc9a;
+     }
+
+     .menu nav img{
+         display: block;
+         width: 200px;
+     }
+
+     #back_menu{
+         position: fixed;
+         top: 0;
+         left: 0;
+         width: 100%;
+         height: 100vh;
+         background-color: rgba(0,0,0,0.5);
+         display: none;
+     }
+
+     .menu #btn-menu {
+         width: 50px;
+         height: 50px;
+         background: #00bc9a;
+         display: flex;
+         align-items: center;
+         justify-content: center;
+         font-size: 24px;
+         border-radius: 50px;
+         cursor: pointer;
+     }
+
+     .menu #btn-menu:hover {
+        background: white;
+    }
+
+    .container_cover{
+        background-position: 10%;
+    }
+
+    .container_cover .svg img{
+        width: 100%;
+        position: fixed;
+        right: 0%;
+        padding: 3%;
+        bottom: 20%;
+    }
+
+    .container_cover .text{
+        position: relative;
+        top: 30%;
+        padding: 2%;
+        left: 5%;
+    }
+}
+
+
+@media screen and (max-width:480px) {
+
+    /*menu */
+    .menu nav{
+        position: fixed;
+        top: 0;
+        right: -250px;
+        width: 250px;
+        height: 100vh;
+        padding: 40px;
+        z-index: 1;
+        transition: all 300ms;
+        background-color: #00121a;
+    }
+
+    .menu ul{
+        flex-direction: column;
+        margin-top: 40px;
+
+    }
+
+    .menu ul li{
+        margin-top: 30px;
+        margin-left: 0px;
+    }
+
+    #selected{
+        background: none;
+        padding: 0px;
+        border-radius: none;   
+        color: #00bc9a;
+     }
+
+     .menu nav img{
+         display: block;
+         width: 200px;
+     }
+
+     #back_menu{
+         position: fixed;
+         top: 0;
+         left: 0;
+         width: 100%;
+         height: 100vh;
+         background-color: rgba(0,0,0,0.5);
+         display: none;
+     }
+
+     .menu #btn-menu {
+         width: 50px;
+         height: 50px;
+         background: #00bc9a;
+         display: flex;
+         align-items: center;
+         justify-content: center;
+         font-size: 24px;
+         border-radius: 50px;
+         cursor: pointer;
+     }
+
+     .menu #btn-menu:hover {
+        background: white;
+    }
+
+    /*menu final*/
+
+    .container_cover{
+        background-position: 10%;
+    }
+    .container_cover .svg img{
+        position: fixed;
+        width: 100%;
+        bottom: 40%;
+    }
+
+    .container_cover .text{
+        top: 20%;
+        left: 5%;
+    }
+}
+
+@media screen and (max-width:345px){
+    .container_menu{
+        position: fixed;
+        bottom: 40%;
+        right: 15%;
+      }
+
+      .container_cover .svg img{
+        width: 100%;
+        bottom: 50%;
+    }
+
+    .container_cover .text{
+        position: fixed;
+        top: 50%;
+        left: 2%;
+        
+    }
+    .container_cover .text input{
+        padding: 18px 50px;
+    }
+    
+}
+/* responsive final*/
