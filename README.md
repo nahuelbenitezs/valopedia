@@ -68,7 +68,7 @@ Revisado el 5 de noviembre de 2026.
 
 Valopedia was created under Riot Games' "Legal Jibber Jabber" policy using assets owned by Riot Games. Riot Games does not endorse or sponsor this project.
 
-El [aviso de Riot](https://www.riotgames.com/en/legal) aparece al pie de todas las páginas. Esa política cubre proyectos de fans gratuitos y sin muro de pago.
+El [aviso de Riot](https://www.riotgames.com/en/legal) aparece al pie de todas las páginas. Esa política cubre proyectos de fans gratuitos y sin muro de pago. También pide no usar logos ni marcas de Riot sin una licencia escrita, así que el sitio usa una marca propia en lugar de la "V" de VALORANT.
 
 ## Desarrollo
 
