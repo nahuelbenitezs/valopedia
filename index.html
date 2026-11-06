@@ -11,7 +11,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Source+Sans+3:wght@400;600;700&display=swap">
     <link rel="stylesheet" href="css/style.css">
-    <script type="module" src="js/home.js"></script>
+    <script type="module" blocking="render" src="js/home.js"></script>
 </head>
 <body class="page-home">
     <a class="skip-link" href="#main" data-i18n="nav.skip">Skip to content</a>
@@ -35,17 +35,21 @@
     <p class="data-status" id="data-status" role="status"></p>
     <main id="main">
         <section class="hero">
+            <p class="hero-word" aria-hidden="true">Valopedia</p>
+            <div class="hero-agent" id="hero-agent"></div>
             <div class="hero-text">
                 <h1 data-i18n="hero.title">Every agent, ability and map, up to date</h1>
                 <p data-i18n="hero.text">A VALORANT fan wiki that refreshes itself from game data after every patch.</p>
                 <a class="button" href="pages/agents/agent.html" data-i18n="hero.cta">Learn Agents</a>
             </div>
+            <a class="hero-agent-link" id="hero-agent-link" href="pages/agents/agent.html" hidden></a>
         </section>
-        <ul class="home-links">
-            <li><a href="pages/agents/agent.html"><strong data-count="agents"></strong> <span data-i18n="nav.agents">Agents</span></a></li>
-            <li><a href="pages/abilities/abilities.html"><strong data-count="abilities"></strong> <span data-i18n="nav.abilities">Abilities</span></a></li>
-            <li><a href="pages/maps/maps.html"><strong data-count="maps"></strong> <span data-i18n="nav.maps">Maps</span></a></li>
-            <li><a href="pages/weapons/weapons.html"><strong data-count="weapons"></strong> <span data-i18n="nav.weapons">Weapons</span></a></li>
+        <div class="marquee" id="hero-marquee" aria-hidden="true"></div>
+        <ul class="home-index">
+            <li><a href="pages/agents/agent.html"><span data-i18n="nav.agents">Agents</span><strong data-count="agents"></strong></a></li>
+            <li><a href="pages/abilities/abilities.html"><span data-i18n="nav.abilities">Abilities</span><strong data-count="abilities"></strong></a></li>
+            <li><a href="pages/maps/maps.html"><span data-i18n="nav.maps">Maps</span><strong data-count="maps"></strong></a></li>
+            <li><a href="pages/weapons/weapons.html"><span data-i18n="nav.weapons">Weapons</span><strong data-count="weapons"></strong></a></li>
         </ul>
     </main>
     <footer class="site-footer">
