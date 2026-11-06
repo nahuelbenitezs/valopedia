@@ -1,0 +1,915 @@
+{
+ "source": "https://valorant-api.com",
+ "language": "es-MX",
+ "version": {
+  "version": "13.09.00.5804228",
+  "patch": "13.09",
+  "buildDate": "2026-10-28T06:11:26Z"
+ },
+ "generatedAt": "2026-11-06T02:15:39.943Z",
+ "items": [
+  {
+   "id": "224b0a95-48b9-f703-1bd8-67aca101a61f",
+   "slug": "abyss",
+   "name": "Abyss",
+   "sites": "Sitios A/B",
+   "banner": "https://media.valorant-api.com/maps/224b0a95-48b9-f703-1bd8-67aca101a61f/listviewicon.png",
+   "splash": "https://media.valorant-api.com/maps/224b0a95-48b9-f703-1bd8-67aca101a61f/splash.png",
+   "minimap": "https://media.valorant-api.com/maps/224b0a95-48b9-f703-1bd8-67aca101a61f/displayicon.png",
+   "callouts": [
+    {
+     "region": "A",
+     "names": [
+      "Ducto",
+      "Enlace",
+      "Principal",
+      "Puente",
+      "Secreto",
+      "Sitio",
+      "Torre",
+      "Vestíbulo",
+      "Vigilancia"
+     ]
+    },
+    {
+     "region": "Atacantes",
+     "names": [
+      "Aparición"
+     ]
+    },
+    {
+     "region": "B",
+     "names": [
+      "Enlace",
+      "Guarida",
+      "Peligro",
+      "Principal",
+      "Sitio",
+      "Torre",
+      "Vestíbulo"
+     ]
+    },
+    {
+     "region": "Defensores",
+     "names": [
+      "Aparición"
+     ]
+    },
+    {
+     "region": "Mid",
+     "names": [
+      "Biblioteca",
+      "Codo",
+      "Inferior",
+      "Pasarela",
+      "Superior"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "7eaecc1b-4337-bbf6-6ab9-04b8f06b3319",
+   "slug": "ascent",
+   "name": "Ascent",
+   "sites": "Sitios A/B",
+   "banner": "https://media.valorant-api.com/maps/7eaecc1b-4337-bbf6-6ab9-04b8f06b3319/listviewicon.png",
+   "splash": "https://media.valorant-api.com/maps/7eaecc1b-4337-bbf6-6ab9-04b8f06b3319/splash.png",
+   "minimap": "https://media.valorant-api.com/maps/7eaecc1b-4337-bbf6-6ab9-04b8f06b3319/displayicon.png",
+   "callouts": [
+    {
+     "region": "A",
+     "names": [
+      "Jardín",
+      "Principal",
+      "Sitio",
+      "Ventana",
+      "Vestíbulo",
+      "Vigas",
+      "Vino",
+      "Árbol"
+     ]
+    },
+    {
+     "region": "Atacantes",
+     "names": [
+      "Aparición"
+     ]
+    },
+    {
+     "region": "B",
+     "names": [
+      "Embarcadero",
+      "Principal",
+      "Sitio",
+      "Vestíbulo"
+     ]
+    },
+    {
+     "region": "Defensores",
+     "names": [
+      "Aparición"
+     ]
+    },
+    {
+     "region": "Mid",
+     "names": [
+      "Cubículo",
+      "Enlace",
+      "Inferior",
+      "Mercado",
+      "Pasarela",
+      "Patio",
+      "Pizza",
+      "Superior"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "2c9d57ec-4431-9c5e-2939-8f9ef6dd5cba",
+   "slug": "bind",
+   "name": "Bind",
+   "sites": "Sitios A/B",
+   "banner": "https://media.valorant-api.com/maps/2c9d57ec-4431-9c5e-2939-8f9ef6dd5cba/listviewicon.png",
+   "splash": "https://media.valorant-api.com/maps/2c9d57ec-4431-9c5e-2939-8f9ef6dd5cba/splash.png",
+   "minimap": "https://media.valorant-api.com/maps/2c9d57ec-4431-9c5e-2939-8f9ef6dd5cba/displayicon.png",
+   "callouts": [
+    {
+     "region": "A",
+     "names": [
+      "Baño",
+      "Corto",
+      "Cub.",
+      "Enlace",
+      "Lámp.",
+      "Salida",
+      "Sitio",
+      "Torre",
+      "Transpr.",
+      "Vestíbulo"
+     ]
+    },
+    {
+     "region": "Atacantes",
+     "names": [
+      "Aparición",
+      "Cueva"
+     ]
+    },
+    {
+     "region": "B",
+     "names": [
+      "Corredor",
+      "Corto",
+      "Enlace",
+      "Esquina",
+      "Fuente",
+      "Jardín",
+      "Largo",
+      "Salida",
+      "Sitio",
+      "Transpr.",
+      "Ventana"
+     ]
+    },
+    {
+     "region": "Defensores",
+     "names": [
+      "Aparición"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "2fb9a4fd-47b8-4e7d-a969-74b4046ebd53",
+   "slug": "breeze",
+   "name": "Breeze",
+   "sites": "Sitios A/B",
+   "banner": "https://media.valorant-api.com/maps/2fb9a4fd-47b8-4e7d-a969-74b4046ebd53/listviewicon.png",
+   "splash": "https://media.valorant-api.com/maps/2fb9a4fd-47b8-4e7d-a969-74b4046ebd53/splash.png",
+   "minimap": "https://media.valorant-api.com/maps/2fb9a4fd-47b8-4e7d-a969-74b4046ebd53/displayicon.png",
+   "callouts": [
+    {
+     "region": "A",
+     "names": [
+      "Pirámides",
+      "Puente",
+      "Rampa",
+      "Sitio",
+      "Tienda",
+      "Vestíbulo"
+     ]
+    },
+    {
+     "region": "Atacantes",
+     "names": [
+      "Aparición"
+     ]
+    },
+    {
+     "region": "B",
+     "names": [
+      "Esquina",
+      "Fondo",
+      "Muro",
+      "Principal",
+      "Sitio",
+      "Túnel",
+      "Ventana"
+     ]
+    },
+    {
+     "region": "Defensores",
+     "names": [
+      "Aparición",
+      "Arcos"
+     ]
+    },
+    {
+     "region": "Mid",
+     "names": [
+      "Cañón",
+      "Corredor",
+      "Guarida",
+      "Inferior",
+      "Pilar",
+      "Puertas de madera",
+      "Superior"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "1c18ab1f-420d-0d8b-71d0-77ad3c439115",
+   "slug": "corrode",
+   "name": "Corrode",
+   "sites": "Sitios A/B",
+   "banner": "https://media.valorant-api.com/maps/1c18ab1f-420d-0d8b-71d0-77ad3c439115/listviewicon.png",
+   "splash": "https://media.valorant-api.com/maps/1c18ab1f-420d-0d8b-71d0-77ad3c439115/splash.png",
+   "minimap": "https://media.valorant-api.com/maps/1c18ab1f-420d-0d8b-71d0-77ad3c439115/displayicon.png",
+   "callouts": [
+    {
+     "region": "A",
+     "names": [
+      "Conector",
+      "Esquina",
+      "Grúa",
+      "Patio",
+      "Principal",
+      "Rincón",
+      "Sitio",
+      "Vestíbulo"
+     ]
+    },
+    {
+     "region": "Atacantes",
+     "names": [
+      "Aparición"
+     ]
+    },
+    {
+     "region": "B",
+     "names": [
+      "Arco",
+      "Conector",
+      "Esquina",
+      "Principal",
+      "Sitio",
+      "Torre",
+      "Vestíbulo"
+     ]
+    },
+    {
+     "region": "Defensores",
+     "names": [
+      "Aparición"
+     ]
+    },
+    {
+     "region": "Mid",
+     "names": [
+      "Escaleras",
+      "Inferior",
+      "Superior",
+      "Ventana"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "690b3ed2-4dff-945b-8223-6da834e30d24",
+   "slug": "district",
+   "name": "District",
+   "sites": null,
+   "banner": "https://media.valorant-api.com/maps/690b3ed2-4dff-945b-8223-6da834e30d24/listviewicon.png",
+   "splash": "https://media.valorant-api.com/maps/690b3ed2-4dff-945b-8223-6da834e30d24/splash.png",
+   "minimap": "https://media.valorant-api.com/maps/690b3ed2-4dff-945b-8223-6da834e30d24/displayicon.png",
+   "callouts": [
+    {
+     "region": "Atacantes",
+     "names": [
+      "Aparición",
+      "Caja",
+      "Escaleras",
+      "Guarida",
+      "Muro"
+     ]
+    },
+    {
+     "region": "Defensores",
+     "names": [
+      "Aparición",
+      "Caja",
+      "Escaleras",
+      "Guarida",
+      "Muro"
+     ]
+    },
+    {
+     "region": "Mid",
+     "names": [
+      "Alcantarilla",
+      "Generador",
+      "Herradura"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "2c09d728-42d5-30d8-43dc-96a05cc7ee9d",
+   "slug": "drift",
+   "name": "Drift",
+   "sites": null,
+   "banner": "https://media.valorant-api.com/maps/2c09d728-42d5-30d8-43dc-96a05cc7ee9d/listviewicon.png",
+   "splash": "https://media.valorant-api.com/maps/2c09d728-42d5-30d8-43dc-96a05cc7ee9d/splash.png",
+   "minimap": "https://media.valorant-api.com/maps/2c09d728-42d5-30d8-43dc-96a05cc7ee9d/displayicon.png",
+   "callouts": [
+    {
+     "region": "Atacantes",
+     "names": [
+      "Aparición",
+      "Callejón",
+      "Guarida",
+      "Patio",
+      "Torre"
+     ]
+    },
+    {
+     "region": "Defensores",
+     "names": [
+      "Aparición",
+      "Callejón",
+      "Guarida",
+      "Patio",
+      "Torre"
+     ]
+    },
+    {
+     "region": "Mid",
+     "names": [
+      "Agua"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "b529448b-4d60-346e-e89e-00a4c527a405",
+   "slug": "fracture",
+   "name": "Fracture",
+   "sites": "Sitios A/B",
+   "banner": "https://media.valorant-api.com/maps/b529448b-4d60-346e-e89e-00a4c527a405/listviewicon.png",
+   "splash": "https://media.valorant-api.com/maps/b529448b-4d60-346e-e89e-00a4c527a405/splash.png",
+   "minimap": "https://media.valorant-api.com/maps/b529448b-4d60-346e-e89e-00a4c527a405/displayicon.png",
+   "callouts": [
+    {
+     "region": "A",
+     "names": [
+      "Antena",
+      "Caída",
+      "Compuerta",
+      "Corredor",
+      "Cuerda",
+      "Enlace",
+      "Principal",
+      "Puerta",
+      "Sitio"
+     ]
+    },
+    {
+     "region": "Atacantes",
+     "names": [
+      "Aparición",
+      "Puente"
+     ]
+    },
+    {
+     "region": "B",
+     "names": [
+      "Arcadia",
+      "Banca",
+      "Cantina",
+      "Enlace",
+      "Generador",
+      "Principal",
+      "Sitio",
+      "Torre",
+      "Túnel",
+      "Árbol"
+     ]
+    },
+    {
+     "region": "Defensores",
+     "names": [
+      "Aparición"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "d6336a5a-428f-c591-98db-c8a291159134",
+   "slug": "glitch",
+   "name": "Glitch",
+   "sites": null,
+   "banner": "https://media.valorant-api.com/maps/d6336a5a-428f-c591-98db-c8a291159134/listviewicon.png",
+   "splash": "https://media.valorant-api.com/maps/d6336a5a-428f-c591-98db-c8a291159134/splash.png",
+   "minimap": "https://media.valorant-api.com/maps/d6336a5a-428f-c591-98db-c8a291159134/displayicon.png",
+   "callouts": []
+  },
+  {
+   "id": "2bee0dc9-4ffe-519b-1cbd-7fbe763a6047",
+   "slug": "haven",
+   "name": "Haven",
+   "sites": "Sitios A/B/C",
+   "banner": "https://media.valorant-api.com/maps/2bee0dc9-4ffe-519b-1cbd-7fbe763a6047/listviewicon.png",
+   "splash": "https://media.valorant-api.com/maps/2bee0dc9-4ffe-519b-1cbd-7fbe763a6047/splash.png",
+   "minimap": "https://media.valorant-api.com/maps/2bee0dc9-4ffe-519b-1cbd-7fbe763a6047/displayicon.png",
+   "callouts": [
+    {
+     "region": "A",
+     "names": [
+      "Alcantarilla",
+      "Enlace",
+      "Jardín",
+      "Largo",
+      "Sitio",
+      "Torre",
+      "Vestíbulo"
+     ]
+    },
+    {
+     "region": "Atacantes",
+     "names": [
+      "Aparición"
+     ]
+    },
+    {
+     "region": "B",
+     "names": [
+      "Fondo",
+      "Sitio"
+     ]
+    },
+    {
+     "region": "C",
+     "names": [
+      "Cubículo",
+      "Enlace",
+      "Garaje",
+      "Largo",
+      "Sitio",
+      "Ventana",
+      "Vestíbulo"
+     ]
+    },
+    {
+     "region": "Defensores",
+     "names": [
+      "Aparición"
+     ]
+    },
+    {
+     "region": "Mid",
+     "names": [
+      "Patio",
+      "Puertas",
+      "Ventana"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "e2ad5c54-4114-a870-9641-8ea21279579a",
+   "slug": "icebox",
+   "name": "Icebox",
+   "sites": "Sitios A/B",
+   "banner": "https://media.valorant-api.com/maps/e2ad5c54-4114-a870-9641-8ea21279579a/listviewicon.png",
+   "splash": "https://media.valorant-api.com/maps/e2ad5c54-4114-a870-9641-8ea21279579a/splash.png",
+   "minimap": "https://media.valorant-api.com/maps/e2ad5c54-4114-a870-9641-8ea21279579a/displayicon.png",
+   "callouts": [
+    {
+     "region": "A",
+     "names": [
+      "Cinta",
+      "Guarida",
+      "Pantalla",
+      "Sitio",
+      "Tuberías",
+      "Vigas"
+     ]
+    },
+    {
+     "region": "Atacantes",
+     "names": [
+      "Aparición"
+     ]
+    },
+    {
+     "region": "B",
+     "names": [
+      "Amarillo",
+      "Cabaña",
+      "Cocina",
+      "Corredor",
+      "Cubículo",
+      "Fondo",
+      "Garaje",
+      "Muñeco de nieve",
+      "Naranja",
+      "Pila de nieve",
+      "Sitio",
+      "Tubo",
+      "Valla",
+      "Verde"
+     ]
+    },
+    {
+     "region": "Defensores",
+     "names": [
+      "Aparición"
+     ]
+    },
+    {
+     "region": "Mid",
+     "names": [
+      "Azul",
+      "Calentador",
+      "Tarima"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "12452a9d-48c3-0b02-e7eb-0381c3520404",
+   "slug": "kasbah",
+   "name": "Kasbah",
+   "sites": null,
+   "banner": "https://media.valorant-api.com/maps/12452a9d-48c3-0b02-e7eb-0381c3520404/listviewicon.png",
+   "splash": "https://media.valorant-api.com/maps/12452a9d-48c3-0b02-e7eb-0381c3520404/splash.png",
+   "minimap": "https://media.valorant-api.com/maps/12452a9d-48c3-0b02-e7eb-0381c3520404/displayicon.png",
+   "callouts": [
+    {
+     "region": "Atacantes",
+     "names": [
+      "Aparición",
+      "Caja angulada",
+      "Caja plana",
+      "Enlace",
+      "Guarida",
+      "Rampa",
+      "Túnel",
+      "Ventana"
+     ]
+    },
+    {
+     "region": "Defensores",
+     "names": [
+      "Aparición",
+      "Caja angulada",
+      "Caja plana",
+      "Enlace",
+      "Guarida",
+      "Rampa",
+      "Túnel",
+      "Ventana"
+     ]
+    },
+    {
+     "region": "Mid",
+     "names": [
+      "Pozo",
+      "Torre"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "2fe4ed3a-450a-948b-6d6b-e89a78e680a9",
+   "slug": "lotus",
+   "name": "Lotus",
+   "sites": "Sitios A/B/C",
+   "banner": "https://media.valorant-api.com/maps/2fe4ed3a-450a-948b-6d6b-e89a78e680a9/listviewicon.png",
+   "splash": "https://media.valorant-api.com/maps/2fe4ed3a-450a-948b-6d6b-e89a78e680a9/splash.png",
+   "minimap": "https://media.valorant-api.com/maps/2fe4ed3a-450a-948b-6d6b-e89a78e680a9/displayicon.png",
+   "callouts": [
+    {
+     "region": "A",
+     "names": [
+      "Cabaña",
+      "Caída",
+      "Enlace",
+      "Escaleras",
+      "Escombros",
+      "Principal",
+      "Puerta",
+      "Raíces",
+      "Sitio",
+      "Superior",
+      "Vestíbulo",
+      "Árbol"
+     ]
+    },
+    {
+     "region": "Atacantes",
+     "names": [
+      "Aparición"
+     ]
+    },
+    {
+     "region": "B",
+     "names": [
+      "Arriba",
+      "Pilares",
+      "Principal",
+      "Sitio"
+     ]
+    },
+    {
+     "region": "C",
+     "names": [
+      "Cascada",
+      "Corredor",
+      "Curva",
+      "Enlace",
+      "Grava",
+      "Montículo",
+      "Principal",
+      "Puerta",
+      "Sitio",
+      "Vestíbulo"
+     ]
+    },
+    {
+     "region": "Defensores",
+     "names": [
+      "Aparición"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "fd267378-4d1d-484f-ff52-77821ed10dc2",
+   "slug": "pearl",
+   "name": "Pearl",
+   "sites": "Sitios A/B",
+   "banner": "https://media.valorant-api.com/maps/fd267378-4d1d-484f-ff52-77821ed10dc2/listviewicon.png",
+   "splash": "https://media.valorant-api.com/maps/fd267378-4d1d-484f-ff52-77821ed10dc2/splash.png",
+   "minimap": "https://media.valorant-api.com/maps/fd267378-4d1d-484f-ff52-77821ed10dc2/displayicon.png",
+   "callouts": [
+    {
+     "region": "A",
+     "names": [
+      "Arte",
+      "Enlace",
+      "Flores",
+      "Principal",
+      "Refugio",
+      "Restaurante",
+      "Secreto",
+      "Sitio"
+     ]
+    },
+    {
+     "region": "Atacantes",
+     "names": [
+      "Aparición"
+     ]
+    },
+    {
+     "region": "B",
+     "names": [
+      "Club",
+      "Corredor",
+      "Enlace",
+      "Pantalla",
+      "Principal",
+      "Rampa",
+      "Sitio",
+      "Torre",
+      "Túnel"
+     ]
+    },
+    {
+     "region": "Defensores",
+     "names": [
+      "Agua",
+      "Aparición",
+      "Música"
+     ]
+    },
+    {
+     "region": "Mid",
+     "names": [
+      "Conector",
+      "Plaza",
+      "Puertas",
+      "Superior",
+      "Tiendas"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "de28aa9b-4cbe-1003-320e-6cb3ec309557",
+   "slug": "piazza",
+   "name": "Piazza",
+   "sites": null,
+   "banner": "https://media.valorant-api.com/maps/de28aa9b-4cbe-1003-320e-6cb3ec309557/listviewicon.png",
+   "splash": "https://media.valorant-api.com/maps/de28aa9b-4cbe-1003-320e-6cb3ec309557/splash.png",
+   "minimap": "https://media.valorant-api.com/maps/de28aa9b-4cbe-1003-320e-6cb3ec309557/displayicon.png",
+   "callouts": []
+  },
+  {
+   "id": "d960549e-485c-e861-8d71-aa9d1aed12a2",
+   "slug": "split",
+   "name": "Split",
+   "sites": "Sitios A/B",
+   "banner": "https://media.valorant-api.com/maps/d960549e-485c-e861-8d71-aa9d1aed12a2/listviewicon.png",
+   "splash": "https://media.valorant-api.com/maps/d960549e-485c-e861-8d71-aa9d1aed12a2/splash.png",
+   "minimap": "https://media.valorant-api.com/maps/d960549e-485c-e861-8d71-aa9d1aed12a2/displayicon.png",
+   "callouts": [
+    {
+     "region": "A",
+     "names": [
+      "Alcantarilla",
+      "Fondo",
+      "Pantallas",
+      "Principal",
+      "Rampas",
+      "Sitio",
+      "Torre",
+      "Vestíbulo",
+      "Vigas"
+     ]
+    },
+    {
+     "region": "Atacantes",
+     "names": [
+      "Aparición"
+     ]
+    },
+    {
+     "region": "B",
+     "names": [
+      "Callejón",
+      "Enlace",
+      "Escaleras",
+      "Fondo",
+      "Garaje",
+      "Sitio",
+      "Torre",
+      "Vestíbulo",
+      "Vigas"
+     ]
+    },
+    {
+     "region": "Defensores",
+     "names": [
+      "Aparición"
+     ]
+    },
+    {
+     "region": "Mid",
+     "names": [
+      "Correo",
+      "Ducto",
+      "Inferior",
+      "Superior"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "756da597-416b-c0f2-f47b-afbdf28670bc",
+   "slug": "summit",
+   "name": "Summit",
+   "sites": "Sitios A/B",
+   "banner": "https://media.valorant-api.com/maps/756da597-416b-c0f2-f47b-afbdf28670bc/listviewicon.png",
+   "splash": "https://media.valorant-api.com/maps/756da597-416b-c0f2-f47b-afbdf28670bc/splash.png",
+   "minimap": "https://media.valorant-api.com/maps/756da597-416b-c0f2-f47b-afbdf28670bc/displayicon.png",
+   "callouts": [
+    {
+     "region": "A",
+     "names": [
+      "Arte",
+      "Corredor",
+      "Cueva",
+      "Enlace",
+      "Jardín",
+      "Principal",
+      "Sitio",
+      "Vestíbulo"
+     ]
+    },
+    {
+     "region": "Atacantes",
+     "names": [
+      "Aparición"
+     ]
+    },
+    {
+     "region": "B",
+     "names": [
+      "Caída",
+      "Enlace",
+      "Gimnasio",
+      "Principal",
+      "Sitio",
+      "Torre",
+      "Trofeo",
+      "Vestíbulo"
+     ]
+    },
+    {
+     "region": "Defensores",
+     "names": [
+      "Aparición"
+     ]
+    },
+    {
+     "region": "Mid",
+     "names": [
+      "Curva",
+      "Fuente",
+      "Inferior",
+      "Superior",
+      "Tejado",
+      "Ventana"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "92584fbe-486a-b1b2-9faa-39b0f486b498",
+   "slug": "sunset",
+   "name": "Sunset",
+   "sites": "Sitios A/B",
+   "banner": "https://media.valorant-api.com/maps/92584fbe-486a-b1b2-9faa-39b0f486b498/listviewicon.png",
+   "splash": "https://media.valorant-api.com/maps/92584fbe-486a-b1b2-9faa-39b0f486b498/splash.png",
+   "minimap": "https://media.valorant-api.com/maps/92584fbe-486a-b1b2-9faa-39b0f486b498/displayicon.png",
+   "callouts": [
+    {
+     "region": "A",
+     "names": [
+      "Callejón",
+      "Enlace",
+      "Esquina",
+      "Principal",
+      "Sitio",
+      "Vestíbulo"
+     ]
+    },
+    {
+     "region": "Atacantes",
+     "names": [
+      "Aparición"
+     ]
+    },
+    {
+     "region": "B",
+     "names": [
+      "Boba",
+      "Mercado",
+      "Principal",
+      "Sitio",
+      "Vestíbulo"
+     ]
+    },
+    {
+     "region": "Defensores",
+     "names": [
+      "Aparición"
+     ]
+    },
+    {
+     "region": "Mid",
+     "names": [
+      "Inferior",
+      "Patio",
+      "Superior",
+      "Tejado"
+     ]
+    }
+   ]
+  }
+ ]
+}

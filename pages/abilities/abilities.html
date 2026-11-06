@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title data-i18n="title.abilities">Abilities | Valopedia</title>
+    <meta name="description" content="All VALORANT agent abilities with their default keys and descriptions, updated after each patch." data-i18n-attr="content:description.abilities">
+    <meta name="theme-color" content="#00121a">
+    <link rel="icon" href="../../img/logo.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Source+Sans+3:wght@400;600;700&display=swap">
+    <link rel="stylesheet" href="../../css/style.css">
+    <script type="module" src="js/abilities.js"></script>
+</head>
+<body>
+    <a class="skip-link" href="#main" data-i18n="nav.skip">Skip to content</a>
+    <header class="site-header">
+        <a class="logo" href="../../index.html"><img src="../../img/logo-nombre.png" alt="Valopedia home" width="3840" height="2160" data-i18n-attr="alt:nav.logo"></a>
+        <button class="menu-toggle" id="menu-toggle" type="button" aria-label="Open menu" aria-expanded="false" aria-controls="site-nav" data-i18n-attr="aria-label:menu.open"><span></span></button>
+        <nav class="site-nav" id="site-nav" aria-label="Main" data-i18n-attr="aria-label:nav.label">
+            <ul>
+                <li><a href="../../index.html" data-i18n="nav.home">Home</a></li>
+                <li><a href="../../pages/agents/agent.html" data-i18n="nav.agents">Agents</a></li>
+                <li><a href="../../pages/abilities/abilities.html" aria-current="page" data-i18n="nav.abilities">Abilities</a></li>
+                <li><a href="../../pages/maps/maps.html" data-i18n="nav.maps">Maps</a></li>
+                <li><a href="../../pages/weapons/weapons.html" data-i18n="nav.weapons">Weapons</a></li>
+            </ul>
+        </nav>
+        <div class="lang-switch" role="group" aria-label="Language" data-i18n-attr="aria-label:language.label">
+            <button type="button" data-lang="en" lang="en" aria-label="English">EN</button>
+            <button type="button" data-lang="es" lang="es" aria-label="Español">ES</button>
+        </div>
+    </header>
+    <p class="data-status" id="data-status" role="status"></p>
+    <main id="main">
+        <div id="content" aria-busy="true"></div>
+        <noscript><p class="state-error">This page needs JavaScript to load its data.</p></noscript>
+    </main>
+    <footer class="site-footer">
+        <p lang="en">Valopedia was created under Riot Games' "Legal Jibber Jabber" policy using assets owned by Riot Games. Riot Games does not endorse or sponsor this project.</p>
+        <p><span data-i18n-source>Game data from <a href="https://valorant-api.com/">valorant-api.com</a>, an unofficial fan project.</span> <a href="https://www.riotgames.com/en/legal" data-i18n="footer.legal">Riot Games legal</a></p>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,915 @@
+{
+ "source": "https://valorant-api.com",
+ "language": "en-US",
+ "version": {
+  "version": "13.09.00.5804228",
+  "patch": "13.09",
+  "buildDate": "2026-10-28T06:11:26Z"
+ },
+ "generatedAt": "2026-11-06T02:15:39.943Z",
+ "items": [
+  {
+   "id": "224b0a95-48b9-f703-1bd8-67aca101a61f",
+   "slug": "abyss",
+   "name": "Abyss",
+   "sites": "A/B Sites",
+   "banner": "https://media.valorant-api.com/maps/224b0a95-48b9-f703-1bd8-67aca101a61f/listviewicon.png",
+   "splash": "https://media.valorant-api.com/maps/224b0a95-48b9-f703-1bd8-67aca101a61f/splash.png",
+   "minimap": "https://media.valorant-api.com/maps/224b0a95-48b9-f703-1bd8-67aca101a61f/displayicon.png",
+   "callouts": [
+    {
+     "region": "A",
+     "names": [
+      "Bridge",
+      "Link",
+      "Lobby",
+      "Main",
+      "Secret",
+      "Security",
+      "Site",
+      "Tower",
+      "Vent"
+     ]
+    },
+    {
+     "region": "Attacker Side",
+     "names": [
+      "Spawn"
+     ]
+    },
+    {
+     "region": "B",
+     "names": [
+      "Danger",
+      "Link",
+      "Lobby",
+      "Main",
+      "Nest",
+      "Site",
+      "Tower"
+     ]
+    },
+    {
+     "region": "Defender Side",
+     "names": [
+      "Spawn"
+     ]
+    },
+    {
+     "region": "Mid",
+     "names": [
+      "Bend",
+      "Bottom",
+      "Catwalk",
+      "Library",
+      "Top"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "7eaecc1b-4337-bbf6-6ab9-04b8f06b3319",
+   "slug": "ascent",
+   "name": "Ascent",
+   "sites": "A/B Sites",
+   "banner": "https://media.valorant-api.com/maps/7eaecc1b-4337-bbf6-6ab9-04b8f06b3319/listviewicon.png",
+   "splash": "https://media.valorant-api.com/maps/7eaecc1b-4337-bbf6-6ab9-04b8f06b3319/splash.png",
+   "minimap": "https://media.valorant-api.com/maps/7eaecc1b-4337-bbf6-6ab9-04b8f06b3319/displayicon.png",
+   "callouts": [
+    {
+     "region": "A",
+     "names": [
+      "Garden",
+      "Lobby",
+      "Main",
+      "Rafters",
+      "Site",
+      "Tree",
+      "Window",
+      "Wine"
+     ]
+    },
+    {
+     "region": "Attacker Side",
+     "names": [
+      "Spawn"
+     ]
+    },
+    {
+     "region": "B",
+     "names": [
+      "Boat House",
+      "Lobby",
+      "Main",
+      "Site"
+     ]
+    },
+    {
+     "region": "Defender Side",
+     "names": [
+      "Spawn"
+     ]
+    },
+    {
+     "region": "Mid",
+     "names": [
+      "Bottom",
+      "Catwalk",
+      "Courtyard",
+      "Cubby",
+      "Link",
+      "Market",
+      "Pizza",
+      "Top"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "2c9d57ec-4431-9c5e-2939-8f9ef6dd5cba",
+   "slug": "bind",
+   "name": "Bind",
+   "sites": "A/B Sites",
+   "banner": "https://media.valorant-api.com/maps/2c9d57ec-4431-9c5e-2939-8f9ef6dd5cba/listviewicon.png",
+   "splash": "https://media.valorant-api.com/maps/2c9d57ec-4431-9c5e-2939-8f9ef6dd5cba/splash.png",
+   "minimap": "https://media.valorant-api.com/maps/2c9d57ec-4431-9c5e-2939-8f9ef6dd5cba/displayicon.png",
+   "callouts": [
+    {
+     "region": "A",
+     "names": [
+      "Bath",
+      "Cubby",
+      "Exit",
+      "Lamps",
+      "Link",
+      "Lobby",
+      "Short",
+      "Site",
+      "Teleporter",
+      "Tower"
+     ]
+    },
+    {
+     "region": "Attacker Side",
+     "names": [
+      "Cave",
+      "Spawn"
+     ]
+    },
+    {
+     "region": "B",
+     "names": [
+      "Elbow",
+      "Exit",
+      "Fountain",
+      "Garden",
+      "Hall",
+      "Link",
+      "Long",
+      "Short",
+      "Site",
+      "Teleporter",
+      "Window"
+     ]
+    },
+    {
+     "region": "Defender Side",
+     "names": [
+      "Spawn"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "2fb9a4fd-47b8-4e7d-a969-74b4046ebd53",
+   "slug": "breeze",
+   "name": "Breeze",
+   "sites": "A/B Sites",
+   "banner": "https://media.valorant-api.com/maps/2fb9a4fd-47b8-4e7d-a969-74b4046ebd53/listviewicon.png",
+   "splash": "https://media.valorant-api.com/maps/2fb9a4fd-47b8-4e7d-a969-74b4046ebd53/splash.png",
+   "minimap": "https://media.valorant-api.com/maps/2fb9a4fd-47b8-4e7d-a969-74b4046ebd53/displayicon.png",
+   "callouts": [
+    {
+     "region": "A",
+     "names": [
+      "Bridge",
+      "Lobby",
+      "Pyramids",
+      "Ramp",
+      "Shop",
+      "Site"
+     ]
+    },
+    {
+     "region": "Attacker Side",
+     "names": [
+      "Spawn"
+     ]
+    },
+    {
+     "region": "B",
+     "names": [
+      "Back",
+      "Elbow",
+      "Main",
+      "Site",
+      "Tunnel",
+      "Wall",
+      "Window"
+     ]
+    },
+    {
+     "region": "Defender Side",
+     "names": [
+      "Arches",
+      "Spawn"
+     ]
+    },
+    {
+     "region": "Mid",
+     "names": [
+      "Bottom",
+      "Cannon",
+      "Hall",
+      "Nest",
+      "Pillar",
+      "Top",
+      "Wood Doors"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "1c18ab1f-420d-0d8b-71d0-77ad3c439115",
+   "slug": "corrode",
+   "name": "Corrode",
+   "sites": "A/B Sites",
+   "banner": "https://media.valorant-api.com/maps/1c18ab1f-420d-0d8b-71d0-77ad3c439115/listviewicon.png",
+   "splash": "https://media.valorant-api.com/maps/1c18ab1f-420d-0d8b-71d0-77ad3c439115/splash.png",
+   "minimap": "https://media.valorant-api.com/maps/1c18ab1f-420d-0d8b-71d0-77ad3c439115/displayicon.png",
+   "callouts": [
+    {
+     "region": "A",
+     "names": [
+      "Crane",
+      "Elbow",
+      "Link",
+      "Lobby",
+      "Main",
+      "Pocket",
+      "Site",
+      "Yard"
+     ]
+    },
+    {
+     "region": "Attacker Side",
+     "names": [
+      "Spawn"
+     ]
+    },
+    {
+     "region": "B",
+     "names": [
+      "Arch",
+      "Elbow",
+      "Link",
+      "Lobby",
+      "Main",
+      "Site",
+      "Tower"
+     ]
+    },
+    {
+     "region": "Defender Side",
+     "names": [
+      "Spawn"
+     ]
+    },
+    {
+     "region": "Mid",
+     "names": [
+      "Bottom",
+      "Stairs",
+      "Top",
+      "Window"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "690b3ed2-4dff-945b-8223-6da834e30d24",
+   "slug": "district",
+   "name": "District",
+   "sites": null,
+   "banner": "https://media.valorant-api.com/maps/690b3ed2-4dff-945b-8223-6da834e30d24/listviewicon.png",
+   "splash": "https://media.valorant-api.com/maps/690b3ed2-4dff-945b-8223-6da834e30d24/splash.png",
+   "minimap": "https://media.valorant-api.com/maps/690b3ed2-4dff-945b-8223-6da834e30d24/displayicon.png",
+   "callouts": [
+    {
+     "region": "Attacker Side",
+     "names": [
+      "Box",
+      "Nest",
+      "Spawn",
+      "Stairs",
+      "Wall"
+     ]
+    },
+    {
+     "region": "Defender Side",
+     "names": [
+      "Box",
+      "Nest",
+      "Spawn",
+      "Stairs",
+      "Wall"
+     ]
+    },
+    {
+     "region": "Mid",
+     "names": [
+      "Generator",
+      "Horseshoe",
+      "Sewer"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "2c09d728-42d5-30d8-43dc-96a05cc7ee9d",
+   "slug": "drift",
+   "name": "Drift",
+   "sites": null,
+   "banner": "https://media.valorant-api.com/maps/2c09d728-42d5-30d8-43dc-96a05cc7ee9d/listviewicon.png",
+   "splash": "https://media.valorant-api.com/maps/2c09d728-42d5-30d8-43dc-96a05cc7ee9d/splash.png",
+   "minimap": "https://media.valorant-api.com/maps/2c09d728-42d5-30d8-43dc-96a05cc7ee9d/displayicon.png",
+   "callouts": [
+    {
+     "region": "Attacker Side",
+     "names": [
+      "Alley",
+      "Nest",
+      "Spawn",
+      "Tower",
+      "Yard"
+     ]
+    },
+    {
+     "region": "Defender Side",
+     "names": [
+      "Alley",
+      "Nest",
+      "Spawn",
+      "Tower",
+      "Yard"
+     ]
+    },
+    {
+     "region": "Mid",
+     "names": [
+      "Water"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "b529448b-4d60-346e-e89e-00a4c527a405",
+   "slug": "fracture",
+   "name": "Fracture",
+   "sites": "A/B Sites",
+   "banner": "https://media.valorant-api.com/maps/b529448b-4d60-346e-e89e-00a4c527a405/listviewicon.png",
+   "splash": "https://media.valorant-api.com/maps/b529448b-4d60-346e-e89e-00a4c527a405/splash.png",
+   "minimap": "https://media.valorant-api.com/maps/b529448b-4d60-346e-e89e-00a4c527a405/displayicon.png",
+   "callouts": [
+    {
+     "region": "A",
+     "names": [
+      "Dish",
+      "Door",
+      "Drop",
+      "Gate",
+      "Hall",
+      "Link",
+      "Main",
+      "Rope",
+      "Site"
+     ]
+    },
+    {
+     "region": "Attacker Side",
+     "names": [
+      "Bridge",
+      "Spawn"
+     ]
+    },
+    {
+     "region": "B",
+     "names": [
+      "Arcade",
+      "Bench",
+      "Canteen",
+      "Generator",
+      "Link",
+      "Main",
+      "Site",
+      "Tower",
+      "Tree",
+      "Tunnel"
+     ]
+    },
+    {
+     "region": "Defender Side",
+     "names": [
+      "Spawn"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "d6336a5a-428f-c591-98db-c8a291159134",
+   "slug": "glitch",
+   "name": "Glitch",
+   "sites": null,
+   "banner": "https://media.valorant-api.com/maps/d6336a5a-428f-c591-98db-c8a291159134/listviewicon.png",
+   "splash": "https://media.valorant-api.com/maps/d6336a5a-428f-c591-98db-c8a291159134/splash.png",
+   "minimap": "https://media.valorant-api.com/maps/d6336a5a-428f-c591-98db-c8a291159134/displayicon.png",
+   "callouts": []
+  },
+  {
+   "id": "2bee0dc9-4ffe-519b-1cbd-7fbe763a6047",
+   "slug": "haven",
+   "name": "Haven",
+   "sites": "A/B/C Sites",
+   "banner": "https://media.valorant-api.com/maps/2bee0dc9-4ffe-519b-1cbd-7fbe763a6047/listviewicon.png",
+   "splash": "https://media.valorant-api.com/maps/2bee0dc9-4ffe-519b-1cbd-7fbe763a6047/splash.png",
+   "minimap": "https://media.valorant-api.com/maps/2bee0dc9-4ffe-519b-1cbd-7fbe763a6047/displayicon.png",
+   "callouts": [
+    {
+     "region": "A",
+     "names": [
+      "Garden",
+      "Link",
+      "Lobby",
+      "Long",
+      "Sewer",
+      "Site",
+      "Tower"
+     ]
+    },
+    {
+     "region": "Attacker Side",
+     "names": [
+      "Spawn"
+     ]
+    },
+    {
+     "region": "B",
+     "names": [
+      "Back",
+      "Site"
+     ]
+    },
+    {
+     "region": "C",
+     "names": [
+      "Cubby",
+      "Garage",
+      "Link",
+      "Lobby",
+      "Long",
+      "Site",
+      "Window"
+     ]
+    },
+    {
+     "region": "Defender Side",
+     "names": [
+      "Spawn"
+     ]
+    },
+    {
+     "region": "Mid",
+     "names": [
+      "Courtyard",
+      "Doors",
+      "Window"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "e2ad5c54-4114-a870-9641-8ea21279579a",
+   "slug": "icebox",
+   "name": "Icebox",
+   "sites": "A/B Sites",
+   "banner": "https://media.valorant-api.com/maps/e2ad5c54-4114-a870-9641-8ea21279579a/listviewicon.png",
+   "splash": "https://media.valorant-api.com/maps/e2ad5c54-4114-a870-9641-8ea21279579a/splash.png",
+   "minimap": "https://media.valorant-api.com/maps/e2ad5c54-4114-a870-9641-8ea21279579a/displayicon.png",
+   "callouts": [
+    {
+     "region": "A",
+     "names": [
+      "Belt",
+      "Nest",
+      "Pipes",
+      "Rafters",
+      "Screen",
+      "Site"
+     ]
+    },
+    {
+     "region": "Attacker Side",
+     "names": [
+      "Spawn"
+     ]
+    },
+    {
+     "region": "B",
+     "names": [
+      "Back",
+      "Cubby",
+      "Fence",
+      "Garage",
+      "Green",
+      "Hall",
+      "Hut",
+      "Kitchen",
+      "Orange",
+      "Site",
+      "Snow Pile",
+      "Snowman",
+      "Tube",
+      "Yellow"
+     ]
+    },
+    {
+     "region": "Defender Side",
+     "names": [
+      "Spawn"
+     ]
+    },
+    {
+     "region": "Mid",
+     "names": [
+      "Blue",
+      "Boiler",
+      "Pallet"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "12452a9d-48c3-0b02-e7eb-0381c3520404",
+   "slug": "kasbah",
+   "name": "Kasbah",
+   "sites": null,
+   "banner": "https://media.valorant-api.com/maps/12452a9d-48c3-0b02-e7eb-0381c3520404/listviewicon.png",
+   "splash": "https://media.valorant-api.com/maps/12452a9d-48c3-0b02-e7eb-0381c3520404/splash.png",
+   "minimap": "https://media.valorant-api.com/maps/12452a9d-48c3-0b02-e7eb-0381c3520404/displayicon.png",
+   "callouts": [
+    {
+     "region": "Attacker Side",
+     "names": [
+      "Angle Box",
+      "Flat Box",
+      "Link",
+      "Nest",
+      "Ramp",
+      "Spawn",
+      "Tunnel",
+      "Window"
+     ]
+    },
+    {
+     "region": "Defender Side",
+     "names": [
+      "Angle Box",
+      "Flat Box",
+      "Link",
+      "Nest",
+      "Ramp",
+      "Spawn",
+      "Tunnel",
+      "Window"
+     ]
+    },
+    {
+     "region": "Mid",
+     "names": [
+      "Pit",
+      "Tower"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "2fe4ed3a-450a-948b-6d6b-e89a78e680a9",
+   "slug": "lotus",
+   "name": "Lotus",
+   "sites": "A/B/C Sites",
+   "banner": "https://media.valorant-api.com/maps/2fe4ed3a-450a-948b-6d6b-e89a78e680a9/listviewicon.png",
+   "splash": "https://media.valorant-api.com/maps/2fe4ed3a-450a-948b-6d6b-e89a78e680a9/splash.png",
+   "minimap": "https://media.valorant-api.com/maps/2fe4ed3a-450a-948b-6d6b-e89a78e680a9/displayicon.png",
+   "callouts": [
+    {
+     "region": "A",
+     "names": [
+      "Door",
+      "Drop",
+      "Hut",
+      "Link",
+      "Lobby",
+      "Main",
+      "Root",
+      "Rubble",
+      "Site",
+      "Stairs",
+      "Top",
+      "Tree"
+     ]
+    },
+    {
+     "region": "Attacker Side",
+     "names": [
+      "Spawn"
+     ]
+    },
+    {
+     "region": "B",
+     "names": [
+      "Main",
+      "Pillars",
+      "Site",
+      "Upper"
+     ]
+    },
+    {
+     "region": "C",
+     "names": [
+      "Bend",
+      "Door",
+      "Gravel",
+      "Hall",
+      "Link",
+      "Lobby",
+      "Main",
+      "Mound",
+      "Site",
+      "Waterfall"
+     ]
+    },
+    {
+     "region": "Defender Side",
+     "names": [
+      "Spawn"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "fd267378-4d1d-484f-ff52-77821ed10dc2",
+   "slug": "pearl",
+   "name": "Pearl",
+   "sites": "A/B Sites",
+   "banner": "https://media.valorant-api.com/maps/fd267378-4d1d-484f-ff52-77821ed10dc2/listviewicon.png",
+   "splash": "https://media.valorant-api.com/maps/fd267378-4d1d-484f-ff52-77821ed10dc2/splash.png",
+   "minimap": "https://media.valorant-api.com/maps/fd267378-4d1d-484f-ff52-77821ed10dc2/displayicon.png",
+   "callouts": [
+    {
+     "region": "A",
+     "names": [
+      "Art",
+      "Dugout",
+      "Flowers",
+      "Link",
+      "Main",
+      "Restaurant",
+      "Secret",
+      "Site"
+     ]
+    },
+    {
+     "region": "Attacker Side",
+     "names": [
+      "Spawn"
+     ]
+    },
+    {
+     "region": "B",
+     "names": [
+      "Club",
+      "Hall",
+      "Link",
+      "Main",
+      "Ramp",
+      "Screen",
+      "Site",
+      "Tower",
+      "Tunnel"
+     ]
+    },
+    {
+     "region": "Defender Side",
+     "names": [
+      "Records",
+      "Spawn",
+      "Water"
+     ]
+    },
+    {
+     "region": "Mid",
+     "names": [
+      "Connector",
+      "Doors",
+      "Plaza",
+      "Shops",
+      "Top"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "de28aa9b-4cbe-1003-320e-6cb3ec309557",
+   "slug": "piazza",
+   "name": "Piazza",
+   "sites": null,
+   "banner": "https://media.valorant-api.com/maps/de28aa9b-4cbe-1003-320e-6cb3ec309557/listviewicon.png",
+   "splash": "https://media.valorant-api.com/maps/de28aa9b-4cbe-1003-320e-6cb3ec309557/splash.png",
+   "minimap": "https://media.valorant-api.com/maps/de28aa9b-4cbe-1003-320e-6cb3ec309557/displayicon.png",
+   "callouts": []
+  },
+  {
+   "id": "d960549e-485c-e861-8d71-aa9d1aed12a2",
+   "slug": "split",
+   "name": "Split",
+   "sites": "A/B Sites",
+   "banner": "https://media.valorant-api.com/maps/d960549e-485c-e861-8d71-aa9d1aed12a2/listviewicon.png",
+   "splash": "https://media.valorant-api.com/maps/d960549e-485c-e861-8d71-aa9d1aed12a2/splash.png",
+   "minimap": "https://media.valorant-api.com/maps/d960549e-485c-e861-8d71-aa9d1aed12a2/displayicon.png",
+   "callouts": [
+    {
+     "region": "A",
+     "names": [
+      "Back",
+      "Lobby",
+      "Main",
+      "Rafters",
+      "Ramps",
+      "Screens",
+      "Sewer",
+      "Site",
+      "Tower"
+     ]
+    },
+    {
+     "region": "Attacker Side",
+     "names": [
+      "Spawn"
+     ]
+    },
+    {
+     "region": "B",
+     "names": [
+      "Alley",
+      "Back",
+      "Garage",
+      "Link",
+      "Lobby",
+      "Rafters",
+      "Site",
+      "Stairs",
+      "Tower"
+     ]
+    },
+    {
+     "region": "Defender Side",
+     "names": [
+      "Spawn"
+     ]
+    },
+    {
+     "region": "Mid",
+     "names": [
+      "Bottom",
+      "Mail",
+      "Top",
+      "Vent"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "756da597-416b-c0f2-f47b-afbdf28670bc",
+   "slug": "summit",
+   "name": "Summit",
+   "sites": "A/B Sites",
+   "banner": "https://media.valorant-api.com/maps/756da597-416b-c0f2-f47b-afbdf28670bc/listviewicon.png",
+   "splash": "https://media.valorant-api.com/maps/756da597-416b-c0f2-f47b-afbdf28670bc/splash.png",
+   "minimap": "https://media.valorant-api.com/maps/756da597-416b-c0f2-f47b-afbdf28670bc/displayicon.png",
+   "callouts": [
+    {
+     "region": "A",
+     "names": [
+      "Art",
+      "Cave",
+      "Garden",
+      "Hall",
+      "Link",
+      "Lobby",
+      "Main",
+      "Site"
+     ]
+    },
+    {
+     "region": "Attacker Side",
+     "names": [
+      "Spawn"
+     ]
+    },
+    {
+     "region": "B",
+     "names": [
+      "Drop",
+      "Gym",
+      "Link",
+      "Lobby",
+      "Main",
+      "Site",
+      "Tower",
+      "Trophy"
+     ]
+    },
+    {
+     "region": "Defender Side",
+     "names": [
+      "Spawn"
+     ]
+    },
+    {
+     "region": "Mid",
+     "names": [
+      "Bend",
+      "Bottom",
+      "Fountain",
+      "Tiles",
+      "Top",
+      "Window"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "92584fbe-486a-b1b2-9faa-39b0f486b498",
+   "slug": "sunset",
+   "name": "Sunset",
+   "sites": "A/B Sites",
+   "banner": "https://media.valorant-api.com/maps/92584fbe-486a-b1b2-9faa-39b0f486b498/listviewicon.png",
+   "splash": "https://media.valorant-api.com/maps/92584fbe-486a-b1b2-9faa-39b0f486b498/splash.png",
+   "minimap": "https://media.valorant-api.com/maps/92584fbe-486a-b1b2-9faa-39b0f486b498/displayicon.png",
+   "callouts": [
+    {
+     "region": "A",
+     "names": [
+      "Alley",
+      "Elbow",
+      "Link",
+      "Lobby",
+      "Main",
+      "Site"
+     ]
+    },
+    {
+     "region": "Attacker Side",
+     "names": [
+      "Spawn"
+     ]
+    },
+    {
+     "region": "B",
+     "names": [
+      "Boba",
+      "Lobby",
+      "Main",
+      "Market",
+      "Site"
+     ]
+    },
+    {
+     "region": "Defender Side",
+     "names": [
+      "Spawn"
+     ]
+    },
+    {
+     "region": "Mid",
+     "names": [
+      "Bottom",
+      "Courtyard",
+      "Tiles",
+      "Top"
+     ]
+    }
+   ]
+  }
+ ]
+}

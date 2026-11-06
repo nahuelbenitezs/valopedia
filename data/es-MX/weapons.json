@@ -1,0 +1,607 @@
+{
+ "source": "https://valorant-api.com",
+ "language": "es-MX",
+ "version": {
+  "version": "13.09.00.5804228",
+  "patch": "13.09",
+  "buildDate": "2026-10-28T06:11:26Z"
+ },
+ "generatedAt": "2026-11-06T02:15:39.943Z",
+ "items": [
+  {
+   "id": "29a0cfab-485b-f5d5-779a-b59f85e204a8",
+   "slug": "classic",
+   "name": "Classic",
+   "category": "Sidearm",
+   "cost": 0,
+   "icon": "https://media.valorant-api.com/weapons/29a0cfab-485b-f5d5-779a-b59f85e204a8/displayicon.png",
+   "stats": {
+    "fireRate": 6.75,
+    "magazine": 12,
+    "reload": 1.75,
+    "wallPenetration": "Low",
+    "damage": [
+     {
+      "from": 0,
+      "to": 30,
+      "head": 78,
+      "body": 26,
+      "leg": 22.1
+     },
+     {
+      "from": 30,
+      "to": 50,
+      "head": 66,
+      "body": 22,
+      "leg": 18.7
+     }
+    ]
+   }
+  },
+  {
+   "id": "2f59173c-4bed-b6c3-2191-dea9b58be9c7",
+   "slug": "melee",
+   "name": "Melee",
+   "category": "Melee",
+   "cost": null,
+   "icon": "https://media.valorant-api.com/weapons/2f59173c-4bed-b6c3-2191-dea9b58be9c7/displayicon.png",
+   "stats": null
+  },
+  {
+   "id": "42da8ccc-40d5-affc-beec-15aa47b42eda",
+   "slug": "shorty",
+   "name": "Shorty",
+   "category": "Sidearm",
+   "cost": 300,
+   "icon": "https://media.valorant-api.com/weapons/42da8ccc-40d5-affc-beec-15aa47b42eda/displayicon.png",
+   "stats": {
+    "fireRate": 3,
+    "magazine": 2,
+    "reload": 1.75,
+    "wallPenetration": "Low",
+    "damage": [
+     {
+      "from": 0,
+      "to": 7,
+      "head": 22,
+      "body": 11,
+      "leg": 9.35
+     },
+     {
+      "from": 7,
+      "to": 15,
+      "head": 12,
+      "body": 6,
+      "leg": 5.1
+     },
+     {
+      "from": 15,
+      "to": 50,
+      "head": 6,
+      "body": 3,
+      "leg": 2.5500002
+     }
+    ]
+   }
+  },
+  {
+   "id": "44d4e95c-4157-0037-81b2-17841bf2e8e3",
+   "slug": "frenzy",
+   "name": "Frenzy",
+   "category": "Sidearm",
+   "cost": 450,
+   "icon": "https://media.valorant-api.com/weapons/44d4e95c-4157-0037-81b2-17841bf2e8e3/displayicon.png",
+   "stats": {
+    "fireRate": 10,
+    "magazine": 15,
+    "reload": 1.5,
+    "wallPenetration": "Low",
+    "damage": [
+     {
+      "from": 0,
+      "to": 20,
+      "head": 78,
+      "body": 26,
+      "leg": 22.1
+     },
+     {
+      "from": 20,
+      "to": 50,
+      "head": 63,
+      "body": 21,
+      "leg": 17.85
+     }
+    ]
+   }
+  },
+  {
+   "id": "1baa85b4-4c70-1284-64bb-6481dfc3bb4e",
+   "slug": "ghost",
+   "name": "Ghost",
+   "category": "Sidearm",
+   "cost": 500,
+   "icon": "https://media.valorant-api.com/weapons/1baa85b4-4c70-1284-64bb-6481dfc3bb4e/displayicon.png",
+   "stats": {
+    "fireRate": 6.75,
+    "magazine": 13,
+    "reload": 1.5,
+    "wallPenetration": "Medium",
+    "damage": [
+     {
+      "from": 0,
+      "to": 30,
+      "head": 105,
+      "body": 30,
+      "leg": 25.5
+     },
+     {
+      "from": 30,
+      "to": 50,
+      "head": 87.5,
+      "body": 25,
+      "leg": 21.25
+     }
+    ]
+   }
+  },
+  {
+   "id": "410b2e0b-4ceb-1321-1727-20858f7f3477",
+   "slug": "bandit",
+   "name": "Bandit",
+   "category": "Sidearm",
+   "cost": 600,
+   "icon": "https://media.valorant-api.com/weapons/410b2e0b-4ceb-1321-1727-20858f7f3477/displayicon.png",
+   "stats": {
+    "fireRate": 5.1,
+    "magazine": 8,
+    "reload": 1.5,
+    "wallPenetration": "Medium",
+    "damage": [
+     {
+      "from": 0,
+      "to": 10,
+      "head": 152,
+      "body": 39,
+      "leg": 33
+     },
+     {
+      "from": 10,
+      "to": 30,
+      "head": 128,
+      "body": 39,
+      "leg": 33
+     },
+     {
+      "from": 30,
+      "to": 50,
+      "head": 112,
+      "body": 34,
+      "leg": 28
+     }
+    ]
+   }
+  },
+  {
+   "id": "e336c6b8-418d-9340-d77f-7a9e4cfe0702",
+   "slug": "sheriff",
+   "name": "Sheriff",
+   "category": "Sidearm",
+   "cost": 800,
+   "icon": "https://media.valorant-api.com/weapons/e336c6b8-418d-9340-d77f-7a9e4cfe0702/displayicon.png",
+   "stats": {
+    "fireRate": 4,
+    "magazine": 6,
+    "reload": 2.25,
+    "wallPenetration": "High",
+    "damage": [
+     {
+      "from": 0,
+      "to": 30,
+      "head": 159.5,
+      "body": 55,
+      "leg": 46.75
+     },
+     {
+      "from": 30,
+      "to": 50,
+      "head": 145,
+      "body": 50,
+      "leg": 42.5
+     }
+    ]
+   }
+  },
+  {
+   "id": "910be174-449b-c412-ab22-d0873436b21b",
+   "slug": "bucky",
+   "name": "Bucky",
+   "category": "Shotgun",
+   "cost": 850,
+   "icon": "https://media.valorant-api.com/weapons/910be174-449b-c412-ab22-d0873436b21b/displayicon.png",
+   "stats": {
+    "fireRate": 1.1,
+    "magazine": 5,
+    "reload": 2.5,
+    "wallPenetration": "Low",
+    "damage": [
+     {
+      "from": 0,
+      "to": 8,
+      "head": 34,
+      "body": 17,
+      "leg": 14
+     },
+     {
+      "from": 8,
+      "to": 12,
+      "head": 26,
+      "body": 13,
+      "leg": 11.05
+     },
+     {
+      "from": 12,
+      "to": 50,
+      "head": 18,
+      "body": 9,
+      "leg": 7.65
+     }
+    ]
+   }
+  },
+  {
+   "id": "c4883e50-4494-202c-3ec3-6b8a9284f00b",
+   "slug": "marshal",
+   "name": "Marshal",
+   "category": "Sniper",
+   "cost": 950,
+   "icon": "https://media.valorant-api.com/weapons/c4883e50-4494-202c-3ec3-6b8a9284f00b/displayicon.png",
+   "stats": {
+    "fireRate": 1.5,
+    "magazine": 5,
+    "reload": 2.5,
+    "wallPenetration": "Medium",
+    "damage": [
+     {
+      "from": 0,
+      "to": 50,
+      "head": 202,
+      "body": 101,
+      "leg": 85.850006
+     }
+    ]
+   }
+  },
+  {
+   "id": "f7e1b454-4ad4-1063-ec0a-159e56b58941",
+   "slug": "stinger",
+   "name": "Stinger",
+   "category": "SMG",
+   "cost": 1100,
+   "icon": "https://media.valorant-api.com/weapons/f7e1b454-4ad4-1063-ec0a-159e56b58941/displayicon.png",
+   "stats": {
+    "fireRate": 16,
+    "magazine": 20,
+    "reload": 2.25,
+    "wallPenetration": "Low",
+    "damage": [
+     {
+      "from": 0,
+      "to": 15,
+      "head": 67.5,
+      "body": 27,
+      "leg": 22.95
+     },
+     {
+      "from": 15,
+      "to": 50,
+      "head": 57,
+      "body": 23,
+      "leg": 19
+     }
+    ]
+   }
+  },
+  {
+   "id": "55d8a0f4-4274-ca67-fe2c-06ab45efdf58",
+   "slug": "ares",
+   "name": "Ares",
+   "category": "Heavy",
+   "cost": 1600,
+   "icon": "https://media.valorant-api.com/weapons/55d8a0f4-4274-ca67-fe2c-06ab45efdf58/displayicon.png",
+   "stats": {
+    "fireRate": 13,
+    "magazine": 50,
+    "reload": 3.25,
+    "wallPenetration": "High",
+    "damage": [
+     {
+      "from": 0,
+      "to": 30,
+      "head": 75,
+      "body": 30,
+      "leg": 25.5
+     },
+     {
+      "from": 30,
+      "to": 50,
+      "head": 70,
+      "body": 28,
+      "leg": 23.800001
+     }
+    ]
+   }
+  },
+  {
+   "id": "462080d1-4035-2937-7c09-27aa2a5c27a7",
+   "slug": "spectre",
+   "name": "Spectre",
+   "category": "SMG",
+   "cost": 1600,
+   "icon": "https://media.valorant-api.com/weapons/462080d1-4035-2937-7c09-27aa2a5c27a7/displayicon.png",
+   "stats": {
+    "fireRate": 13.333,
+    "magazine": 30,
+    "reload": 2.25,
+    "wallPenetration": "Low",
+    "damage": [
+     {
+      "from": 0,
+      "to": 15,
+      "head": 78,
+      "body": 26,
+      "leg": 22.1
+     },
+     {
+      "from": 15,
+      "to": 30,
+      "head": 66,
+      "body": 22,
+      "leg": 18.7
+     },
+     {
+      "from": 30,
+      "to": 50,
+      "head": 60,
+      "body": 20,
+      "leg": 17
+     }
+    ]
+   }
+  },
+  {
+   "id": "ec845bf4-4f79-ddda-a3da-0db3774b2794",
+   "slug": "judge",
+   "name": "Judge",
+   "category": "Shotgun",
+   "cost": 1850,
+   "icon": "https://media.valorant-api.com/weapons/ec845bf4-4f79-ddda-a3da-0db3774b2794/displayicon.png",
+   "stats": {
+    "fireRate": 3.5,
+    "magazine": 5,
+    "reload": 2.2,
+    "wallPenetration": "Low",
+    "damage": [
+     {
+      "from": 0,
+      "to": 10,
+      "head": 34,
+      "body": 17,
+      "leg": 14.450001
+     },
+     {
+      "from": 10,
+      "to": 15,
+      "head": 20,
+      "body": 10,
+      "leg": 8.5
+     },
+     {
+      "from": 15,
+      "to": 50,
+      "head": 14,
+      "body": 7,
+      "leg": 5.9500003
+     }
+    ]
+   }
+  },
+  {
+   "id": "ae3de142-4d85-2547-dd26-4e90bed35cf7",
+   "slug": "bulldog",
+   "name": "Bulldog",
+   "category": "Rifle",
+   "cost": 2050,
+   "icon": "https://media.valorant-api.com/weapons/ae3de142-4d85-2547-dd26-4e90bed35cf7/displayicon.png",
+   "stats": {
+    "fireRate": 10,
+    "magazine": 24,
+    "reload": 2.5,
+    "wallPenetration": "Medium",
+    "damage": [
+     {
+      "from": 0,
+      "to": 50,
+      "head": 115.5,
+      "body": 35,
+      "leg": 29.75
+     }
+    ]
+   }
+  },
+  {
+   "id": "4ade7faa-4cf1-8376-95ef-39884480959b",
+   "slug": "guardian",
+   "name": "Guardian",
+   "category": "Rifle",
+   "cost": 2250,
+   "icon": "https://media.valorant-api.com/weapons/4ade7faa-4cf1-8376-95ef-39884480959b/displayicon.png",
+   "stats": {
+    "fireRate": 5.25,
+    "magazine": 12,
+    "reload": 2.5,
+    "wallPenetration": "High",
+    "damage": [
+     {
+      "from": 0,
+      "to": 50,
+      "head": 195,
+      "body": 65,
+      "leg": 48.75
+     }
+    ]
+   }
+  },
+  {
+   "id": "5f0aaf7a-4289-3998-d5ff-eb9a5cf7ef5c",
+   "slug": "outlaw",
+   "name": "Outlaw",
+   "category": "Sniper",
+   "cost": 2400,
+   "icon": "https://media.valorant-api.com/weapons/5f0aaf7a-4289-3998-d5ff-eb9a5cf7ef5c/displayicon.png",
+   "stats": {
+    "fireRate": 2.75,
+    "magazine": 2,
+    "reload": 3.8,
+    "wallPenetration": "High",
+    "damage": [
+     {
+      "from": 0,
+      "to": 50,
+      "head": 238,
+      "body": 140,
+      "leg": 119
+     }
+    ]
+   }
+  },
+  {
+   "id": "ee8e8d15-496b-07ac-e5f6-8fae5d4c7b1a",
+   "slug": "phantom",
+   "name": "Phantom",
+   "category": "Rifle",
+   "cost": 2900,
+   "icon": "https://media.valorant-api.com/weapons/ee8e8d15-496b-07ac-e5f6-8fae5d4c7b1a/displayicon.png",
+   "stats": {
+    "fireRate": 11,
+    "magazine": 30,
+    "reload": 2.5,
+    "wallPenetration": "Medium",
+    "damage": [
+     {
+      "from": 0,
+      "to": 20,
+      "head": 156,
+      "body": 39,
+      "leg": 33.15
+     },
+     {
+      "from": 20,
+      "to": 50,
+      "head": 140,
+      "body": 35,
+      "leg": 29.75
+     }
+    ]
+   }
+  },
+  {
+   "id": "9c82e19d-4575-0200-1a81-3eacf00cf872",
+   "slug": "vandal",
+   "name": "Vandal",
+   "category": "Rifle",
+   "cost": 2900,
+   "icon": "https://media.valorant-api.com/weapons/9c82e19d-4575-0200-1a81-3eacf00cf872/displayicon.png",
+   "stats": {
+    "fireRate": 9.75,
+    "magazine": 25,
+    "reload": 2.5,
+    "wallPenetration": "Medium",
+    "damage": [
+     {
+      "from": 0,
+      "to": 50,
+      "head": 160,
+      "body": 40,
+      "leg": 34
+     }
+    ]
+   }
+  },
+  {
+   "id": "8db0a1bf-4a50-832a-4566-faaaa6d250ca",
+   "slug": "warden",
+   "name": "Warden",
+   "category": "Rifle",
+   "cost": 2900,
+   "icon": "https://media.valorant-api.com/weapons/8db0a1bf-4a50-832a-4566-faaaa6d250ca/displayicon.png",
+   "stats": {
+    "fireRate": 6.5,
+    "magazine": 18,
+    "reload": 2.5,
+    "wallPenetration": "Medium",
+    "damage": [
+     {
+      "from": 0,
+      "to": 50,
+      "head": 200,
+      "body": 50,
+      "leg": 42
+     }
+    ]
+   }
+  },
+  {
+   "id": "63e6c2b6-4a8e-869c-3d4c-e38355226584",
+   "slug": "odin",
+   "name": "Odin",
+   "category": "Heavy",
+   "cost": 3200,
+   "icon": "https://media.valorant-api.com/weapons/63e6c2b6-4a8e-869c-3d4c-e38355226584/displayicon.png",
+   "stats": {
+    "fireRate": 12,
+    "magazine": 100,
+    "reload": 5,
+    "wallPenetration": "High",
+    "damage": [
+     {
+      "from": 0,
+      "to": 30,
+      "head": 95,
+      "body": 38,
+      "leg": 32.3
+     },
+     {
+      "from": 30,
+      "to": 50,
+      "head": 77.5,
+      "body": 31,
+      "leg": 26.35
+     }
+    ]
+   }
+  },
+  {
+   "id": "a03b24d3-4319-996d-0f8c-94bbfba1dfc7",
+   "slug": "operator",
+   "name": "Operator",
+   "category": "Sniper",
+   "cost": 4700,
+   "icon": "https://media.valorant-api.com/weapons/a03b24d3-4319-996d-0f8c-94bbfba1dfc7/displayicon.png",
+   "stats": {
+    "fireRate": 0.6,
+    "magazine": 5,
+    "reload": 3.7,
+    "wallPenetration": "High",
+    "damage": [
+     {
+      "from": 0,
+      "to": 50,
+      "head": 255,
+      "body": 150,
+      "leg": 120
+     }
+    ]
+   }
+  }
+ ]
+}

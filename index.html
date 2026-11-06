@@ -2,53 +2,55 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="https://kit.fontawesome.com/23cec0c290.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="../valopedia/css/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title data-i18n="title.home">Valopedia | VALORANT wiki</title>
+    <meta name="description" content="A VALORANT fan wiki with agents, abilities, maps and weapons that stays up to date after each patch." data-i18n-attr="content:description.home">
+    <meta name="theme-color" content="#00121a">
     <link rel="icon" href="img/logo.png">
-    <title>Valopedia</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Source+Sans+3:wght@400;600;700&display=swap">
+    <link rel="stylesheet" href="css/style.css">
+    <script type="module" src="js/home.js"></script>
 </head>
-<body>
-    
-    <header>
-
-        <div class="container_menu">
-            <div class="logo">
-                <img src="img/logo-nombre.png" alt="">
-            </div>
-            <div class="menu">
-                <i class="fa-solid fa-bars" id="btn-menu"></i>
-                <div id="back_menu"></div>
-                <nav id="nav">-
-                    <img src="img/logo-nombre.png" alt="">
-                    <ul>
-                        <li><a href="#" id="selected">Home</a></li>
-                        <li><a href="../valopedia/pages/agents/agent.html">Agents</a></li>
-                        <li><a href="../valopedia/pages/404/404.html">Agent Skills</a></li>
-                        <li><a href="../valopedia/pages/maps/maps.html">maps</a></li>
-                    </ul>
-                </nav>
-            </div>
+<body class="page-home">
+    <a class="skip-link" href="#main" data-i18n="nav.skip">Skip to content</a>
+    <header class="site-header">
+        <a class="logo" href="index.html"><img src="img/logo-nombre.png" alt="Valopedia home" width="3840" height="2160" data-i18n-attr="alt:nav.logo"></a>
+        <button class="menu-toggle" id="menu-toggle" type="button" aria-label="Open menu" aria-expanded="false" aria-controls="site-nav" data-i18n-attr="aria-label:menu.open"><span></span></button>
+        <nav class="site-nav" id="site-nav" aria-label="Main" data-i18n-attr="aria-label:nav.label">
+            <ul>
+                <li><a href="index.html" aria-current="page" data-i18n="nav.home">Home</a></li>
+                <li><a href="pages/agents/agent.html" data-i18n="nav.agents">Agents</a></li>
+                <li><a href="pages/abilities/abilities.html" data-i18n="nav.abilities">Abilities</a></li>
+                <li><a href="pages/maps/maps.html" data-i18n="nav.maps">Maps</a></li>
+                <li><a href="pages/weapons/weapons.html" data-i18n="nav.weapons">Weapons</a></li>
+            </ul>
+        </nav>
+        <div class="lang-switch" role="group" aria-label="Language" data-i18n-attr="aria-label:language.label">
+            <button type="button" data-lang="en" lang="en" aria-label="English">EN</button>
+            <button type="button" data-lang="es" lang="es" aria-label="Español">ES</button>
         </div>
     </header>
-
-    <main>
-        <div class="container_cover">
-            <div class="cover">
-                <div class="text">
-                    <h1>new model wiki</h1>
-                    <a href="../valopedia/pages/agents/agent.html"><input type="button" value="Learn Agents"></a>
-                </div>
-
-                <div class="svg">
-                    <img src="img/logo.png" alt="">
-                </div>
+    <p class="data-status" id="data-status" role="status"></p>
+    <main id="main">
+        <section class="hero">
+            <div class="hero-text">
+                <h1 data-i18n="hero.title">Every agent, ability and map, up to date</h1>
+                <p data-i18n="hero.text">A VALORANT fan wiki that refreshes itself from game data after every patch.</p>
+                <a class="button" href="pages/agents/agent.html" data-i18n="hero.cta">Learn Agents</a>
             </div>
-        </div>
+        </section>
+        <ul class="home-links">
+            <li><a href="pages/agents/agent.html"><strong data-count="agents"></strong> <span data-i18n="nav.agents">Agents</span></a></li>
+            <li><a href="pages/abilities/abilities.html"><strong data-count="abilities"></strong> <span data-i18n="nav.abilities">Abilities</span></a></li>
+            <li><a href="pages/maps/maps.html"><strong data-count="maps"></strong> <span data-i18n="nav.maps">Maps</span></a></li>
+            <li><a href="pages/weapons/weapons.html"><strong data-count="weapons"></strong> <span data-i18n="nav.weapons">Weapons</span></a></li>
+        </ul>
     </main>
-
-    <script src="js/title.js"></script>
-    <script src="js/responsive.js"></script>
+    <footer class="site-footer">
+        <p lang="en">Valopedia was created under Riot Games' "Legal Jibber Jabber" policy using assets owned by Riot Games. Riot Games does not endorse or sponsor this project.</p>
+        <p><span data-i18n-source>Game data from <a href="https://valorant-api.com/">valorant-api.com</a>, an unofficial fan project.</span> <a href="https://www.riotgames.com/en/legal" data-i18n="footer.legal">Riot Games legal</a></p>
+    </footer>
 </body>
 </html>
