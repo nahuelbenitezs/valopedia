@@ -1,217 +1,138 @@
-const App = {
-    data() {
-      return {
-        activeIndex: 0,
-        list: [
-          {
-            name: "Brimstone",
-            role: "CONTROLLER",
-            desc:
-              "Joining from the USA, Brimstone's orbital arsenal ensures his squad always has the advantage. His ability to deliver utility precisely and from a distance make him an unmatched boots-on-the-ground commander.",
-            img:
-              "../agents/img/brimstone-fondo.jpg",
-            thumbImg:
-              "../agents/img/brim.jfif"
-          },
-          {
-            name: "Killjoy",
-            role: "SENTINEL",
-            desc:
-              "The genius of Germany. Killjoy secures the battlefield with ease using her arsenal of inventions. If the damage from her gear doesn't stop her enemies, her robots' debuff will help make short work of them.",
-            img:
-              "../agents/img/killjoy-fondo.jpg",
-            thumbImg:
-              "../agents/img/killjoy.jfif"
-          },
-          {
-            name: "neon",
-            role: "DUELIST",
-            desc:
-              "Filipino Agent Neon surges forward at shocking speeds, discharging bursts of bioelectric radiance as fast as her body generates it. She races ahead to catch enemies off guard, then strikes them down quicker than lightning.",
-            img:
-              "../agents/img/neon-fondo.jpg",
-            thumbImg:
-              "../agents/img/neon.png"
-          },
-          {
-            name: "phoenix",
-            role: "DUELIST",
-            desc:
-              "Hailing from the U.K., Phoenix's star power shines through in his fighting style, igniting the battlefield with flash and flare. Whether he's got backup or not, he'll rush into a fight on his own terms.",
-            img:
-              "../agents/img/phoenix-fondo.jpg",
-            thumbImg:
-              "../agents/img/phoenix.png"
-          },
-          {
-            name: "Sage",
-            role: "SENTINEL",
-            difficulty: "moderate",
-            desc:
-              "The stronghold of China, Sage creates safety for herself and her team wherever she goes. Able to revive fallen friends and stave off aggressive pushes, she provides a calm center to a hellish fight.",
-            img:
-              "../agents/img/sage-fondo.jpg",
-            thumbImg:
-              "https://valorantinfo.com/images/mx/sage_valorant_icon_2252.webp"
-          },
-          {
-            name: "Sova",
-            role: "INITIATOR",
-            desc:
-              "Born from the eternal winter of Russia's tundra, Sova tracks, finds, and eliminates enemies with ruthless efficiency and precision. His custom bow and incredible scouting abilities ensure that even if you run, you cannot hide.",
-            img:
-              "../agents/img/sova-fondo.jpg",
-            thumbImg:
-              "../agents/img/sova.jfif"
-          },
-          {
-            name: "Viper",
-            role: "CONTROLLER",
-            desc:
-              "The American chemist, Viper deploys an array of poisonous chemical devices to control the battlefield and cripple the enemy's vision. If the toxins don't kill her prey, her mind games surely will.",
-            img:
-              "../agents/img/viper-fondo.jpg",
-            thumbImg:
-              "../agents/img/viper.png"
-          },
-          {
-            name: "Cypher",
-            role: "SENTINEL",
-            desc:
-              "The Moroccan information broker, Cypher is a one-man surveillance network who keeps tabs on the enemy's every move. No secret is safe. No maneuver goes unseen. Cypher is always watching.",
-            img:
-              "../agents/img/chyper-fondo.jpg",
-            thumbImg:
-              "../agents/img/cypher.png"
-          },
-          {
-            name: "Reyna",
-            role: "DUELIST",
-            desc:
-              "Forged in the heart of Mexico, Reyna dominates single combat, popping off with each kill she scores. Her capability is only limited by her raw skill, making her highly dependent on performance.",
-            img:
-              "../agents/img/reyna-fondo.jpg",
-            thumbImg:
-              "../agents/img/reyna.jfif"
-          },
-          {
-            name: "Breach",
-            role: "INITIATOR",
-            desc:
-              "Breach, the bionic Swede, fires powerful, targeted kinetic blasts to aggressively clear a path through enemy ground. The damage and disruption he inflicts ensures no fight is ever fair.",
-            img:
-              "../agents/img/breach-fondo.jpg",
-            thumbImg:
-              "../agents/img/breach.png"
-          },
-          {
-            name: "omen",
-            role: "CONTROLLER",
-            desc:
-              "A phantom of a memory, Omen hunts in the shadows. He renders enemies blind, teleports across the field, then lets paranoia take hold as his foe scrambles to learn where he might strike next.",
-            img:
-              "../agents/img/omen-fondo.jpg",
-            thumbImg:
-              "../agents/img/omen.png"
-          },
-          {
-            name: "Jett",
-            role: "DUELIST",
-            desc:
-              "Representing her home country of South Korea, Jett's agile and evasive fighting style lets her take risks no one else can. She runs circles around every skirmish, cutting enemies before they even know what hit them.",
-            img:
-              "../agents/img/jett-fondo.jpg",
-            thumbImg:
-              "../agents/img/jett.png"
-          },
-          {
-            name: "Raze",
-            role: "DUELIST",
-            desc:
-              "Raze explodes out of Brazil with her big personality and big guns. With her blunt-force-trauma playstyle, she excels at flushing entrenched enemies and clearing tight spaces with a generous dose of “boom.",
-            img:
-              "../agents/img/raze-fondo.jpg",
-            thumbImg:
-              "../agents/img/raze.png"
-          },
-          {
-            name: "Skye",
-            role: "INITIATOR",
-            desc:
-              "Hailing from Australia, Skye and her band of beasts trail-blaze the way through hostile territory. With her creations hampering the enemy, and her power to heal others, the team is strongest and safest by Skye’s side.",
-            img:
-              "../agents/img/skye-fondo.jpg",
-            thumbImg:
-              "../agents/img/skye.png"
-          },
-          {
-            name: "yoru",
-            role: "DUELIST",
-            desc:
-              "Japanese native, Yoru, rips holes straight through reality to infiltrate enemy lines unseen. Using deception and aggression in equal measure, he gets the drop on each target before they know where to look.",
-            img:
-              "../agents/img/yoru-fondo.jpg",
-            thumbImg:
-              "../agents/img/yoru.png"
-          },
-          {
-            name: "astra",
-            role: "CONTROLLER",
-            desc:
-              "Ghanaian Agent Astra harnesses the energies of the cosmos to reshape battlefields to her whim. With full command of her astral form and a talent for deep strategic foresight, she's always eons ahead of her enemy's next move.",
-            img:
-              "../agents/img/astra-fondo.png",
-            thumbImg:
-              "../agents/img/astra.png"
-          },
-          {
-            name: "KAY/O",
-            role: "INITIATOR",
-            desc:
-              "KAY/O is a machine of war built for a single purpose: neutralizing radiants. His power to suppress enemy abilities cripples his opponents' capacity to fight back, securing him and his allies the ultimate edge.",
-            img:
-              "../agents/img/kayo-fondo.png",
-            thumbImg:
-              "../agents/img/kayo.png"
-          },
-          {
-            name: "Chamber",
-            role: "SENTINEL",
-            desc:
-              "Well dressed and well armed, French weapons designer Chamber expels aggressors with deadly precision. He leverages his custom arsenal to hold the line and pick off enemies from afar, with a contingency built for every plan.",
-            img:
-              "../agents/img/chamber-fondo.png",
-            thumbImg:
-              "../agents/img/chamber.png"
-          },
-          {
-            name: "Fade",
-            role: "INITIATOR",
-            desc:
-              "Turkish bounty hunter, Fade, unleashes the power of raw nightmares to seize enemy secrets. Attuned with terror itself, she hunts targets and reveals their deepest fears—before crushing them in the dark.",
-            img:
-              "../agents/img/fade-fondo.jpeg",
-            thumbImg:
-              "../agents/img/fade.png"
-          }
-        ]
-      };
-    },
-    computed: {
-      activeInfo() {
-        if (!this.list.length) return null;
-        return this.list[this.activeIndex];
-      },
-      itemPosition() {
-        const len = this.list.length;
-        return this.list.map((_, key) => {
-          const deg = (360 / len) * key - 90;
-          const radius = "2rem";
-          return `rotate(${deg}deg) translate(${radius}) rotate(${-deg}deg)`;
+import { t } from '../../../js/i18n.js';
+import { h, image, mountCollection, paragraphs } from '../../../js/site.js';
+
+const SWIPE_STEP_PX = 48;
+
+function renderArt(art, agent, isFirstPaint) {
+    art.replaceChildren(
+        ...(agent.background ? [image({ src: agent.background, className: 'agent-art-word', lazy: false })] : []),
+        image({
+            src: agent.portrait,
+            alt: t('agents.portrait', { name: agent.name }),
+            fallback: agent.name,
+            className: 'agent-art-portrait',
+            priority: isFirstPaint,
+            lazy: false,
+        }),
+    );
+}
+
+function renderDetail(detail, agent) {
+    detail.replaceChildren(
+        h('h1', { class: 'agent-name' }, agent.name),
+        h('p', { class: 'agent-role' },
+            agent.role.icon ? image({ src: agent.role.icon, width: 24, height: 24, lazy: false }) : null,
+            agent.role.name),
+        h('div', { class: 'agent-bio' }, paragraphs(agent.description)),
+        h('p', { class: 'agent-role-note' }, agent.role.description),
+        h('a', { class: 'button', href: `../abilities/abilities.html#${agent.slug}` }, t('nav.abilities')),
+    );
+}
+
+function render(container, agents) {
+    const wanted = location.hash.slice(1);
+    const previous = container.querySelector('.agent-thumb[aria-checked="true"]')?.dataset.slug;
+    const found = agents.findIndex((agent) => agent.slug === (wanted || previous));
+    const step = 360 / agents.length;
+    let selected = Math.max(found, 0);
+    let rotation = -selected * step;
+
+    const detail = h('div', { class: 'agent-detail', 'aria-live': 'polite' });
+    const art = h('div', { class: 'agent-art' });
+    const stage = h('section', { class: 'agent-stage' });
+
+    const paintAgent = (isFirstPaint) => {
+        const agent = agents[selected];
+        const [from, via, to] = agent.gradient;
+        if (from) stage.style.setProperty('--agent-a', from);
+        if (via) stage.style.setProperty('--agent-b', via);
+        if (to) stage.style.setProperty('--agent-c', to);
+        renderArt(art, agent, isFirstPaint);
+        renderDetail(detail, agent);
+    };
+
+    const thumbs = agents.map((agent, index) => h('button', {
+        class: 'agent-thumb',
+        type: 'button',
+        role: 'radio',
+        title: agent.name,
+        'aria-label': agent.name,
+        'data-slug': agent.slug,
+        'aria-checked': String(index === selected),
+        tabindex: index === selected ? '0' : '-1',
+        style: `--angle: ${index * step}deg`,
+        onclick: () => select(index),
+    }, image({ src: agent.thumb, fallback: agent.name, width: 64, height: 64, lazy: false })));
+
+    const ring = h('div', {
+        class: 'agent-ring',
+        role: 'radiogroup',
+        'aria-label': t('agents.choose'),
+        style: `--rotation: ${rotation}deg; --count: ${agents.length}`,
+    }, thumbs);
+
+    function select(index, { focus = false } = {}) {
+        selected = (index + agents.length) % agents.length;
+        // Turn the short way round, even across the point where the list wraps.
+        const delta = (((-selected * step - rotation) % 360) + 540) % 360 - 180;
+        rotation += delta;
+        ring.style.setProperty('--rotation', `${rotation}deg`);
+        thumbs.forEach((thumb, i) => {
+            thumb.setAttribute('aria-checked', String(i === selected));
+            thumb.tabIndex = i === selected ? 0 : -1;
         });
-      }
+        // preventScroll: the thumb may be cropped at the side on a phone.
+        if (focus) thumbs[selected].focus({ preventScroll: true });
+        history.replaceState(null, '', `#${agents[selected].slug}`);
+        paintAgent(false);
     }
-  };
-  
-  Vue.createApp(App).mount("#app");
-  
+
+    ring.addEventListener('keydown', (event) => {
+        const moves = {
+            ArrowRight: selected + 1,
+            ArrowDown: selected + 1,
+            ArrowLeft: selected - 1,
+            ArrowUp: selected - 1,
+            Home: 0,
+            End: agents.length - 1,
+        };
+        if (!(event.key in moves)) return;
+        event.preventDefault();
+        select(moves[event.key], { focus: true });
+    });
+
+    const area = h('div', { class: 'agent-wheel-area' },
+        art,
+        ring,
+        h('button', { class: 'wheel-step wheel-prev', type: 'button', 'aria-label': t('agents.previous'), onclick: () => select(selected - 1) },
+            h('span', { 'aria-hidden': 'true' }, '<')),
+        h('button', { class: 'wheel-step wheel-next', type: 'button', 'aria-label': t('agents.next'), onclick: () => select(selected + 1) },
+            h('span', { 'aria-hidden': 'true' }, '>')));
+
+    let swipeStart = null;
+    area.addEventListener('pointerdown', (event) => {
+        if (event.pointerType === 'touch') swipeStart = event.clientX;
+    });
+    area.addEventListener('pointerup', (event) => {
+        if (swipeStart === null) return;
+        const moved = Math.round((swipeStart - event.clientX) / SWIPE_STEP_PX);
+        swipeStart = null;
+        if (moved) select(selected + moved);
+    });
+    area.addEventListener('pointercancel', () => { swipeStart = null; });
+
+    stage.append(detail, area);
+    container.replaceChildren(stage);
+    paintAgent(true);
+
+    followHash = () => {
+        const index = agents.findIndex((agent) => agent.slug === location.hash.slice(1));
+        if (index !== -1 && index !== selected) select(index);
+    };
+}
+
+// render() can run twice, so one listener calls whichever wheel is current.
+let followHash = () => {};
+window.addEventListener('hashchange', () => followHash());
+
+mountCollection({ name: 'agents', labelKey: 'label.agents', render });

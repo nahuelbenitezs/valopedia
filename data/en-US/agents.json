@@ -1,0 +1,1452 @@
+{
+ "source": "https://valorant-api.com",
+ "language": "en-US",
+ "version": {
+  "version": "13.09.00.5804228",
+  "patch": "13.09",
+  "buildDate": "2026-10-28T06:11:26Z"
+ },
+ "generatedAt": "2026-11-06T02:15:39.943Z",
+ "items": [
+  {
+   "id": "41fb69c1-4189-7b37-f117-bcaf1e96f1bf",
+   "slug": "astra",
+   "name": "Astra",
+   "description": "Ghanaian Agent Astra harnesses the energies of the cosmos to reshape battlefields to her whim. With full command of her astral form and a talent for deep strategic foresight, she's always eons ahead of her enemy's next move.",
+   "role": {
+    "name": "Controller",
+    "description": "Controllers are experts in slicing up dangerous territory to set their team up for success.",
+    "icon": "https://media.valorant-api.com/agents/roles/4ee40330-ecdd-4f2f-98a8-eb1243428373/displayicon.png"
+   },
+   "thumb": "https://media.valorant-api.com/agents/41fb69c1-4189-7b37-f117-bcaf1e96f1bf/minimapportrait.png",
+   "portrait": "https://media.valorant-api.com/agents/41fb69c1-4189-7b37-f117-bcaf1e96f1bf/fullportrait.png",
+   "background": "https://media.valorant-api.com/agents/41fb69c1-4189-7b37-f117-bcaf1e96f1bf/background.png",
+   "gradient": [
+    "#26146cff",
+    "#0f1923ff",
+    "#5210c6ff",
+    "#0f192300"
+   ],
+   "abilities": [
+    {
+     "key": "C",
+     "name": "Gravity Well",
+     "description": "ACTIVATE a Star to create a zone that pulls all players to the center, exploding and applying vulnerable to all players.",
+     "icon": "https://media.valorant-api.com/agents/41fb69c1-4189-7b37-f117-bcaf1e96f1bf/abilities/grenade/displayicon.png"
+    },
+    {
+     "key": "Q",
+     "name": "Nova Pulse",
+     "description": "ACTIVATE a Star to detonate it, concussing all players hit.",
+     "icon": "https://media.valorant-api.com/agents/41fb69c1-4189-7b37-f117-bcaf1e96f1bf/abilities/ability1/displayicon.png"
+    },
+    {
+     "key": "E",
+     "name": "Nebula",
+     "description": "ACTIVATE a Star to transform it into a smoke.",
+     "icon": "https://media.valorant-api.com/agents/41fb69c1-4189-7b37-f117-bcaf1e96f1bf/abilities/ability2/displayicon.png"
+    },
+    {
+     "key": "X",
+     "name": "Cosmic Divide",
+     "description": "ENTER Astral Form. ALT FIRE to EQUIP Cosmic Divide. FIRE to set, pivot and FIRE again to create an indestructible wall that blocks audio.",
+     "icon": "https://media.valorant-api.com/agents/41fb69c1-4189-7b37-f117-bcaf1e96f1bf/abilities/ultimate/displayicon.png"
+    },
+    {
+     "key": "Passive",
+     "name": "Astral Form",
+     "description": "ACTIVATE ULTIMATE to ENTER Astral Form. FIRE to cast Stars. \n\nINTERACT to recall a Star. Recalling a Star forms a brief smoke.",
+     "icon": "https://media.valorant-api.com/agents/41fb69c1-4189-7b37-f117-bcaf1e96f1bf/abilities/passive/displayicon.png"
+    }
+   ]
+  },
+  {
+   "id": "5f8d3a7f-467b-97f3-062c-13acf203c006",
+   "slug": "breach",
+   "name": "Breach",
+   "description": "The bionic Swede Breach fires powerful, targeted kinetic blasts to aggressively clear a path through enemy ground. The damage and disruption he inflicts ensures no fight is ever fair.",
+   "role": {
+    "name": "Initiator",
+    "description": "Initiators challenge angles by setting up their team to enter contested ground and push defenders away.",
+    "icon": "https://media.valorant-api.com/agents/roles/1b47567f-8f7b-444b-aae3-b0c634622d10/displayicon.png"
+   },
+   "thumb": "https://media.valorant-api.com/agents/5f8d3a7f-467b-97f3-062c-13acf203c006/minimapportrait.png",
+   "portrait": "https://media.valorant-api.com/agents/5f8d3a7f-467b-97f3-062c-13acf203c006/fullportrait.png",
+   "background": "https://media.valorant-api.com/agents/5f8d3a7f-467b-97f3-062c-13acf203c006/background.png",
+   "gradient": [
+    "#81331aff",
+    "#0f1923ff",
+    "#523a23ff",
+    "#0f192300"
+   ],
+   "abilities": [
+    {
+     "key": "C",
+     "name": "Aftershock",
+     "description": "EQUIP Aftershock. FIRE to send a zone through a wall, exploding to repeatedly deal damage to all players.",
+     "icon": "https://media.valorant-api.com/agents/5f8d3a7f-467b-97f3-062c-13acf203c006/abilities/grenade/displayicon.png"
+    },
+    {
+     "key": "Q",
+     "name": "Flashpoint",
+     "description": "EQUIP a Flashpoint. FIRE to send it through a wall, exploding to flash all players looking at it.",
+     "icon": "https://media.valorant-api.com/agents/5f8d3a7f-467b-97f3-062c-13acf203c006/abilities/ability1/displayicon.png"
+    },
+    {
+     "key": "E",
+     "name": "Fault Line",
+     "description": "EQUIP Fault Line. HOLD FIRE to increase distance. RELEASE to detonate a zone that concusses all players.",
+     "icon": "https://media.valorant-api.com/agents/5f8d3a7f-467b-97f3-062c-13acf203c006/abilities/ability2/displayicon.png"
+    },
+    {
+     "key": "X",
+     "name": "Rolling Thunder",
+     "description": "EQUIP Rolling Thunder. FIRE to send forward a wave that concusses and knocks up all players.",
+     "icon": "https://media.valorant-api.com/agents/5f8d3a7f-467b-97f3-062c-13acf203c006/abilities/ultimate/displayicon.png"
+    }
+   ]
+  },
+  {
+   "id": "9f0d8ba9-4140-b941-57d3-a7ad57c6b417",
+   "slug": "brimstone",
+   "name": "Brimstone",
+   "description": "Joining from the U.S.A., Brimstone's orbital arsenal ensures his squad always has the advantage. His ability to deliver utility precisely and safely make him the unmatched boots-on-the-ground commander.",
+   "role": {
+    "name": "Controller",
+    "description": "Controllers are experts in slicing up dangerous territory to set their team up for success.",
+    "icon": "https://media.valorant-api.com/agents/roles/4ee40330-ecdd-4f2f-98a8-eb1243428373/displayicon.png"
+   },
+   "thumb": "https://media.valorant-api.com/agents/9f0d8ba9-4140-b941-57d3-a7ad57c6b417/minimapportrait.png",
+   "portrait": "https://media.valorant-api.com/agents/9f0d8ba9-4140-b941-57d3-a7ad57c6b417/fullportrait.png",
+   "background": "https://media.valorant-api.com/agents/9f0d8ba9-4140-b941-57d3-a7ad57c6b417/background.png",
+   "gradient": [
+    "#363c4fff",
+    "#0f1923ff",
+    "#211d21ff",
+    "#0f192300"
+   ],
+   "abilities": [
+    {
+     "key": "C",
+     "name": "Stim Beacon",
+     "description": "INSTANTLY throw a Stim Beacon. On landing, create a zone that grants combat stim and haste to allies.",
+     "icon": "https://media.valorant-api.com/agents/9f0d8ba9-4140-b941-57d3-a7ad57c6b417/abilities/grenade/displayicon.png"
+    },
+    {
+     "key": "Q",
+     "name": "Incendiary",
+     "description": "EQUIP Incendiary. FIRE to launch. On landing, create a zone that deals damage to all players.",
+     "icon": "https://media.valorant-api.com/agents/9f0d8ba9-4140-b941-57d3-a7ad57c6b417/abilities/ability1/displayicon.png"
+    },
+    {
+     "key": "E",
+     "name": "Sky Smoke",
+     "description": "EQUIP a tactical map. FIRE to set smoke locations. ALT FIRE to cast smokes.",
+     "icon": "https://media.valorant-api.com/agents/9f0d8ba9-4140-b941-57d3-a7ad57c6b417/abilities/ability2/displayicon.png"
+    },
+    {
+     "key": "X",
+     "name": "Orbital Strike",
+     "description": "EQUIP a tactical map. FIRE to cast an Orbital Strike at a location, dealing high damage over time to all players.",
+     "icon": "https://media.valorant-api.com/agents/9f0d8ba9-4140-b941-57d3-a7ad57c6b417/abilities/ultimate/displayicon.png"
+    }
+   ]
+  },
+  {
+   "id": "22697a3d-45bf-8dd7-4fec-84a9e28c69d7",
+   "slug": "chamber",
+   "name": "Chamber",
+   "description": "Well-dressed and well-armed, French weapons designer Chamber expels aggressors with deadly precision. He leverages his custom arsenal to hold the line and pick off enemies from afar, with a contingency built for every plan.",
+   "role": {
+    "name": "Sentinel",
+    "description": "Sentinels are defensive experts who can lock down areas and watch flanks, both on attacker and defender rounds.",
+    "icon": "https://media.valorant-api.com/agents/roles/5fc02f99-4091-4486-a531-98459a3e95e9/displayicon.png"
+   },
+   "thumb": "https://media.valorant-api.com/agents/22697a3d-45bf-8dd7-4fec-84a9e28c69d7/minimapportrait.png",
+   "portrait": "https://media.valorant-api.com/agents/22697a3d-45bf-8dd7-4fec-84a9e28c69d7/fullportrait.png",
+   "background": "https://media.valorant-api.com/agents/22697a3d-45bf-8dd7-4fec-84a9e28c69d7/background.png",
+   "gradient": [
+    "#20435bff",
+    "#0f1923ff",
+    "#372d2bff",
+    "#0f192300"
+   ],
+   "abilities": [
+    {
+     "key": "C",
+     "name": "Trademark",
+     "description": "EQUIP a destructible Trademark. FIRE to place. Triggers on nearby visible enemies in range, creating a zone that slows all players.\n\nCan be recalled.",
+     "icon": "https://media.valorant-api.com/agents/22697a3d-45bf-8dd7-4fec-84a9e28c69d7/abilities/grenade/displayicon.png"
+    },
+    {
+     "key": "Q",
+     "name": "Headhunter",
+     "description": "EQUIP Headhunter. FIRE to shoot. ALT FIRE to aim down sights.",
+     "icon": "https://media.valorant-api.com/agents/22697a3d-45bf-8dd7-4fec-84a9e28c69d7/abilities/ability1/displayicon.png"
+    },
+    {
+     "key": "E",
+     "name": "Rendezvous",
+     "description": "EQUIP a destructible Rendezvous. FIRE to place. While in range, REACTIVATE to instantly teleport to it.\n\nCan be recalled.",
+     "icon": "https://media.valorant-api.com/agents/22697a3d-45bf-8dd7-4fec-84a9e28c69d7/abilities/ability2/displayicon.png"
+    },
+    {
+     "key": "X",
+     "name": "Tour De Force",
+     "description": "ACTIVATE to access a sniper rifle that deals lethal damage with direct hits to the upper body.\n\nFIRE to shoot. ALT FIRE to aim down sights. On kills, create a zone that slows all players.",
+     "icon": "https://media.valorant-api.com/agents/22697a3d-45bf-8dd7-4fec-84a9e28c69d7/abilities/ultimate/displayicon.png"
+    }
+   ]
+  },
+  {
+   "id": "1dbf2edd-4729-0984-3115-daa5eed44993",
+   "slug": "clove",
+   "name": "Clove",
+   "description": "Scottish troublemaker Clove makes mischief for enemies in both the heat of combat and the cold of death. The young immortal keeps foes guessing, even from beyond the grave, their return to the living only ever a moment away.",
+   "role": {
+    "name": "Controller",
+    "description": "Controllers are experts in slicing up dangerous territory to set their team up for success.",
+    "icon": "https://media.valorant-api.com/agents/roles/4ee40330-ecdd-4f2f-98a8-eb1243428373/displayicon.png"
+   },
+   "thumb": "https://media.valorant-api.com/agents/1dbf2edd-4729-0984-3115-daa5eed44993/minimapportrait.png",
+   "portrait": "https://media.valorant-api.com/agents/1dbf2edd-4729-0984-3115-daa5eed44993/fullportrait.png",
+   "background": "https://media.valorant-api.com/agents/1dbf2edd-4729-0984-3115-daa5eed44993/background.png",
+   "gradient": [
+    "#4b1d80ff",
+    "#0f1923ff",
+    "#c347c7ff",
+    "#0f192300"
+   ],
+   "abilities": [
+    {
+     "key": "C",
+     "name": "Pick-me-up",
+     "description": "ACTIVATE on a targeted dead enemy that you damaged or killed to gain haste and overheal.",
+     "icon": "https://media.valorant-api.com/agents/1dbf2edd-4729-0984-3115-daa5eed44993/abilities/grenade/displayicon.png"
+    },
+    {
+     "key": "Q",
+     "name": "Meddle",
+     "description": "EQUIP Meddle. FIRE to throw. Explodes on landing, decaying all players.",
+     "icon": "https://media.valorant-api.com/agents/1dbf2edd-4729-0984-3115-daa5eed44993/abilities/ability1/displayicon.png"
+    },
+    {
+     "key": "E",
+     "name": "Ruse",
+     "description": "EQUIP a tactical map. FIRE to set smoke locations. ALT FIRE to cast smokes.\n\nWhile dead, Clove can access Ruse to cast brief smokes.",
+     "icon": "https://media.valorant-api.com/agents/1dbf2edd-4729-0984-3115-daa5eed44993/abilities/ability2/displayicon.png"
+    },
+    {
+     "key": "X",
+     "name": "Not Dead Yet",
+     "description": "On death, ACTIVATE to channel a self-resurrect. During the channel, Clove is intangible. REACTIVATE to end the channel early. Once resurrected, secure a kill or damaging assist to stay alive.",
+     "icon": "https://media.valorant-api.com/agents/1dbf2edd-4729-0984-3115-daa5eed44993/abilities/ultimate/displayicon.png"
+    }
+   ]
+  },
+  {
+   "id": "117ed9e3-49f3-6512-3ccf-0cada7e3823b",
+   "slug": "cypher",
+   "name": "Cypher",
+   "description": "The Moroccan information broker, Cypher is a one-man surveillance network who keeps tabs on the enemy's every move. No secret is safe. No maneuver goes unseen. Cypher is always watching.",
+   "role": {
+    "name": "Sentinel",
+    "description": "Sentinels are defensive experts who can lock down areas and watch flanks, both on attacker and defender rounds.",
+    "icon": "https://media.valorant-api.com/agents/roles/5fc02f99-4091-4486-a531-98459a3e95e9/displayicon.png"
+   },
+   "thumb": "https://media.valorant-api.com/agents/117ed9e3-49f3-6512-3ccf-0cada7e3823b/minimapportrait.png",
+   "portrait": "https://media.valorant-api.com/agents/117ed9e3-49f3-6512-3ccf-0cada7e3823b/fullportrait.png",
+   "background": "https://media.valorant-api.com/agents/117ed9e3-49f3-6512-3ccf-0cada7e3823b/background.png",
+   "gradient": [
+    "#2f5078ff",
+    "#0f1923ff",
+    "#3f3f6cff",
+    "#0f192300"
+   ],
+   "abilities": [
+    {
+     "key": "C",
+     "name": "Trapwire",
+     "description": "EQUIP a destructible Trapwire. FIRE to place a wire between surfaces. Trapwire stealths after placement. Triggers when enemies come in contact, tethering enemies, and after a delay, revealing them if Trapwire is not destroyed.\n\nCan be picked up.",
+     "icon": "https://media.valorant-api.com/agents/117ed9e3-49f3-6512-3ccf-0cada7e3823b/abilities/grenade/displayicon.png"
+    },
+    {
+     "key": "Q",
+     "name": "Cyber Cage",
+     "description": "INSTANTLY throw a Cyber Cage. INTERACT to create a vision-blocking cylinder that plays an audio cue when enemies come in contact.\n\nCan be picked up during BUY PHASE.",
+     "icon": "https://media.valorant-api.com/agents/117ed9e3-49f3-6512-3ccf-0cada7e3823b/abilities/ability1/displayicon.png"
+    },
+    {
+     "key": "E",
+     "name": "Spycam",
+     "description": "EQUIP a destructible Spycam. FIRE to place. Spycam stealths after placement. REACTIVATE to control it. FIRE to shoot a dart that snapshots enemies hit until they remove it.\n\nCan be picked up.",
+     "icon": "https://media.valorant-api.com/agents/117ed9e3-49f3-6512-3ccf-0cada7e3823b/abilities/ability2/displayicon.png"
+    },
+    {
+     "key": "X",
+     "name": "Neural Theft",
+     "description": "ACTIVATE on a targeted dead enemy. After a delay, snapshot living enemies twice.",
+     "icon": "https://media.valorant-api.com/agents/117ed9e3-49f3-6512-3ccf-0cada7e3823b/abilities/ultimate/displayicon.png"
+    }
+   ]
+  },
+  {
+   "id": "cc8b64c8-4b25-4ff9-6e7f-37b4da43d235",
+   "slug": "deadlock",
+   "name": "Deadlock",
+   "description": "Norwegian operative Deadlock deploys an array of cutting-edge nanowire to secure the battlefield from even the most lethal assault. No one escapes her vigilant watch, nor survives her unyielding ferocity.",
+   "role": {
+    "name": "Sentinel",
+    "description": "Sentinels are defensive experts who can lock down areas and watch flanks, both on attacker and defender rounds.",
+    "icon": "https://media.valorant-api.com/agents/roles/5fc02f99-4091-4486-a531-98459a3e95e9/displayicon.png"
+   },
+   "thumb": "https://media.valorant-api.com/agents/cc8b64c8-4b25-4ff9-6e7f-37b4da43d235/minimapportrait.png",
+   "portrait": "https://media.valorant-api.com/agents/cc8b64c8-4b25-4ff9-6e7f-37b4da43d235/fullportrait.png",
+   "background": "https://media.valorant-api.com/agents/cc8b64c8-4b25-4ff9-6e7f-37b4da43d235/background.png",
+   "gradient": [
+    "#425495ff",
+    "#0f1923ff",
+    "#221c3dff",
+    "#0f192300"
+   ],
+   "abilities": [
+    {
+     "key": "C",
+     "name": "Barrier Mesh",
+     "description": "EQUIP Barrier Mesh. FIRE to throw. On landing, create destructible markers that fortify after a delay. These markers form barriers that block player movement.",
+     "icon": "https://media.valorant-api.com/agents/cc8b64c8-4b25-4ff9-6e7f-37b4da43d235/abilities/grenade/displayicon.png"
+    },
+    {
+     "key": "Q",
+     "name": "Sonic Sensor",
+     "description": "EQUIP a destructible Sonic Sensor. FIRE to place. Triggers on nearby detected enemy noise, creating a zone that concusses all players. Sonic Sensor stealths after placement.\n\nCan be picked up.",
+     "icon": "https://media.valorant-api.com/agents/cc8b64c8-4b25-4ff9-6e7f-37b4da43d235/abilities/ability1/displayicon.png"
+    },
+    {
+     "key": "E",
+     "name": "GravNet",
+     "description": "EQUIP GravNet. FIRE to throw. ALT FIRE to lob. Explodes on landing, forcing all players to crouch and move slowly until they remove the net.",
+     "icon": "https://media.valorant-api.com/agents/cc8b64c8-4b25-4ff9-6e7f-37b4da43d235/abilities/ability2/displayicon.png"
+    },
+    {
+     "key": "X",
+     "name": "Annihilation",
+     "description": "EQUIP Annihilation. FIRE to launch a zone, forcing the first enemy caught into a destructible cocoon that pulls them along a path for lethal damage unless the cocoon is destroyed.",
+     "icon": "https://media.valorant-api.com/agents/cc8b64c8-4b25-4ff9-6e7f-37b4da43d235/abilities/ultimate/displayicon.png"
+    }
+   ]
+  },
+  {
+   "id": "dade69b4-4f5a-8528-247b-219e5a1facd6",
+   "slug": "fade",
+   "name": "Fade",
+   "description": "Turkish bounty hunter Fade unleashes the power of raw nightmare to seize enemy secrets. Attuned with terror itself, she hunts down targets and reveals their deepest fears - before crushing them in the dark.",
+   "role": {
+    "name": "Initiator",
+    "description": "Initiators challenge angles by setting up their team to enter contested ground and push defenders away.",
+    "icon": "https://media.valorant-api.com/agents/roles/1b47567f-8f7b-444b-aae3-b0c634622d10/displayicon.png"
+   },
+   "thumb": "https://media.valorant-api.com/agents/dade69b4-4f5a-8528-247b-219e5a1facd6/minimapportrait.png",
+   "portrait": "https://media.valorant-api.com/agents/dade69b4-4f5a-8528-247b-219e5a1facd6/fullportrait.png",
+   "background": "https://media.valorant-api.com/agents/dade69b4-4f5a-8528-247b-219e5a1facd6/background.png",
+   "gradient": [
+    "#1d2846ff",
+    "#0f1923ff",
+    "#18344cff",
+    "#0f192300"
+   ],
+   "abilities": [
+    {
+     "key": "C",
+     "name": "Prowler",
+     "description": "EQUIP a destructible Prowler. FIRE to send it forward. HOLD FIRE to steer towards your crosshair. Chases the first enemy or Terror Trail it sees, nearsighting on impact.",
+     "icon": "https://media.valorant-api.com/agents/dade69b4-4f5a-8528-247b-219e5a1facd6/abilities/grenade/displayicon.png"
+    },
+    {
+     "key": "Q",
+     "name": "Seize",
+     "description": "EQUIP Seize. FIRE to throw. REACTIVATE to drop early. On landing, deafen, decay, and tether enemies.",
+     "icon": "https://media.valorant-api.com/agents/dade69b4-4f5a-8528-247b-219e5a1facd6/abilities/ability1/displayicon.png"
+    },
+    {
+     "key": "E",
+     "name": "Haunt",
+     "description": "EQUIP a destructible Haunt. FIRE to throw. REACTIVATE to drop early. On landing, mark and reveal enemies in range and line of sight.",
+     "icon": "https://media.valorant-api.com/agents/dade69b4-4f5a-8528-247b-219e5a1facd6/abilities/ability2/displayicon.png"
+    },
+    {
+     "key": "X",
+     "name": "Nightfall",
+     "description": "EQUIP Nightfall. FIRE to send forward a wave that deafens, decays, and marks enemies.",
+     "icon": "https://media.valorant-api.com/agents/dade69b4-4f5a-8528-247b-219e5a1facd6/abilities/ultimate/displayicon.png"
+    },
+    {
+     "key": "Passive",
+     "name": "Terror Trails",
+     "description": "Marked enemies have their location tracked by Terror Trails.",
+     "icon": null
+    }
+   ]
+  },
+  {
+   "id": "e370fa57-4757-3604-3648-499e1f642d3f",
+   "slug": "gekko",
+   "name": "Gekko",
+   "description": "Gekko the Angeleno leads a tight-knit crew of calamitous creatures. His buddies bound forward, scattering enemies out of the way, with Gekko chasing them down to regroup and go again.",
+   "role": {
+    "name": "Initiator",
+    "description": "Initiators challenge angles by setting up their team to enter contested ground and push defenders away.",
+    "icon": "https://media.valorant-api.com/agents/roles/1b47567f-8f7b-444b-aae3-b0c634622d10/displayicon.png"
+   },
+   "thumb": "https://media.valorant-api.com/agents/e370fa57-4757-3604-3648-499e1f642d3f/minimapportrait.png",
+   "portrait": "https://media.valorant-api.com/agents/e370fa57-4757-3604-3648-499e1f642d3f/fullportrait.png",
+   "background": "https://media.valorant-api.com/agents/e370fa57-4757-3604-3648-499e1f642d3f/background.png",
+   "gradient": [
+    "#371c5cff",
+    "#0f1923ff",
+    "#3a2656ff",
+    "#0f192300"
+   ],
+   "abilities": [
+    {
+     "key": "C",
+     "name": "Mosh Pit",
+     "description": "EQUIP Mosh. FIRE to throw. ALT FIRE to lob. On landing, create a zone that deals low damage over time before exploding, dealing high damage to all players.\n\nReverts to a Globule.",
+     "icon": "https://media.valorant-api.com/agents/e370fa57-4757-3604-3648-499e1f642d3f/abilities/grenade/displayicon.png"
+    },
+    {
+     "key": "Q",
+     "name": "Wingman",
+     "description": "EQUIP a destructible Wingman. FIRE to send it forward. Chases the first enemy it sees, concussing on impact. ALT FIRE to have Wingman plant or defuse at a targeted bomb site.\n\nReverts to a Globule.",
+     "icon": "https://media.valorant-api.com/agents/e370fa57-4757-3604-3648-499e1f642d3f/abilities/ability1/displayicon.png"
+    },
+    {
+     "key": "E",
+     "name": "Dizzy",
+     "description": "EQUIP a destructible Dizzy. FIRE to throw. Fires plasma at enemies in line of sight, blinding them.\n\nReverts to a Globule.",
+     "icon": "https://media.valorant-api.com/agents/e370fa57-4757-3604-3648-499e1f642d3f/abilities/ability2/displayicon.png"
+    },
+    {
+     "key": "X",
+     "name": "Thrash",
+     "description": "EQUIP a destructible Thrash. FIRE to take control. FIRE again to lunge and explode, detaining all players. FIRE while lunging to explode early.\n\nReverts to a Globule only once.",
+     "icon": "https://media.valorant-api.com/agents/e370fa57-4757-3604-3648-499e1f642d3f/abilities/ultimate/displayicon.png"
+    },
+    {
+     "key": "Passive",
+     "name": "Globule",
+     "description": "Gekko’s abilities transform into a Globule after use.\n\nINTERACT to reclaim nearby Globules to gain another charge after a short cooldown.",
+     "icon": null
+    }
+   ]
+  },
+  {
+   "id": "95b78ed7-4637-86d9-7e41-71ba8c293152",
+   "slug": "harbor",
+   "name": "Harbor",
+   "description": "Hailing from India’s coast, Harbor storms the field wielding ancient technology with dominion over water. He unleashes frothing rapids and crushing waves to shield his allies, or pummel those that oppose him.",
+   "role": {
+    "name": "Controller",
+    "description": "Controllers are experts in slicing up dangerous territory to set their team up for success.",
+    "icon": "https://media.valorant-api.com/agents/roles/4ee40330-ecdd-4f2f-98a8-eb1243428373/displayicon.png"
+   },
+   "thumb": "https://media.valorant-api.com/agents/95b78ed7-4637-86d9-7e41-71ba8c293152/minimapportrait.png",
+   "portrait": "https://media.valorant-api.com/agents/95b78ed7-4637-86d9-7e41-71ba8c293152/fullportrait.png",
+   "background": "https://media.valorant-api.com/agents/95b78ed7-4637-86d9-7e41-71ba8c293152/background.png",
+   "gradient": [
+    "#275146ff",
+    "#0f1923ff",
+    "#11434eff",
+    "#0f192300"
+   ],
+   "abilities": [
+    {
+     "key": "C",
+     "name": "Storm Surge",
+     "description": "EQUIP Storm Surge. FIRE to throw. Explodes on landing, nearsighting and slowing all players.",
+     "icon": "https://media.valorant-api.com/agents/95b78ed7-4637-86d9-7e41-71ba8c293152/abilities/grenade/displayicon.png"
+    },
+    {
+     "key": "Q",
+     "name": "High Tide",
+     "description": "EQUIP High Tide. FIRE to send forward a vision-blocking wall that slows all players who come in contact. HOLD FIRE to steer towards your crosshair. ALT FIRE to stop early.",
+     "icon": "https://media.valorant-api.com/agents/95b78ed7-4637-86d9-7e41-71ba8c293152/abilities/ability1/displayicon.png"
+    },
+    {
+     "key": "E",
+     "name": "Cove",
+     "description": "ENTER The Deep. REACTIVATE to cast a smoke. HOLD FIRE/ALT FIRE to adjust distance. RELOAD to toggle view. After casting, REACTIVATE to transform the smoke into a destructible shield.",
+     "icon": "https://media.valorant-api.com/agents/95b78ed7-4637-86d9-7e41-71ba8c293152/abilities/ability2/displayicon.png"
+    },
+    {
+     "key": "X",
+     "name": "Reckoning",
+     "description": "EQUIP Reckoning. FIRE to push forward a vision-blocking wall that nearsights and slows all players who come in contact. REACTIVATE to stop the wall early.",
+     "icon": "https://media.valorant-api.com/agents/95b78ed7-4637-86d9-7e41-71ba8c293152/abilities/ultimate/displayicon.png"
+    }
+   ]
+  },
+  {
+   "id": "ddd5a15c-4fbe-42fa-3789-11a55ca5ee04",
+   "slug": "hush",
+   "name": "Hush",
+   "description": "Chinese operative Hush uses her telekinesis to close the most classified cases. Fighting with precision and finesse, she redirects her combat utility in midair to disrupt and displace the enemy team before suspending them helplessly for the killing blow.",
+   "role": {
+    "name": "Duelist",
+    "description": "Duelists are self-sufficient fraggers who their team expects, through abilities and skills, to get high frags and seek out engagements first.",
+    "icon": "https://media.valorant-api.com/agents/roles/dbe8757e-9e92-4ed4-b39f-9dfc589691d4/displayicon.png"
+   },
+   "thumb": "https://media.valorant-api.com/agents/ddd5a15c-4fbe-42fa-3789-11a55ca5ee04/minimapportrait.png",
+   "portrait": "https://media.valorant-api.com/agents/ddd5a15c-4fbe-42fa-3789-11a55ca5ee04/fullportrait.png",
+   "background": "https://media.valorant-api.com/agents/ddd5a15c-4fbe-42fa-3789-11a55ca5ee04/background.png",
+   "gradient": [
+    "#3d2c44ff",
+    "#0f1923ff",
+    "#f47ac7ff",
+    "#0f192300"
+   ],
+   "abilities": [
+    {
+     "key": "C",
+     "name": "Flow",
+     "description": "INSTANTLY create an anchor. If Hush is in the air, briefly levitate in place. After a delay, propel towards it.",
+     "icon": "https://media.valorant-api.com/agents/ddd5a15c-4fbe-42fa-3789-11a55ca5ee04/abilities/grenade/displayicon.png"
+    },
+    {
+     "key": "Q",
+     "name": "Flashbulb",
+     "description": "EQUIP Flashbulb. FIRE to throw. ALT FIRE to prepare it instead. REACTIVATE to direct it towards your crosshair. Explodes on any surface or after a delay, flashing all players looking at it.",
+     "icon": "https://media.valorant-api.com/agents/ddd5a15c-4fbe-42fa-3789-11a55ca5ee04/abilities/ability1/displayicon.png"
+    },
+    {
+     "key": "E",
+     "name": "Displacement",
+     "description": "EQUIP Displacement. FIRE to throw. ALT FIRE to prepare it instead. REACTIVATE to direct it towards your crosshair. Explodes on any surface or after a delay, pulling all players towards the center and concussing them if they collide with any surface or another player.\n\nResets every two kills.",
+     "icon": "https://media.valorant-api.com/agents/ddd5a15c-4fbe-42fa-3789-11a55ca5ee04/abilities/ability2/displayicon.png"
+    },
+    {
+     "key": "X",
+     "name": "Suspension",
+     "description": "INSTANTLY prepare Suspension. FIRE to send it forward, steering with your crosshair. REACTIVATE or press FIRE again to detonate, levitating all players.",
+     "icon": "https://media.valorant-api.com/agents/ddd5a15c-4fbe-42fa-3789-11a55ca5ee04/abilities/ultimate/displayicon.png"
+    },
+    {
+     "key": "Passive",
+     "name": "Telekinesis",
+     "description": "Hush can pick up weapons, the Spike, and INTERACT with switches from an increased range.",
+     "icon": "https://media.valorant-api.com/agents/ddd5a15c-4fbe-42fa-3789-11a55ca5ee04/abilities/passive/displayicon.png"
+    }
+   ]
+  },
+  {
+   "id": "0e38b510-41a8-5780-5e8f-568b2a4f2d6c",
+   "slug": "iso",
+   "name": "Iso",
+   "description": "Chinese fixer for hire Iso falls into a flow state to dismantle the opposition. Reconfiguring ambient energy into bulletproof protection, he advances with focus towards his next duel to the death.",
+   "role": {
+    "name": "Duelist",
+    "description": "Duelists are self-sufficient fraggers who their team expects, through abilities and skills, to get high frags and seek out engagements first.",
+    "icon": "https://media.valorant-api.com/agents/roles/dbe8757e-9e92-4ed4-b39f-9dfc589691d4/displayicon.png"
+   },
+   "thumb": "https://media.valorant-api.com/agents/0e38b510-41a8-5780-5e8f-568b2a4f2d6c/minimapportrait.png",
+   "portrait": "https://media.valorant-api.com/agents/0e38b510-41a8-5780-5e8f-568b2a4f2d6c/fullportrait.png",
+   "background": "https://media.valorant-api.com/agents/0e38b510-41a8-5780-5e8f-568b2a4f2d6c/background.png",
+   "gradient": [
+    "#30336eff",
+    "#0f1923ff",
+    "#20155dff",
+    "#0f192300"
+   ],
+   "abilities": [
+    {
+     "key": "C",
+     "name": "Contingency",
+     "description": "EQUIP Contingency. FIRE to push forward an indestructible vision-blocking wall. ALT FIRE for a slower wall.",
+     "icon": "https://media.valorant-api.com/agents/0e38b510-41a8-5780-5e8f-568b2a4f2d6c/abilities/grenade/displayicon.png"
+    },
+    {
+     "key": "Q",
+     "name": "Undercut",
+     "description": "EQUIP an Undercut. FIRE to send it forward. Applies suppress and vulnerable to all players.",
+     "icon": "https://media.valorant-api.com/agents/0e38b510-41a8-5780-5e8f-568b2a4f2d6c/abilities/ability1/displayicon.png"
+    },
+    {
+     "key": "E",
+     "name": "Double Tap",
+     "description": "INSTANTLY channel Focus. Gain a shield that blocks one instance of damage.",
+     "icon": "https://media.valorant-api.com/agents/0e38b510-41a8-5780-5e8f-568b2a4f2d6c/abilities/ability2/displayicon.png"
+    },
+    {
+     "key": "X",
+     "name": "Kill Contract",
+     "description": "EQUIP Kill Contract. FIRE to send forward a zone that pulls you and the first enemy hit into a duel.\n\nChannel Focus at the start of a duel.",
+     "icon": "https://media.valorant-api.com/agents/0e38b510-41a8-5780-5e8f-568b2a4f2d6c/abilities/ultimate/displayicon.png"
+    },
+    {
+     "key": "Passive",
+     "name": "Focus",
+     "description": "While Focused, reload faster and spawn destructible energy orbs from dead enemies Iso has damaged or killed.\n\nWhen an energy orb is shot, grant a shield that blocks one instance of damage and refresh Focus.",
+     "icon": null
+    }
+   ]
+  },
+  {
+   "id": "add6443a-41bd-e414-f6ad-e58d267f4e95",
+   "slug": "jett",
+   "name": "Jett",
+   "description": "Representing her home country of South Korea, Jett's agile and evasive fighting style lets her take risks no one else can. She runs circles around every skirmish, cutting enemies up before they even know what hit them.",
+   "role": {
+    "name": "Duelist",
+    "description": "Duelists are self-sufficient fraggers who their team expects, through abilities and skills, to get high frags and seek out engagements first.",
+    "icon": "https://media.valorant-api.com/agents/roles/dbe8757e-9e92-4ed4-b39f-9dfc589691d4/displayicon.png"
+   },
+   "thumb": "https://media.valorant-api.com/agents/add6443a-41bd-e414-f6ad-e58d267f4e95/minimapportrait.png",
+   "portrait": "https://media.valorant-api.com/agents/add6443a-41bd-e414-f6ad-e58d267f4e95/fullportrait.png",
+   "background": "https://media.valorant-api.com/agents/add6443a-41bd-e414-f6ad-e58d267f4e95/background.png",
+   "gradient": [
+    "#25607aff",
+    "#0f1923ff",
+    "#0f1923ff",
+    "#25607aff"
+   ],
+   "abilities": [
+    {
+     "key": "C",
+     "name": "Cloudburst",
+     "description": "INSTANTLY throw a cloud. Forms into a brief smoke on any surface or after a delay. HOLD ACTIVATE to steer towards your crosshair.",
+     "icon": "https://media.valorant-api.com/agents/add6443a-41bd-e414-f6ad-e58d267f4e95/abilities/grenade/displayicon.png"
+    },
+    {
+     "key": "Q",
+     "name": "Updraft",
+     "description": "INSTANTLY propel high into the air.",
+     "icon": "https://media.valorant-api.com/agents/add6443a-41bd-e414-f6ad-e58d267f4e95/abilities/ability1/displayicon.png"
+    },
+    {
+     "key": "E",
+     "name": "Tailwind",
+     "description": "INSTANTLY prepare a dash. REACTIVATE to dash forward or in your movement direction.\n\nResets every two kills.",
+     "icon": "https://media.valorant-api.com/agents/add6443a-41bd-e414-f6ad-e58d267f4e95/abilities/ability2/displayicon.png"
+    },
+    {
+     "key": "X",
+     "name": "Blade Storm",
+     "description": "INSTANTLY access five accurate throwing knives that deal lethal damage with direct hits to the head.\n\nFIRE to shoot. On kills, refresh your knives. ALT FIRE to throw all remaining knives without a refresh.",
+     "icon": "https://media.valorant-api.com/agents/add6443a-41bd-e414-f6ad-e58d267f4e95/abilities/ultimate/displayicon.png"
+    },
+    {
+     "key": "Passive",
+     "name": "Drift",
+     "description": "HOLD JUMP while falling to glide.",
+     "icon": "https://media.valorant-api.com/agents/add6443a-41bd-e414-f6ad-e58d267f4e95/abilities/passive/displayicon.png"
+    }
+   ]
+  },
+  {
+   "id": "601dbbe7-43ce-be57-2a40-4abd24953621",
+   "slug": "kayo",
+   "name": "KAY/O",
+   "description": "KAY/O is a machine of war built for a single purpose: neutralizing radiants. His power to Suppress enemy abilities dismantles his opponents' capacity to fight back, securing him and his allies the ultimate edge.",
+   "role": {
+    "name": "Initiator",
+    "description": "Initiators challenge angles by setting up their team to enter contested ground and push defenders away.",
+    "icon": "https://media.valorant-api.com/agents/roles/1b47567f-8f7b-444b-aae3-b0c634622d10/displayicon.png"
+   },
+   "thumb": "https://media.valorant-api.com/agents/601dbbe7-43ce-be57-2a40-4abd24953621/minimapportrait.png",
+   "portrait": "https://media.valorant-api.com/agents/601dbbe7-43ce-be57-2a40-4abd24953621/fullportrait.png",
+   "background": "https://media.valorant-api.com/agents/601dbbe7-43ce-be57-2a40-4abd24953621/background.png",
+   "gradient": [
+    "#1c2a69ff",
+    "#0f1923ff",
+    "#1a1e4bff",
+    "#0f192300"
+   ],
+   "abilities": [
+    {
+     "key": "C",
+     "name": "FRAG/ment",
+     "description": "EQUIP FRAG/ment. FIRE to throw. ALT FIRE to lob. Explodes on landing, repeatedly dealing pulses of damage to all players.",
+     "icon": "https://media.valorant-api.com/agents/601dbbe7-43ce-be57-2a40-4abd24953621/abilities/grenade/displayicon.png"
+    },
+    {
+     "key": "Q",
+     "name": "FLASH/drive",
+     "description": "EQUIP a FLASH/drive. FIRE to throw. ALT FIRE to lob. After a delay, explode, flashing all players looking at it.",
+     "icon": "https://media.valorant-api.com/agents/601dbbe7-43ce-be57-2a40-4abd24953621/abilities/ability1/displayicon.png"
+    },
+    {
+     "key": "E",
+     "name": "ZERO/point",
+     "description": "EQUIP a destructible ZERO/point. FIRE to throw. Pulses on any surface, suppressing enemies within range.",
+     "icon": "https://media.valorant-api.com/agents/601dbbe7-43ce-be57-2a40-4abd24953621/abilities/ability2/displayicon.png"
+    },
+    {
+     "key": "X",
+     "name": "NULL/cmd",
+     "description": "INSTANTLY gain overloaded and repeatedly send out a pulse that suppresses enemies within range.\n\nOverloaded grants combat stim. Upon taking lethal damage, KAY/O is downed and can be re-stabilized.",
+     "icon": "https://media.valorant-api.com/agents/601dbbe7-43ce-be57-2a40-4abd24953621/abilities/ultimate/displayicon.png"
+    }
+   ]
+  },
+  {
+   "id": "1e58de9c-4950-5125-93e9-a0aee9f98746",
+   "slug": "killjoy",
+   "name": "Killjoy",
+   "description": "The genius of Germany, Killjoy effortlessly secures key battlefield positions with her arsenal of inventions. If their damage doesn't take her enemies out, the debuff her robots provide will make short work of them.",
+   "role": {
+    "name": "Sentinel",
+    "description": "Sentinels are defensive experts who can lock down areas and watch flanks, both on attacker and defender rounds.",
+    "icon": "https://media.valorant-api.com/agents/roles/5fc02f99-4091-4486-a531-98459a3e95e9/displayicon.png"
+   },
+   "thumb": "https://media.valorant-api.com/agents/1e58de9c-4950-5125-93e9-a0aee9f98746/minimapportrait.png",
+   "portrait": "https://media.valorant-api.com/agents/1e58de9c-4950-5125-93e9-a0aee9f98746/fullportrait.png",
+   "background": "https://media.valorant-api.com/agents/1e58de9c-4950-5125-93e9-a0aee9f98746/background.png",
+   "gradient": [
+    "#522162ff",
+    "#0f1923ff",
+    "#413950ff",
+    "#0f192300"
+   ],
+   "abilities": [
+    {
+     "key": "C",
+     "name": "Nanoswarm",
+     "description": "EQUIP a destructible Nanoswarm. FIRE to throw. ALT FIRE to lob. Nanoswarm stealths after landing. INTERACT to create a zone that deals damage to all players.\n\nCan be picked up during BUY PHASE.",
+     "icon": "https://media.valorant-api.com/agents/1e58de9c-4950-5125-93e9-a0aee9f98746/abilities/grenade/displayicon.png"
+    },
+    {
+     "key": "Q",
+     "name": "ALARMBOT",
+     "description": "EQUIP a destructible Alarmbot. FIRE to place. Alarmbot stealths after placement. Triggers on nearby visible enemies in range. Chases the first enemy it sees, exploding and applying vulnerable.\n\nCan be recalled.",
+     "icon": "https://media.valorant-api.com/agents/1e58de9c-4950-5125-93e9-a0aee9f98746/abilities/ability1/displayicon.png"
+    },
+    {
+     "key": "E",
+     "name": "TURRET",
+     "description": "EQUIP a destructible Turret. While equipped, REACTIVATE to flip the direction or HOLD ALT FIRE to rotate. FIRE to place. Shoots at enemies in line of sight.\n\nCan be recalled.",
+     "icon": "https://media.valorant-api.com/agents/1e58de9c-4950-5125-93e9-a0aee9f98746/abilities/ability2/displayicon.png"
+    },
+    {
+     "key": "X",
+     "name": "Lockdown",
+     "description": "EQUIP a destructible Lockdown. FIRE to prepare a zone. After a delay, detain enemies within range.",
+     "icon": "https://media.valorant-api.com/agents/1e58de9c-4950-5125-93e9-a0aee9f98746/abilities/ultimate/displayicon.png"
+    }
+   ]
+  },
+  {
+   "id": "7c8a4701-4de6-9355-b254-e09bc2a34b72",
+   "slug": "miks",
+   "name": "Miks",
+   "description": "Straight from Croatia, Miks takes the stage channeling pure sound energy. With his infectious passion and sonic powers, he rallies his squad to move as one as they set the tempo on the battlefield together.",
+   "role": {
+    "name": "Controller",
+    "description": "Controllers are experts in slicing up dangerous territory to set their team up for success.",
+    "icon": "https://media.valorant-api.com/agents/roles/4ee40330-ecdd-4f2f-98a8-eb1243428373/displayicon.png"
+   },
+   "thumb": "https://media.valorant-api.com/agents/7c8a4701-4de6-9355-b254-e09bc2a34b72/minimapportrait.png",
+   "portrait": "https://media.valorant-api.com/agents/7c8a4701-4de6-9355-b254-e09bc2a34b72/fullportrait.png",
+   "background": "https://media.valorant-api.com/agents/7c8a4701-4de6-9355-b254-e09bc2a34b72/background.png",
+   "gradient": [
+    "#462b75ff",
+    "#0f1923ff",
+    "#344673ff",
+    "#0f192300"
+   ],
+   "abilities": [
+    {
+     "key": "C",
+     "name": "M-pulse",
+     "description": "EQUIP a destructible M-Pulse. ALT FIRE to toggle between concuss or heal. FIRE to throw. Repeatedly pulses on landing, applying the selected effect on all players within range.",
+     "icon": "https://media.valorant-api.com/agents/7c8a4701-4de6-9355-b254-e09bc2a34b72/abilities/grenade/displayicon.png"
+    },
+    {
+     "key": "Q",
+     "name": "Harmonize",
+     "description": "EQUIP Harmonize. FIRE on a targeted ally to grant combat stim and haste to them and yourself. On kills while active, refresh the buff if both Harmonized players are still alive. ALT FIRE to self-cast with no refresh.",
+     "icon": "https://media.valorant-api.com/agents/7c8a4701-4de6-9355-b254-e09bc2a34b72/abilities/ability1/displayicon.png"
+    },
+    {
+     "key": "E",
+     "name": "Waveform",
+     "description": "EQUIP a tactical map. FIRE to set smoke locations. ALT FIRE to cast smokes.",
+     "icon": "https://media.valorant-api.com/agents/7c8a4701-4de6-9355-b254-e09bc2a34b72/abilities/ability2/displayicon.png"
+    },
+    {
+     "key": "X",
+     "name": "Bassquake",
+     "description": "EQUIP Bassquake. FIRE to send forward a zone that deafens, knocks back, and slows all players.",
+     "icon": "https://media.valorant-api.com/agents/7c8a4701-4de6-9355-b254-e09bc2a34b72/abilities/ultimate/displayicon.png"
+    }
+   ]
+  },
+  {
+   "id": "bb2a4828-46eb-8cd1-e765-15848195d751",
+   "slug": "neon",
+   "name": "Neon",
+   "description": "Filipino Agent Neon surges forward at shocking speeds, discharging bursts of bioelectric radiance as fast as her body generates it. She races ahead to catch enemies off guard then strikes them down quicker than lightning.",
+   "role": {
+    "name": "Duelist",
+    "description": "Duelists are self-sufficient fraggers who their team expects, through abilities and skills, to get high frags and seek out engagements first.",
+    "icon": "https://media.valorant-api.com/agents/roles/dbe8757e-9e92-4ed4-b39f-9dfc589691d4/displayicon.png"
+   },
+   "thumb": "https://media.valorant-api.com/agents/bb2a4828-46eb-8cd1-e765-15848195d751/minimapportrait.png",
+   "portrait": "https://media.valorant-api.com/agents/bb2a4828-46eb-8cd1-e765-15848195d751/fullportrait.png",
+   "background": "https://media.valorant-api.com/agents/bb2a4828-46eb-8cd1-e765-15848195d751/background.png",
+   "gradient": [
+    "#413476ff",
+    "#0f1923ff",
+    "#38328eff",
+    "#0f192300"
+   ],
+   "abilities": [
+    {
+     "key": "C",
+     "name": "Fast Lane",
+     "description": "INSTANTLY launch two vision-blocking walls that extend until they hit a surface.",
+     "icon": "https://media.valorant-api.com/agents/bb2a4828-46eb-8cd1-e765-15848195d751/abilities/grenade/displayicon.png"
+    },
+    {
+     "key": "Q",
+     "name": "Relay Bolt",
+     "description": "INSTANTLY throw a bolt that bounces once. Explodes on each surface, concussing all players.",
+     "icon": "https://media.valorant-api.com/agents/bb2a4828-46eb-8cd1-e765-15848195d751/abilities/ability1/displayicon.png"
+    },
+    {
+     "key": "E",
+     "name": "High Gear",
+     "description": "INSTANTLY consume fuel to gain haste. REACTIVATE to cancel. ALT FIRE to slide forward or in your movement direction.\n\nSlide resets every two kills.",
+     "icon": "https://media.valorant-api.com/agents/bb2a4828-46eb-8cd1-e765-15848195d751/abilities/ability2/displayicon.png"
+    },
+    {
+     "key": "X",
+     "name": "Overdrive",
+     "description": "INSTANTLY refresh High Gear. Access an accurate lightning beam that can be used while activating High Gear.\n\nFIRE to shoot. On kills, fully recharge fuel.",
+     "icon": "https://media.valorant-api.com/agents/bb2a4828-46eb-8cd1-e765-15848195d751/abilities/ultimate/displayicon.png"
+    },
+    {
+     "key": "Passive",
+     "name": "Battery",
+     "description": "Passively recharge fuel over time.",
+     "icon": null
+    }
+   ]
+  },
+  {
+   "id": "8e253930-4c05-31dd-1b6c-968525494517",
+   "slug": "omen",
+   "name": "Omen",
+   "description": "A phantom of a memory, Omen hunts in the shadows. He renders enemies blind, teleports across the field, then lets paranoia take hold as his foe scrambles to uncover where he might strike next.",
+   "role": {
+    "name": "Controller",
+    "description": "Controllers are experts in slicing up dangerous territory to set their team up for success.",
+    "icon": "https://media.valorant-api.com/agents/roles/4ee40330-ecdd-4f2f-98a8-eb1243428373/displayicon.png"
+   },
+   "thumb": "https://media.valorant-api.com/agents/8e253930-4c05-31dd-1b6c-968525494517/minimapportrait.png",
+   "portrait": "https://media.valorant-api.com/agents/8e253930-4c05-31dd-1b6c-968525494517/fullportrait.png",
+   "background": "https://media.valorant-api.com/agents/8e253930-4c05-31dd-1b6c-968525494517/background.png",
+   "gradient": [
+    "#433178ff",
+    "#0f1923ff",
+    "#344673ff",
+    "#0f192300"
+   ],
+   "abilities": [
+    {
+     "key": "C",
+     "name": "Shrouded Step",
+     "description": "EQUIP a Shrouded Step. FIRE to briefly channel, then teleport to a targeted location.",
+     "icon": "https://media.valorant-api.com/agents/8e253930-4c05-31dd-1b6c-968525494517/abilities/grenade/displayicon.png"
+    },
+    {
+     "key": "Q",
+     "name": "Paranoia",
+     "description": "EQUIP Paranoia. FIRE to send it forward. Applies nearsight and deafens all players.",
+     "icon": "https://media.valorant-api.com/agents/8e253930-4c05-31dd-1b6c-968525494517/abilities/ability1/displayicon.png"
+    },
+    {
+     "key": "E",
+     "name": "Dark Cover",
+     "description": "ENTER Shadow Vision. REACTIVATE to cast a smoke. HOLD FIRE/ALT FIRE to adjust distance. RELOAD to toggle view.",
+     "icon": "https://media.valorant-api.com/agents/8e253930-4c05-31dd-1b6c-968525494517/abilities/ability2/displayicon.png"
+    },
+    {
+     "key": "X",
+     "name": "From the Shadows",
+     "description": "EQUIP a tactical map. FIRE to begin a teleport to a selected location. While teleporting, Omen appears as a destructible shade at the destination. REACTIVATE to cancel.",
+     "icon": "https://media.valorant-api.com/agents/8e253930-4c05-31dd-1b6c-968525494517/abilities/ultimate/displayicon.png"
+    }
+   ]
+  },
+  {
+   "id": "eb93336a-449b-9c1b-0a54-a891f7921d69",
+   "slug": "phoenix",
+   "name": "Phoenix",
+   "description": "Hailing from the U.K., Phoenix's star power shines through in his fighting style, igniting the battlefield with flash and flare. Whether he's got backup or not, he's rushing in to fight on his own terms.",
+   "role": {
+    "name": "Duelist",
+    "description": "Duelists are self-sufficient fraggers who their team expects, through abilities and skills, to get high frags and seek out engagements first.",
+    "icon": "https://media.valorant-api.com/agents/roles/dbe8757e-9e92-4ed4-b39f-9dfc589691d4/displayicon.png"
+   },
+   "thumb": "https://media.valorant-api.com/agents/eb93336a-449b-9c1b-0a54-a891f7921d69/minimapportrait.png",
+   "portrait": "https://media.valorant-api.com/agents/eb93336a-449b-9c1b-0a54-a891f7921d69/fullportrait.png",
+   "background": "https://media.valorant-api.com/agents/eb93336a-449b-9c1b-0a54-a891f7921d69/background.png",
+   "gradient": [
+    "#74321cff",
+    "#0f1923ff",
+    "#262423ff",
+    "#0f192300"
+   ],
+   "abilities": [
+    {
+     "key": "C",
+     "name": "Blaze",
+     "description": "EQUIP Blaze. FIRE to send forward a vision-blocking fire wall that deals damage to all players. HOLD FIRE to steer towards your crosshair.",
+     "icon": "https://media.valorant-api.com/agents/eb93336a-449b-9c1b-0a54-a891f7921d69/abilities/grenade/displayicon.png"
+    },
+    {
+     "key": "Q",
+     "name": "Hot Hands",
+     "description": "EQUIP Hot Hands. FIRE to throw. ALT FIRE to lob. On landing, create a fire zone that deals damage to all players.",
+     "icon": "https://media.valorant-api.com/agents/eb93336a-449b-9c1b-0a54-a891f7921d69/abilities/ability1/displayicon.png"
+    },
+    {
+     "key": "E",
+     "name": "Curveball",
+     "description": "EQUIP a Curveball. FIRE to curve left, ALT FIRE to curve right. After a delay, explode, flashing all players looking at it.\n\nResets every two kills.",
+     "icon": "https://media.valorant-api.com/agents/eb93336a-449b-9c1b-0a54-a891f7921d69/abilities/ability2/displayicon.png"
+    },
+    {
+     "key": "X",
+     "name": "Run it Back",
+     "description": "INSTANTLY place a marker at your location. Upon taking lethal damage or when Run it Back expires, return to the marker with full health and the amount of armor you had when the ability was activated.",
+     "icon": "https://media.valorant-api.com/agents/eb93336a-449b-9c1b-0a54-a891f7921d69/abilities/ultimate/displayicon.png"
+    },
+    {
+     "key": "Passive",
+     "name": "Inner Fire",
+     "description": "Phoenix heals while standing in his own fire instead of taking damage.",
+     "icon": null
+    }
+   ]
+  },
+  {
+   "id": "f94c3b30-42be-e959-889c-5aa313dba261",
+   "slug": "raze",
+   "name": "Raze",
+   "description": "Raze explodes out of Brazil with her big personality and big guns. With her blunt-force-trauma playstyle, she excels at flushing entrenched enemies and clearing tight spaces with a generous dose of \"boom.\"",
+   "role": {
+    "name": "Duelist",
+    "description": "Duelists are self-sufficient fraggers who their team expects, through abilities and skills, to get high frags and seek out engagements first.",
+    "icon": "https://media.valorant-api.com/agents/roles/dbe8757e-9e92-4ed4-b39f-9dfc589691d4/displayicon.png"
+   },
+   "thumb": "https://media.valorant-api.com/agents/f94c3b30-42be-e959-889c-5aa313dba261/minimapportrait.png",
+   "portrait": "https://media.valorant-api.com/agents/f94c3b30-42be-e959-889c-5aa313dba261/fullportrait.png",
+   "background": "https://media.valorant-api.com/agents/f94c3b30-42be-e959-889c-5aa313dba261/background.png",
+   "gradient": [
+    "#742e1eff",
+    "#0f1923ff",
+    "#2c5942ff",
+    "#0f192300"
+   ],
+   "abilities": [
+    {
+     "key": "C",
+     "name": "Boom Bot",
+     "description": "EQUIP a destructible Boom Bot. FIRE to send it forward. Chases the first enemy it sees, exploding and dealing damage to enemies on impact.",
+     "icon": "https://media.valorant-api.com/agents/f94c3b30-42be-e959-889c-5aa313dba261/abilities/grenade/displayicon.png"
+    },
+    {
+     "key": "Q",
+     "name": "Blast Pack",
+     "description": "INSTANTLY throw a destructible Blast Pack that sticks to surfaces that fully arms after a delay. REACTIVATE to detonate, knocking away anything hit.\n\nIf fully armed, Blast Pack will also deal damage to enemies.",
+     "icon": "https://media.valorant-api.com/agents/f94c3b30-42be-e959-889c-5aa313dba261/abilities/ability1/displayicon.png"
+    },
+    {
+     "key": "E",
+     "name": "Paint Shells",
+     "description": "EQUIP Paint Shells. FIRE to throw. ALT FIRE to lob. After a delay, explode, dealing damage and creating sub-munitions, each also dealing damage to all players.\n\nResets every two kills.",
+     "icon": "https://media.valorant-api.com/agents/f94c3b30-42be-e959-889c-5aa313dba261/abilities/ability2/displayicon.png"
+    },
+    {
+     "key": "X",
+     "name": "Showstopper",
+     "description": "INSTANTLY prepare Showstopper. FIRE to launch. Explodes on any surface, dealing high damage to all players.",
+     "icon": "https://media.valorant-api.com/agents/f94c3b30-42be-e959-889c-5aa313dba261/abilities/ultimate/displayicon.png"
+    }
+   ]
+  },
+  {
+   "id": "a3bfb853-43b2-7238-a4f1-ad90e9e46bcc",
+   "slug": "reyna",
+   "name": "Reyna",
+   "description": "Forged in the heart of Mexico, Reyna dominates single combat, popping off with each kill she scores. Her capability is only limited by her raw skill, making her sharply dependent on performance.",
+   "role": {
+    "name": "Duelist",
+    "description": "Duelists are self-sufficient fraggers who their team expects, through abilities and skills, to get high frags and seek out engagements first.",
+    "icon": "https://media.valorant-api.com/agents/roles/dbe8757e-9e92-4ed4-b39f-9dfc589691d4/displayicon.png"
+   },
+   "thumb": "https://media.valorant-api.com/agents/a3bfb853-43b2-7238-a4f1-ad90e9e46bcc/minimapportrait.png",
+   "portrait": "https://media.valorant-api.com/agents/a3bfb853-43b2-7238-a4f1-ad90e9e46bcc/fullportrait.png",
+   "background": "https://media.valorant-api.com/agents/a3bfb853-43b2-7238-a4f1-ad90e9e46bcc/background.png",
+   "gradient": [
+    "#662d62ff",
+    "#0f1923ff",
+    "#2f2664ff",
+    "#0f192300"
+   ],
+   "abilities": [
+    {
+     "key": "C",
+     "name": "Leer",
+     "description": "EQUIP a destructible Leer. FIRE to send. After a delay, form, nearsighting enemies looking at it.",
+     "icon": "https://media.valorant-api.com/agents/a3bfb853-43b2-7238-a4f1-ad90e9e46bcc/abilities/grenade/displayicon.png"
+    },
+    {
+     "key": "Q",
+     "name": "Devour",
+     "description": "INSTANTLY consume a Soul Orb to heal. Excess healing is converted into overheal.\n\nWhile ULTIMATE is active, Devour auto-casts.",
+     "icon": "https://media.valorant-api.com/agents/a3bfb853-43b2-7238-a4f1-ad90e9e46bcc/abilities/ability1/displayicon.png"
+    },
+    {
+     "key": "E",
+     "name": "Dismiss",
+     "description": "INSTANTLY consume a Soul Orb to briefly become intangible. REACTIVATE to cancel early.\n\nWhile ULTIMATE is active, also gain invisibility.",
+     "icon": "https://media.valorant-api.com/agents/a3bfb853-43b2-7238-a4f1-ad90e9e46bcc/abilities/ability2/displayicon.png"
+    },
+    {
+     "key": "X",
+     "name": "Empress",
+     "description": "INSTANTLY gain Empress.\n\nEmpress grants combat stim, endless Soul Orb consumption, and permanent overheal.",
+     "icon": "https://media.valorant-api.com/agents/a3bfb853-43b2-7238-a4f1-ad90e9e46bcc/abilities/ultimate/displayicon.png"
+    },
+    {
+     "key": "Passive",
+     "name": "Vitality",
+     "description": "Spawn a Soul Orb from dead enemies Reyna has damaged or killed.",
+     "icon": null
+    }
+   ]
+  },
+  {
+   "id": "569fdd95-4d10-43ab-ca70-79becc718b46",
+   "slug": "sage",
+   "name": "Sage",
+   "description": "The bastion of China, Sage creates safety for herself and her team wherever she goes. Able to revive fallen friends and stave off forceful assaults, she provides a calm center to a hellish battlefield.",
+   "role": {
+    "name": "Sentinel",
+    "description": "Sentinels are defensive experts who can lock down areas and watch flanks, both on attacker and defender rounds.",
+    "icon": "https://media.valorant-api.com/agents/roles/5fc02f99-4091-4486-a531-98459a3e95e9/displayicon.png"
+   },
+   "thumb": "https://media.valorant-api.com/agents/569fdd95-4d10-43ab-ca70-79becc718b46/minimapportrait.png",
+   "portrait": "https://media.valorant-api.com/agents/569fdd95-4d10-43ab-ca70-79becc718b46/fullportrait.png",
+   "background": "https://media.valorant-api.com/agents/569fdd95-4d10-43ab-ca70-79becc718b46/background.png",
+   "gradient": [
+    "#1f5148ff",
+    "#0f1923ff",
+    "#102d23ff",
+    "#0f192300"
+   ],
+   "abilities": [
+    {
+     "key": "C",
+     "name": "Barrier Orb",
+     "description": "EQUIP a destructible Barrier Orb. While equipped, REACTIVATE to pivot the wall or HOLD ALT FIRE to rotate. FIRE to place a destructible wall that fortifies after a delay.",
+     "icon": "https://media.valorant-api.com/agents/569fdd95-4d10-43ab-ca70-79becc718b46/abilities/grenade/displayicon.png"
+    },
+    {
+     "key": "Q",
+     "name": "Slow Orb",
+     "description": "EQUIP a Slow Orb. FIRE to throw. On landing, create a zone that slows all players and plays an audio cue when enemies run through it.",
+     "icon": "https://media.valorant-api.com/agents/569fdd95-4d10-43ab-ca70-79becc718b46/abilities/ability1/displayicon.png"
+    },
+    {
+     "key": "E",
+     "name": "Healing Orb",
+     "description": "EQUIP Healing Orb. FIRE on a damaged ally to grant healing. ALT FIRE to self-cast.",
+     "icon": "https://media.valorant-api.com/agents/569fdd95-4d10-43ab-ca70-79becc718b46/abilities/ability2/displayicon.png"
+    },
+    {
+     "key": "X",
+     "name": "Resurrection",
+     "description": "EQUIP Resurrection. FIRE on a targeted dead ally to resurrect them.",
+     "icon": "https://media.valorant-api.com/agents/569fdd95-4d10-43ab-ca70-79becc718b46/abilities/ultimate/displayicon.png"
+    }
+   ]
+  },
+  {
+   "id": "6f2a04ca-43e0-be17-7f36-b3908627744d",
+   "slug": "skye",
+   "name": "Skye",
+   "description": "Hailing from Australia, Skye and her band of beasts trailblaze the way through hostile territory. With her creations hampering the enemy, and her power to heal others, the team is strongest and safest by Skye's side.",
+   "role": {
+    "name": "Initiator",
+    "description": "Initiators challenge angles by setting up their team to enter contested ground and push defenders away.",
+    "icon": "https://media.valorant-api.com/agents/roles/1b47567f-8f7b-444b-aae3-b0c634622d10/displayicon.png"
+   },
+   "thumb": "https://media.valorant-api.com/agents/6f2a04ca-43e0-be17-7f36-b3908627744d/minimapportrait.png",
+   "portrait": "https://media.valorant-api.com/agents/6f2a04ca-43e0-be17-7f36-b3908627744d/fullportrait.png",
+   "background": "https://media.valorant-api.com/agents/6f2a04ca-43e0-be17-7f36-b3908627744d/background.png",
+   "gradient": [
+    "#436a51ff",
+    "#0f1923ff",
+    "#4f1413ff",
+    "#0f192300"
+   ],
+   "abilities": [
+    {
+     "key": "C",
+     "name": "Regrowth",
+     "description": "EQUIP Regrowth. HOLD FIRE to heal allies in range and line of sight. Uses a limited healing pool.\n\nCannot heal self.",
+     "icon": "https://media.valorant-api.com/agents/6f2a04ca-43e0-be17-7f36-b3908627744d/abilities/grenade/displayicon.png"
+    },
+    {
+     "key": "Q",
+     "name": "Trailblazer",
+     "description": "EQUIP a destructible Trailblazer. FIRE to take control. FIRE again to lunge and explode, concussing all players and dealing damage to enemies on direct hits.",
+     "icon": "https://media.valorant-api.com/agents/6f2a04ca-43e0-be17-7f36-b3908627744d/abilities/ability1/displayicon.png"
+    },
+    {
+     "key": "E",
+     "name": "Guiding Light",
+     "description": "EQUIP a Guiding Light. FIRE to send it forward. HOLD FIRE to steer towards your crosshair. REACTIVATE to detonate, flashing all players looking at it.",
+     "icon": "https://media.valorant-api.com/agents/6f2a04ca-43e0-be17-7f36-b3908627744d/abilities/ability2/displayicon.png"
+    },
+    {
+     "key": "X",
+     "name": "Seekers",
+     "description": "EQUIP destructible Seekers. FIRE to send out up to three Seekers. Chases the three closest enemies, nearsighting and slowing on impact.",
+     "icon": "https://media.valorant-api.com/agents/6f2a04ca-43e0-be17-7f36-b3908627744d/abilities/ultimate/displayicon.png"
+    }
+   ]
+  },
+  {
+   "id": "320b2a48-4d9b-a075-30f1-1f93a9b638fa",
+   "slug": "sova",
+   "name": "Sova",
+   "description": "Born from the eternal winter of Russia's tundra, Sova tracks, finds, and eliminates enemies with ruthless efficiency and precision. His custom bow and incredible scouting abilities ensure that even if you run, you cannot hide.",
+   "role": {
+    "name": "Initiator",
+    "description": "Initiators challenge angles by setting up their team to enter contested ground and push defenders away.",
+    "icon": "https://media.valorant-api.com/agents/roles/1b47567f-8f7b-444b-aae3-b0c634622d10/displayicon.png"
+   },
+   "thumb": "https://media.valorant-api.com/agents/320b2a48-4d9b-a075-30f1-1f93a9b638fa/minimapportrait.png",
+   "portrait": "https://media.valorant-api.com/agents/320b2a48-4d9b-a075-30f1-1f93a9b638fa/fullportrait.png",
+   "background": "https://media.valorant-api.com/agents/320b2a48-4d9b-a075-30f1-1f93a9b638fa/background.png",
+   "gradient": [
+    "#355285ff",
+    "#0f1923ff",
+    "#101c47ff",
+    "#0f192300"
+   ],
+   "abilities": [
+    {
+     "key": "C",
+     "name": "Owl Drone",
+     "description": "EQUIP a destructible Owl Drone. FIRE to take control. FIRE again to shoot a dart that repeatedly reveals enemies.",
+     "icon": "https://media.valorant-api.com/agents/320b2a48-4d9b-a075-30f1-1f93a9b638fa/abilities/grenade/displayicon.png"
+    },
+    {
+     "key": "Q",
+     "name": "Shock Bolt",
+     "description": "EQUIP a Shock Bolt. FIRE to shoot a bolt that explodes on any surface, dealing damage to all players. HOLD FIRE to increase the bolt’s velocity. ALT FIRE to add up to two bounces.",
+     "icon": "https://media.valorant-api.com/agents/320b2a48-4d9b-a075-30f1-1f93a9b638fa/abilities/ability1/displayicon.png"
+    },
+    {
+     "key": "E",
+     "name": "Recon Bolt",
+     "description": "EQUIP a destructible Recon Bolt. FIRE to shoot a bolt that repeatedly reveals nearby enemies in range and line of sight. HOLD FIRE to increase the bolt’s velocity. ALT FIRE to add up to two bounces.",
+     "icon": "https://media.valorant-api.com/agents/320b2a48-4d9b-a075-30f1-1f93a9b638fa/abilities/ability2/displayicon.png"
+    },
+    {
+     "key": "X",
+     "name": "Hunter's Fury",
+     "description": "EQUIP Hunter’s Fury. FIRE to shoot a zone that deals damage. Can be fired up to two more times.\n\nEnemies hit are revealed to Sova.",
+     "icon": "https://media.valorant-api.com/agents/320b2a48-4d9b-a075-30f1-1f93a9b638fa/abilities/ultimate/displayicon.png"
+    }
+   ]
+  },
+  {
+   "id": "b444168c-4e35-8076-db47-ef9bf368f384",
+   "slug": "tejo",
+   "name": "Tejo",
+   "description": "A veteran intelligence consultant from Colombia, Tejo’s ballistic guidance system pressures the enemy to relinquish their ground - or their lives. His targeted strikes keep opponents off balance and under his heel.",
+   "role": {
+    "name": "Initiator",
+    "description": "Initiators challenge angles by setting up their team to enter contested ground and push defenders away.",
+    "icon": "https://media.valorant-api.com/agents/roles/1b47567f-8f7b-444b-aae3-b0c634622d10/displayicon.png"
+   },
+   "thumb": "https://media.valorant-api.com/agents/b444168c-4e35-8076-db47-ef9bf368f384/minimapportrait.png",
+   "portrait": "https://media.valorant-api.com/agents/b444168c-4e35-8076-db47-ef9bf368f384/fullportrait.png",
+   "background": "https://media.valorant-api.com/agents/b444168c-4e35-8076-db47-ef9bf368f384/background.png",
+   "gradient": [
+    "#80451bff",
+    "#0f1923ff",
+    "#ffffffff",
+    "#0f192300"
+   ],
+   "abilities": [
+    {
+     "key": "C",
+     "name": "Stealth Drone",
+     "description": "EQUIP a destructible Stealth Drone. FIRE to take control. FIRE again to reveal and suppress nearby enemies in range and line of sight.",
+     "icon": "https://media.valorant-api.com/agents/b444168c-4e35-8076-db47-ef9bf368f384/abilities/grenade/displayicon.png"
+    },
+    {
+     "key": "Q",
+     "name": "Special Delivery",
+     "description": "EQUIP Special Delivery. FIRE to launch. ALT FIRE to launch with a bounce. Explodes on any surface, concussing and damaging all players.",
+     "icon": "https://media.valorant-api.com/agents/b444168c-4e35-8076-db47-ef9bf368f384/abilities/ability1/displayicon.png"
+    },
+    {
+     "key": "E",
+     "name": "Guided Salvo",
+     "description": "EQUIP a tactical map. FIRE to set locations. ALT FIRE to launch missiles that travel to and repeatedly pulse, dealing damage to all players.",
+     "icon": "https://media.valorant-api.com/agents/b444168c-4e35-8076-db47-ef9bf368f384/abilities/ability2/displayicon.png"
+    },
+    {
+     "key": "X",
+     "name": "Armageddon",
+     "description": "EQUIP a tactical map. FIRE to set, pivot and FIRE again to cast a wave that deals high damage to all players. ALT FIRE to cancel targeting.",
+     "icon": "https://media.valorant-api.com/agents/b444168c-4e35-8076-db47-ef9bf368f384/abilities/ultimate/displayicon.png"
+    }
+   ]
+  },
+  {
+   "id": "92eeef5d-43b5-1d4a-8d03-b3927a09034b",
+   "slug": "veto",
+   "name": "Veto",
+   "description": "Empowered by an unstoppable DNA mutation, Senegalese enforcer Veto defies the rules of engagement by nullifying his opponent's powers and technology. On Veto's battlefield, gunplay is your only guarantee.",
+   "role": {
+    "name": "Sentinel",
+    "description": "Sentinels are defensive experts who can lock down areas and watch flanks, both on attacker and defender rounds.",
+    "icon": "https://media.valorant-api.com/agents/roles/5fc02f99-4091-4486-a531-98459a3e95e9/displayicon.png"
+   },
+   "thumb": "https://media.valorant-api.com/agents/92eeef5d-43b5-1d4a-8d03-b3927a09034b/minimapportrait.png",
+   "portrait": "https://media.valorant-api.com/agents/92eeef5d-43b5-1d4a-8d03-b3927a09034b/fullportrait.png",
+   "background": "https://media.valorant-api.com/agents/92eeef5d-43b5-1d4a-8d03-b3927a09034b/background.png",
+   "gradient": [
+    "#1a5d65ff",
+    "#0f1923ff",
+    "#0f1923ff",
+    "#1a5d65ff"
+   ],
+   "abilities": [
+    {
+     "key": "C",
+     "name": "Crosscut",
+     "description": "EQUIP a destructible Crosscut. FIRE to place. While in range, INTERACT to teleport to it.\n\nCan be recalled during BUY PHASE.",
+     "icon": "https://media.valorant-api.com/agents/92eeef5d-43b5-1d4a-8d03-b3927a09034b/abilities/grenade/displayicon.png"
+    },
+    {
+     "key": "Q",
+     "name": "Chokehold",
+     "description": "EQUIP a destructible Chokehold. FIRE to throw. Chokehold stealths after landing. Triggers on nearby visible enemies in range, deafening, decaying, and tethering enemies.\n\nCan be recalled during BUY PHASE.",
+     "icon": "https://media.valorant-api.com/agents/92eeef5d-43b5-1d4a-8d03-b3927a09034b/abilities/ability1/displayicon.png"
+    },
+    {
+     "key": "E",
+     "name": "Interceptor",
+     "description": "EQUIP a destructible Interceptor. FIRE to place. REACTIVATE to activate. While active, destroy any enemy utility that can be shot or would bounce off players in range and line of sight.\n\nCan be recalled.",
+     "icon": "https://media.valorant-api.com/agents/92eeef5d-43b5-1d4a-8d03-b3927a09034b/abilities/ability2/displayicon.png"
+    },
+    {
+     "key": "X",
+     "name": "Evolution",
+     "description": "INSTANTLY gain evolution.\n\nEvolution grants combat stim, continuous healing, and immunity to all debuffs and damage, except weapons.",
+     "icon": "https://media.valorant-api.com/agents/92eeef5d-43b5-1d4a-8d03-b3927a09034b/abilities/ultimate/displayicon.png"
+    }
+   ]
+  },
+  {
+   "id": "707eab51-4836-f488-046a-cda6bf494859",
+   "slug": "viper",
+   "name": "Viper",
+   "description": "The American Chemist, Viper deploys an array of poisonous chemical devices to control the battlefield and choke the enemy's vision. If the toxins don't kill her prey, her mindgames surely will.",
+   "role": {
+    "name": "Controller",
+    "description": "Controllers are experts in slicing up dangerous territory to set their team up for success.",
+    "icon": "https://media.valorant-api.com/agents/roles/4ee40330-ecdd-4f2f-98a8-eb1243428373/displayicon.png"
+   },
+   "thumb": "https://media.valorant-api.com/agents/707eab51-4836-f488-046a-cda6bf494859/minimapportrait.png",
+   "portrait": "https://media.valorant-api.com/agents/707eab51-4836-f488-046a-cda6bf494859/fullportrait.png",
+   "background": "https://media.valorant-api.com/agents/707eab51-4836-f488-046a-cda6bf494859/background.png",
+   "gradient": [
+    "#1a5f46ff",
+    "#0f1923ff",
+    "#2c4f5eff",
+    "#0f192300"
+   ],
+   "abilities": [
+    {
+     "key": "C",
+     "name": "Snake Bite",
+     "description": "EQUIP Snake Bite. FIRE to launch. On landing, create a zone that grants vulnerable and deals low damage to all players.",
+     "icon": "https://media.valorant-api.com/agents/707eab51-4836-f488-046a-cda6bf494859/abilities/grenade/displayicon.png"
+    },
+    {
+     "key": "Q",
+     "name": "Poison Cloud",
+     "description": "EQUIP Poison Cloud. FIRE to throw. ALT FIRE to lob. REACTIVATE to consume fuel to create a toxic smoke that decays enemies.\n\nCan be picked up during BUY PHASE.",
+     "icon": "https://media.valorant-api.com/agents/707eab51-4836-f488-046a-cda6bf494859/abilities/ability1/displayicon.png"
+    },
+    {
+     "key": "E",
+     "name": "Toxic Screen",
+     "description": "EQUIP Toxic Screen. FIRE to send forward and place a line of emitters. REACTIVATE to consume fuel to create a toxic vision-blocking wall that decays enemies.",
+     "icon": "https://media.valorant-api.com/agents/707eab51-4836-f488-046a-cda6bf494859/abilities/ability2/displayicon.png"
+    },
+    {
+     "key": "X",
+     "name": "Viper's Pit",
+     "description": "EQUIP Viper’s Pit. FIRE to form a large toxic vision-blocking cloud that decays enemies inside.\n\nHOLD ACTIVATE to cancel the cloud.",
+     "icon": "https://media.valorant-api.com/agents/707eab51-4836-f488-046a-cda6bf494859/abilities/ultimate/displayicon.png"
+    },
+    {
+     "key": "Passive",
+     "name": "Toxin",
+     "description": "Viper’s Toxin continuously inflicts decay when enemies come in contact. Passively recharge fuel over time.",
+     "icon": null
+    }
+   ]
+  },
+  {
+   "id": "efba5359-4016-a1e5-7626-b1ae76895940",
+   "slug": "vyse",
+   "name": "Vyse",
+   "description": "Metallic mastermind Vyse unleashes liquid metal to isolate, trap, and disarm her enemies. Through cunning and manipulation, she forces all who oppose her to fear the battlefield itself.",
+   "role": {
+    "name": "Sentinel",
+    "description": "Sentinels are defensive experts who can lock down areas and watch flanks, both on attacker and defender rounds.",
+    "icon": "https://media.valorant-api.com/agents/roles/5fc02f99-4091-4486-a531-98459a3e95e9/displayicon.png"
+   },
+   "thumb": "https://media.valorant-api.com/agents/efba5359-4016-a1e5-7626-b1ae76895940/minimapportrait.png",
+   "portrait": "https://media.valorant-api.com/agents/efba5359-4016-a1e5-7626-b1ae76895940/fullportrait.png",
+   "background": "https://media.valorant-api.com/agents/efba5359-4016-a1e5-7626-b1ae76895940/background.png",
+   "gradient": [
+    "#492280ff",
+    "#0f1923ff",
+    "#ffffffff",
+    "#0f192300"
+   ],
+   "abilities": [
+    {
+     "key": "C",
+     "name": "Razorvine",
+     "description": "EQUIP a destructible Razorvine. FIRE to throw. Razorvine stealths after landing. INTERACT to create a zone that slows and deals damage when players move through it.\n\nCan be recalled during BUY PHASE.",
+     "icon": "https://media.valorant-api.com/agents/efba5359-4016-a1e5-7626-b1ae76895940/abilities/grenade/displayicon.png"
+    },
+    {
+     "key": "Q",
+     "name": "Shear",
+     "description": "EQUIP Shear. FIRE to place. Shear stealths after placement. Triggers when enemies walk on it, and after a delay, create a brief indestructible wall.\n\nCan be recalled during BUY PHASE.",
+     "icon": "https://media.valorant-api.com/agents/efba5359-4016-a1e5-7626-b1ae76895940/abilities/ability1/displayicon.png"
+    },
+    {
+     "key": "E",
+     "name": "Arc Rose",
+     "description": "EQUIP a destructible Arc Rose. FIRE to place. ALT FIRE to place it through a wall. REACTIVATE to flash all players looking at it. \n\nCan be recalled.",
+     "icon": "https://media.valorant-api.com/agents/efba5359-4016-a1e5-7626-b1ae76895940/abilities/ability2/displayicon.png"
+    },
+    {
+     "key": "X",
+     "name": "Steel Garden",
+     "description": "EQUIP Steel Garden. FIRE to prepare a zone. After a delay, jam enemy primary weapons within range.",
+     "icon": "https://media.valorant-api.com/agents/efba5359-4016-a1e5-7626-b1ae76895940/abilities/ultimate/displayicon.png"
+    }
+   ]
+  },
+  {
+   "id": "df1cb487-4902-002e-5c17-d28e83e78588",
+   "slug": "waylay",
+   "name": "Waylay",
+   "description": "Thailand's prismatic radiant Waylay transforms into light itself as she darts across the battlefield, striking down her targets through shards of light before flitting back to safety, all in the blink of an eye.",
+   "role": {
+    "name": "Duelist",
+    "description": "Duelists are self-sufficient fraggers who their team expects, through abilities and skills, to get high frags and seek out engagements first.",
+    "icon": "https://media.valorant-api.com/agents/roles/dbe8757e-9e92-4ed4-b39f-9dfc589691d4/displayicon.png"
+   },
+   "thumb": "https://media.valorant-api.com/agents/df1cb487-4902-002e-5c17-d28e83e78588/minimapportrait.png",
+   "portrait": "https://media.valorant-api.com/agents/df1cb487-4902-002e-5c17-d28e83e78588/fullportrait.png",
+   "background": "https://media.valorant-api.com/agents/df1cb487-4902-002e-5c17-d28e83e78588/background.png",
+   "gradient": [
+    "#482e61ff",
+    "#0f1923ff",
+    "#0f1923ff",
+    "#482e61ff"
+   ],
+   "abilities": [
+    {
+     "key": "C",
+     "name": "Saturate",
+     "description": "EQUIP Saturate. FIRE to throw. Explodes on landing, hindering all players.",
+     "icon": "https://media.valorant-api.com/agents/df1cb487-4902-002e-5c17-d28e83e78588/abilities/grenade/displayicon.png"
+    },
+    {
+     "key": "Q",
+     "name": "Lightspeed",
+     "description": "EQUIP Lightspeed. FIRE to dash forward twice. ALT FIRE to dash forward once.\n\nOnly the first dash can launch upward.",
+     "icon": "https://media.valorant-api.com/agents/df1cb487-4902-002e-5c17-d28e83e78588/abilities/ability1/displayicon.png"
+    },
+    {
+     "key": "E",
+     "name": "Refract",
+     "description": "INSTANTLY place a marker at your location. REACTIVATE to travel to it. While traveling, Waylay is immune but cannot see enemies.\n\nResets every two kills.",
+     "icon": "https://media.valorant-api.com/agents/df1cb487-4902-002e-5c17-d28e83e78588/abilities/ability2/displayicon.png"
+    },
+    {
+     "key": "X",
+     "name": "Convergent Paths",
+     "description": "EQUIP Convergent Paths. FIRE to gain haste and send forward a zone that hinders all players.",
+     "icon": "https://media.valorant-api.com/agents/df1cb487-4902-002e-5c17-d28e83e78588/abilities/ultimate/displayicon.png"
+    }
+   ]
+  },
+  {
+   "id": "7f94d92c-4234-0a36-9646-3a87eb8b5c89",
+   "slug": "yoru",
+   "name": "Yoru",
+   "description": "Japanese native Yoru rips holes straight through reality to infiltrate enemy lines unseen. Using deception and aggression in equal measure, he gets the drop on each target before they know where to look.",
+   "role": {
+    "name": "Duelist",
+    "description": "Duelists are self-sufficient fraggers who their team expects, through abilities and skills, to get high frags and seek out engagements first.",
+    "icon": "https://media.valorant-api.com/agents/roles/dbe8757e-9e92-4ed4-b39f-9dfc589691d4/displayicon.png"
+   },
+   "thumb": "https://media.valorant-api.com/agents/7f94d92c-4234-0a36-9646-3a87eb8b5c89/minimapportrait.png",
+   "portrait": "https://media.valorant-api.com/agents/7f94d92c-4234-0a36-9646-3a87eb8b5c89/fullportrait.png",
+   "background": "https://media.valorant-api.com/agents/7f94d92c-4234-0a36-9646-3a87eb8b5c89/background.png",
+   "gradient": [
+    "#222b67ff",
+    "#0f1923ff",
+    "#261e4fff",
+    "#0f192300"
+   ],
+   "abilities": [
+    {
+     "key": "C",
+     "name": "FAKEOUT",
+     "description": "EQUIP Fakeout. FIRE to send a destructible clone forward. ALT FIRE to place a marker at your location. INTERACT to transform the marker into a clone.\n\nClones continuously walk forward and will turn toward the first enemy that shoots it, flashing all players looking at it.",
+     "icon": "https://media.valorant-api.com/agents/7f94d92c-4234-0a36-9646-3a87eb8b5c89/abilities/grenade/displayicon.png"
+    },
+    {
+     "key": "Q",
+     "name": "BLINDSIDE",
+     "description": "EQUIP Blindside. FIRE to throw. After bouncing off a surface, explode, flashing all players looking at it.",
+     "icon": "https://media.valorant-api.com/agents/7f94d92c-4234-0a36-9646-3a87eb8b5c89/abilities/ability1/displayicon.png"
+    },
+    {
+     "key": "E",
+     "name": "GATECRASH",
+     "description": "EQUIP Gatecrash. FIRE to send it forward. ALT FIRE to place. REACTIVATE to teleport to it. INTERACT to fake a teleport.\n\nResets every two kills.",
+     "icon": "https://media.valorant-api.com/agents/7f94d92c-4234-0a36-9646-3a87eb8b5c89/abilities/ability2/displayicon.png"
+    },
+    {
+     "key": "X",
+     "name": "DIMENSIONAL DRIFT",
+     "description": "EQUIP Dimensional Drift. FIRE to become intangible and invisible. Gatecrash is accessible during this state. REACTIVATE to exit early.",
+     "icon": "https://media.valorant-api.com/agents/7f94d92c-4234-0a36-9646-3a87eb8b5c89/abilities/ultimate/displayicon.png"
+    }
+   ]
+  }
+ ]
+}

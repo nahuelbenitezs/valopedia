@@ -1,0 +1,14 @@
+{
+ "version": {
+  "version": "13.09.00.5804228",
+  "patch": "13.09",
+  "buildDate": "2026-10-28T06:11:26Z"
+ },
+ "generatedAt": "2026-11-06T02:15:39.943Z",
+ "counts": {
+  "agents": 30,
+  "abilities": 130,
+  "maps": 18,
+  "weapons": 21
+ }
+}
