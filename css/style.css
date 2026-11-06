@@ -77,19 +77,14 @@ a { color: var(--accent-text); }
     border-bottom: 1px solid var(--line);
 }
 
-/* logo-nombre.png has wide transparent margins, so the box crops to the artwork. */
+/* A plain wordmark: Riot's policy doesn't allow using its logos without a license. */
 .logo {
-    display: block;
     flex: none;
-    width: 170px;
-    aspect-ratio: 1245 / 340;
-    overflow: hidden;
-    border-radius: 2px;
-}
-.logo img {
-    width: 160.65%;
-    max-width: none;
-    margin: -22.9% 0 0 -30.9%;
+    color: var(--accent-text);
+    font: 2rem/1 var(--display);
+    letter-spacing: .04em;
+    text-decoration: none;
+    text-transform: uppercase;
 }
 
 .site-nav ul { display: flex; align-items: center; gap: .25rem; }
@@ -177,7 +172,7 @@ a { color: var(--accent-text); }
 @media (max-width: 767px) {
     .lang-switch { order: 1; margin-left: auto; }
     .menu-toggle { order: 2; flex: none; }
-    .logo { width: clamp(110px, 34vw, 170px); }
+    .logo { font-size: clamp(1.5rem, 7vw, 2rem); }
 }
 
 /* Data status */
