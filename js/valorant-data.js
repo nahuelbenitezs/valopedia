@@ -54,7 +54,7 @@ function normalizeAgent(raw) {
         name: raw.displayName,
         description: stripMarkup(raw.description),
         role: {
-            name: raw.role?.displayName ?? 'Unknown',
+            name: raw.role?.displayName ?? null,
             description: stripMarkup(raw.role?.description),
             icon: safeUrl(raw.role?.displayIcon),
         },
@@ -130,6 +130,7 @@ export const COLLECTIONS = {
     agents: {
         path: (language) => `/agents?isPlayableCharacter=true&language=${language}`,
         minItems: 20,
+        isComplete: (agent) => agent.description && agent.role.name && agent.abilities.length >= 4,
         normalize: (data) => data
             .filter((agent) => agent.isPlayableCharacter)
             .map(normalizeAgent)
@@ -138,6 +139,7 @@ export const COLLECTIONS = {
     maps: {
         path: (language) => `/maps?language=${language}`,
         minItems: 7,
+        isComplete: (map) => map.minimap && map.banner,
         // Only real maps have a minimap. That leaves out The Range, Basic
         // Training and the Skirmish arenas.
         normalize: (data) => data
@@ -148,6 +150,8 @@ export const COLLECTIONS = {
     weapons: {
         path: (language) => `/weapons?language=${language}`,
         minItems: 15,
+        // Melee is the one weapon without stats.
+        isComplete: (weapon) => weapon.category === 'Melee' || weapon.stats?.damage.length > 0,
         normalize: (data) => data
             .map(normalizeWeapon)
             .sort((a, b) => (a.cost ?? 0) - (b.cost ?? 0) || byName(a, b)),
@@ -157,12 +161,13 @@ export const COLLECTIONS = {
 // Rejects anything the pages could not render, so a broken response from the
 // source never replaces good data.
 export function assertValidItems(name, items) {
-    const { minItems } = COLLECTIONS[name];
+    const { minItems, isComplete } = COLLECTIONS[name];
     if (!Array.isArray(items) || items.length < minItems) {
         throw new Error(`${name}: expected at least ${minItems} items, got ${items?.length ?? 'none'}`);
     }
-    const broken = items.find((item) => !item.id || !item.name || !item.slug);
-    if (broken) throw new Error(`${name}: item without id or name: ${JSON.stringify(broken).slice(0, 120)}`);
+    // A renamed field upstream would still return the right number of items.
+    const broken = items.find((item) => !item.id || !item.name || !item.slug || !isComplete(item));
+    if (broken) throw new Error(`${name}: incomplete item: ${JSON.stringify(broken).slice(0, 120)}`);
     return items;
 }
 

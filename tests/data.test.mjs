@@ -21,6 +21,8 @@ const rawAgent = (name) => ({
     role: { displayName: 'Duelist', description: 'Role', displayIcon: null },
     abilities: [
         { slot: 'Ultimate', displayName: 'Ult', description: 'Big', displayIcon: null },
+        { slot: 'Ability2', displayName: 'Two', description: 'E', displayIcon: null },
+        { slot: 'Ability1', displayName: 'One', description: 'Q', displayIcon: null },
         { slot: 'Grenade', displayName: 'Gren', description: '<whitebold>Throw</> it.\r\n\r\nTwice.', displayIcon: 'https://media.example/a.png' },
     ],
 });
@@ -101,7 +103,7 @@ test('stripMarkup removes game markup and normalizes line breaks', () => {
 test('agents: abilities sorted in key order, only https images, only hex gradients', () => {
     const [agent] = COLLECTIONS.agents.normalize([rawAgent('KAY/O')]);
     assert.equal(agent.slug, 'kayo');
-    assert.deepEqual(agent.abilities.map((a) => a.key), ['C', 'X']);
+    assert.deepEqual(agent.abilities.map((a) => a.key), ['C', 'Q', 'E', 'X']);
     assert.equal(agent.abilities[0].description, 'Throw it.\n\nTwice.');
     assert.equal(agent.thumb, 'https://media.example/small.png');
     assert.equal(agent.portrait, null);
@@ -214,7 +216,7 @@ test('updateData: writes once, then a second run with the same data changes noth
     await withTempDir(async (outDir) => {
         const first = await updateData({ outDir, fetchImpl: sourceFetch(), now: () => new Date('2026-11-05T00:00:00Z') });
         assert.equal(first.changed, true);
-        assert.deepEqual(first.counts, { agents: 25, abilities: 50, maps: 10, weapons: 18 });
+        assert.deepEqual(first.counts, { agents: 25, abilities: 100, maps: 10, weapons: 18 });
         const before = await readFile(path.join(outDir, 'en-US', 'agents.json'), 'utf8');
 
         const second = await updateData({ outDir, fetchImpl: sourceFetch(), now: () => new Date('2026-11-06T00:00:00Z') });
@@ -230,6 +232,21 @@ test('updateData: writes one copy per language', async () => {
             const saved = JSON.parse(await readFile(path.join(outDir, language, 'maps.json'), 'utf8'));
             assert.equal(saved.language, language);
         }
+    });
+});
+
+test('updateData: a hollow response with the right count leaves the saved copy untouched', async () => {
+    await withTempDir(async (outDir) => {
+        await updateData({ outDir, fetchImpl: sourceFetch() });
+        const before = await readFile(path.join(outDir, 'en-US', 'agents.json'), 'utf8');
+        const newPatch = { ...liveData['/version'], version: '13.10.00.1', branch: 'release-13.10' };
+        const hollowAgents = liveData['/agents'].map(({ abilities, ...agent }) => agent);
+
+        await assert.rejects(
+            updateData({ outDir, fetchImpl: sourceFetch({ ...liveData, '/version': newPatch, '/agents': hollowAgents }) }),
+            /incomplete item/,
+        );
+        assert.equal(await readFile(path.join(outDir, 'en-US', 'agents.json'), 'utf8'), before);
     });
 });
 

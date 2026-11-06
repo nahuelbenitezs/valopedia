@@ -32,19 +32,22 @@ jobs:
       - name: Refresh the saved copy
         run: npm run update-data
 
-      - name: Commit and publish if the data changed
+      - name: Commit changed data and publish
         env:
           GH_TOKEN: ${{ github.token }}
         run: |
           git add data
           if git diff --cached --quiet; then
             echo "Data unchanged."
-            exit 0
+          else
+            git config user.name "github-actions[bot]"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git commit -m "Update Valorant data"
+            git push
           fi
-          git config user.name "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git commit -m "Update Valorant data"
-          git push
           # Pushes made with GITHUB_TOKEN may not start a Pages build by
-          # themselves, so ask for one explicitly.
-          gh api --method POST "repos/${GITHUB_REPOSITORY}/pages/builds"
+          # themselves. Checking on every run also recovers from a failed request.
+          built="$(gh api "repos/${GITHUB_REPOSITORY}/pages/builds/latest" --jq .commit)"
+          if [ "$built" != "$(git rev-parse HEAD)" ]; then
+            gh api --method POST "repos/${GITHUB_REPOSITORY}/pages/builds"
+          fi

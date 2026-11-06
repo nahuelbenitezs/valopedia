@@ -30,11 +30,15 @@ function renderDetail(detail, agent) {
 }
 
 function render(container, agents) {
-    const wanted = location.hash.slice(1);
     const previous = container.querySelector('.agent-thumb[aria-checked="true"]')?.dataset.slug;
-    const found = agents.findIndex((agent) => agent.slug === (wanted || previous));
+    // The hash can also be #main, from the skip link, which is not an agent.
+    const found = [location.hash.slice(1), previous]
+        .map((slug) => agents.findIndex((agent) => agent.slug === slug))
+        .find((index) => index !== -1) ?? 0;
+    // A live update replaces the wheel, which must not drop keyboard focus.
+    const hadFocus = Boolean(document.activeElement?.closest('.agent-ring'));
     const step = 360 / agents.length;
-    let selected = Math.max(found, 0);
+    let selected = found;
     let rotation = -selected * step;
 
     const detail = h('div', { class: 'agent-detail', 'aria-live': 'polite' });
@@ -124,6 +128,7 @@ function render(container, agents) {
     stage.append(detail, area);
     container.replaceChildren(stage);
     paintAgent(true);
+    if (hadFocus) thumbs[selected].focus({ preventScroll: true });
 
     followHash = () => {
         const index = agents.findIndex((agent) => agent.slug === location.hash.slice(1));
