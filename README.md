@@ -9,8 +9,8 @@ Wiki de VALORANT hecha por fans, en español e inglés, con agentes, habilidades
 El sitio es estático (GitHub Pages, sin servidor) y combina tres capas:
 
 1. **Copia guardada en `data/`.** Una GitHub Action corre cada 6 horas, baja los datos de [valorant-api.com](https://valorant-api.com/), los valida y hace commit solo si cambiaron. Cada página arranca mostrando esta copia, que es rápida y no depende de nadie.
-2. **Control en vivo.** Después, el navegador pide `/v1/version` a la fuente, una respuesta de menos de 1 KB. Si el parche coincide con la copia, no pide nada más.
-3. **Datos en vivo.** Si salió un parche que la Action todavía no levantó, el navegador baja esa sección directo de la fuente y la reemplaza en pantalla.
+2. **Control en vivo.** Después, el navegador pide `/v1/version` a la fuente, una respuesta de menos de 1 KB. Si la versión coincide con la copia, no pide nada más. Compara la versión completa y no solo el parche, para captar también una compilación nueva dentro del mismo parche.
+3. **Datos en vivo.** Si salió una versión que la Action todavía no levantó, el navegador baja esa sección directo de la fuente y la reemplaza en pantalla.
 
 | Situación | Qué ve la persona |
 | --- | --- |
@@ -21,7 +21,7 @@ El sitio es estático (GitHub Pages, sin servidor) y combina tres capas:
 | Fallan la fuente y la copia | Un mensaje de error con botón para reintentar |
 | No cargan las imágenes | Un recuadro con la inicial en lugar de la imagen rota |
 
-La Action no pisa la copia si la respuesta viene rota, trae muy pocos elementos o una lista se achicó más de un 30 %. En esos casos el workflow falla y GitHub lo avisa.
+La Action no pisa la copia si la respuesta viene rota, trae muy pocos elementos, tiene elementos incompletos (por ejemplo, un agente sin habilidades) o una lista se achicó más de un 30 %. En esos casos el workflow falla y GitHub lo avisa.
 
 ## Idiomas
 
@@ -50,7 +50,7 @@ Revisado el 5 de noviembre de 2026.
 - **Límites de uso:** no publica ninguno. El sitio igual la consulta lo mínimo posible.
 - **Caché:** las respuestas de la API se guardan hasta 4 horas (`max-age=14400`) y las imágenes hasta 14 días, así que un parche puede tardar unas horas en verse.
 - **Imágenes:** siempre salen de `media.valorant-api.com`. La copia de `data/` guarda solo los textos y las direcciones, así que si ese servidor cae el texto sigue y las imágenes muestran el recuadro de reemplazo.
-- **Peso:** `/v1/weapons` pesa unos 3,6 MB sin comprimir porque incluye todas las skins. La copia guardada, sin skins, pesa unos 16 KB por idioma, y por eso la versión en vivo se pide solo si hace falta.
+- **Peso:** `/v1/weapons` pesa unos 3,6 MB sin comprimir porque incluye todas las skins. La copia guardada, sin skins, pesa unos 12 KB por idioma, y por eso la versión en vivo se pide solo si hace falta.
 - **Datos que no ofrece:** los mapas no traen descripción (`narrativeDescription` viene vacío) y la API no indica qué mapas están en rotación. Por eso el sitio no muestra ninguna de las dos cosas.
 - **Regla propia:** se consideran mapas los que tienen minimapa, lo que deja afuera The Range, Basic Training y las arenas de Skirmish. "Other game modes" agrupa los que no tienen sitios de bomba.
 

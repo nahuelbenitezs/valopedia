@@ -153,8 +153,10 @@ function initLanguageSwitch() {
         button.setAttribute('aria-pressed', String(lang === currentLanguage()));
         button.addEventListener('click', () => {
             if (lang === currentLanguage()) return;
-            setLanguage(lang);
-            location.reload();
+            const target = setLanguage(lang);
+            // assign() doesn't reload when the address stays the same.
+            if (target === location.href) location.reload();
+            else location.assign(target);
         });
     }
 }

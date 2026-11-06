@@ -23,6 +23,9 @@ function renderAgent(agent) {
         h('ul', { class: 'ability-list' }, agent.abilities.map(renderAbility)));
 }
 
+// A live update re-renders the page, which must not move someone already reading.
+let followedHash = false;
+
 function render(container, agents) {
     container.replaceChildren(
         h('h1', { class: 'page-title' }, t('abilities.title')),
@@ -31,7 +34,8 @@ function render(container, agents) {
         ...agents.map(renderAgent),
     );
     // The sections did not exist yet when the browser tried to follow the hash.
-    if (location.hash) document.getElementById(location.hash.slice(1))?.scrollIntoView();
+    if (location.hash && !followedHash) document.getElementById(location.hash.slice(1))?.scrollIntoView();
+    followedHash = true;
 }
 
 mountCollection({ name: 'agents', labelKey: 'label.abilities', render });

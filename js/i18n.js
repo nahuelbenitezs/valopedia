@@ -8,6 +8,7 @@ export const LANGUAGES = {
 };
 
 const STORAGE_KEY = 'valopedia-language';
+const URL_PARAM = 'lang';
 
 export const STRINGS = {
     en: {
@@ -168,23 +169,33 @@ function storedLanguage() {
     try {
         return localStorage.getItem(STORAGE_KEY);
     } catch {
-        return null; // Storage can be blocked. The choice just won't persist.
+        return null; // Storage can be blocked. See setLanguage.
     }
 }
 
-// Saved choice first, then the browser's language, then English.
+function urlLanguage() {
+    return new URLSearchParams(globalThis.location?.search ?? '').get(URL_PARAM);
+}
+
+// Explicit choice first, then the browser's language, then English.
 export function currentLanguage() {
-    const saved = storedLanguage();
-    if (saved && LANGUAGES[saved]) return saved;
+    for (const chosen of [urlLanguage(), storedLanguage()]) {
+        if (chosen && LANGUAGES[chosen]) return chosen;
+    }
     return globalThis.navigator?.language?.toLowerCase().startsWith('es') ? 'es' : 'en';
 }
 
+// Returns the address to load. With storage blocked the choice goes in the URL,
+// so the switch still works on this page even though it can't persist.
 export function setLanguage(language) {
+    const url = new URL(location.href);
+    url.searchParams.delete(URL_PARAM);
     try {
         localStorage.setItem(STORAGE_KEY, language);
     } catch {
-        // See storedLanguage.
+        url.searchParams.set(URL_PARAM, language);
     }
+    return url.href;
 }
 
 export function apiLanguage() {
