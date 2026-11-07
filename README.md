@@ -4,6 +4,14 @@ Wiki de VALORANT hecha por fans, en español e inglés, con agentes, habilidades
 
 **Sitio:** https://nahuelbenitezs.github.io/valopedia/
 
+## Cómo se usa
+
+- **Rueda de agentes:** se arrastra para girarla, se toca una cara o se usan las flechas del teclado.
+- **Habilidades:** en la ficha de un agente, con el foco dentro del panel, las teclas C, Q, E y X muestran cada una, como en el juego.
+- **Agente del día:** el inicio muestra uno distinto cada día, elegido de los datos del juego.
+
+Todo funciona sin bibliotecas: las animaciones y las transiciones entre páginas son de CSS y se desactivan si el sistema pide reducir el movimiento.
+
 ## Cómo se mantiene actualizada
 
 El sitio es estático (GitHub Pages, sin servidor) y combina tres capas:

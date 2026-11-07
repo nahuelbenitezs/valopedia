@@ -1,5 +1,6 @@
-/* Radius rule: interactive pieces are full pills, content blocks are 8px. */
+/* Shape rule: sharp corners and notched panels. Circles only on the agent wheel. */
 :root {
+    --notch: polygon(0 0, calc(100% - 14px) 0, 100% 14px, 100% 100%, 14px 100%, 0 calc(100% - 14px));
     color-scheme: dark;
     --bg: #00121a;
     --surface: #0a2531;
@@ -54,7 +55,7 @@ a { color: var(--accent-text); }
     left: .5rem;
     z-index: 30;
     padding: .5rem 1rem;
-    border-radius: 999px;
+    border-radius: 2px;
     background: var(--accent);
     color: var(--on-accent);
     font-weight: 700;
@@ -91,7 +92,7 @@ a { color: var(--accent-text); }
 .site-nav a {
     display: block;
     padding: .55rem 1.1rem;
-    border-radius: 999px;
+    border-radius: 2px;
     color: var(--text);
     font-weight: 600;
     text-decoration: none;
@@ -109,7 +110,7 @@ a { color: var(--accent-text); }
     height: 48px;
     padding: 0;
     border: 1px solid var(--line);
-    border-radius: 999px;
+    border-radius: 2px;
     background: var(--surface);
     cursor: pointer;
 }
@@ -148,13 +149,13 @@ a { color: var(--accent-text); }
     .site-nav a { padding: .8rem 1.1rem; }
 }
 
-.lang-switch { display: flex; flex: none; gap: 2px; padding: 2px; border: 1px solid var(--line); border-radius: 999px; }
+.lang-switch { display: flex; flex: none; gap: 2px; padding: 2px; border: 1px solid var(--line); border-radius: 2px; }
 .lang-switch button {
     min-width: 40px;
     min-height: 40px;
     padding: 0 .4rem;
     border: 0;
-    border-radius: 999px;
+    border-radius: 2px;
     background: transparent;
     color: var(--text);
     font: inherit;
@@ -195,9 +196,11 @@ a { color: var(--accent-text); }
 /* Buttons */
 .button {
     display: inline-block;
+    clip-path: var(--notch);
+    outline-offset: -5px;
     padding: .8rem 2.25rem;
     border: 0;
-    border-radius: 999px;
+    border-radius: 2px;
     background: var(--accent);
     color: var(--on-accent);
     font: inherit;
@@ -217,7 +220,7 @@ a { color: var(--accent-text); }
     gap: 1rem;
     padding: 1.5rem var(--gutter);
 }
-.skeleton { height: 180px; border-radius: 8px; background: var(--surface); }
+.skeleton { height: 180px; border-radius: 2px; background: var(--surface); }
 @media (prefers-reduced-motion: no-preference) {
     .skeleton { animation: pulse 1.4s ease-in-out infinite; }
     @keyframes pulse { 50% { background: var(--surface-2); } }
@@ -231,7 +234,7 @@ a { color: var(--accent-text); }
     margin: 3rem var(--gutter);
     padding: 1.5rem;
     border: 1px solid var(--line);
-    border-radius: 8px;
+    border-radius: 2px;
     background: var(--surface);
 }
 .state-error h2 { font-size: 2rem; }
@@ -242,7 +245,7 @@ a { color: var(--accent-text); }
     place-items: center;
     min-width: 2.5rem;
     min-height: 2.5rem;
-    border-radius: 8px;
+    border-radius: 2px;
     background: var(--surface-2);
     color: var(--muted);
     font: 1.5rem var(--display);
@@ -270,54 +273,117 @@ a { color: var(--accent-text); }
     font-size: 1.9rem;
 }
 
-/* Home */
+/* Home: a poster, inspired by the oversized type on award-winning game sites. */
 .hero {
+    --agent-a: #0a2531;
+    --agent-b: #00121a;
+    --agent-c: #123442;
+    position: relative;
     display: grid;
-    align-items: center;
-    justify-items: end;
-    min-height: min(72dvh, 640px);
-    padding: 2rem var(--gutter);
-    background: var(--bg) url(../img/Background-page.jpg) left center / cover no-repeat;
+    grid-template-columns: minmax(0, 1fr) auto;
+    align-items: end;
+    gap: 1.5rem;
+    min-height: calc(100dvh - var(--header-height) - 2rem);
+    padding: 1.5rem var(--gutter) 2rem;
+    overflow: hidden;
+    background: linear-gradient(120deg, var(--agent-a), var(--agent-b) 60%, var(--agent-c));
 }
+.hero-word {
+    position: absolute;
+    inset: 1rem 0 auto;
+    color: var(--accent);
+    font: 25.5vw/.85 var(--display);
+    text-align: center;
+    text-transform: uppercase;
+    white-space: nowrap;
+    user-select: none;
+}
+.hero-agent {
+    position: absolute;
+    inset: 4% 0 0;
+    display: grid;
+    place-items: end center;
+    pointer-events: none;
+}
+.hero-agent img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: contain; object-position: center bottom; }
 .hero-text {
+    position: relative;
     display: grid;
     justify-items: start;
-    gap: 1.25rem;
-    width: min(100%, 34rem);
+    gap: .9rem;
+    max-width: 27rem;
 }
-.hero h1 { font-size: clamp(3rem, 6.5vw, 5.25rem); line-height: 1; }
-.hero p { max-width: 30rem; color: var(--muted); font-size: 1.2rem; }
-
-.home-links {
+.hero h1 { font-size: clamp(2.25rem, 3.6vw, 3.5rem); line-height: 1; }
+.hero-text p { color: var(--text); font-size: 1.1rem; }
+.hero-agent-link {
+    position: relative;
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    gap: 1px;
-    background: var(--line);
-    border-block: 1px solid var(--line);
-}
-.home-links a {
-    display: block;
-    height: 100%;
-    padding: 1.25rem var(--gutter);
-    background: var(--bg);
+    justify-items: end;
     color: var(--text);
-    font: 1.6rem var(--display);
+    font-size: .95rem;
     text-decoration: none;
-    transition: background-color .15s;
 }
-.home-links a:hover { background: var(--surface); }
-.home-links strong { display: block; color: var(--accent-text); font-size: 3rem; font-weight: 400; line-height: 1; min-height: 1em; }
+.hero-agent-link[hidden] { display: none; }
+.hero-agent-link strong {
+    color: var(--accent-text);
+    font: 400 2.5rem/1 var(--display);
+    text-decoration: underline;
+    text-decoration-thickness: 2px;
+    text-underline-offset: .15em;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+    .hero-word { animation: rise .7s cubic-bezier(.22, 1, .36, 1) both; }
+    .hero-agent img { animation: wipe-in .7s .1s cubic-bezier(.22, 1, .36, 1) both; }
+    .hero-text { animation: rise .6s .25s cubic-bezier(.22, 1, .36, 1) both; }
+}
+
+.marquee {
+    display: flex;
+    overflow: hidden;
+    border-block: 1px solid var(--line);
+    background: var(--accent);
+    color: var(--on-accent);
+    font: 1.5rem/2.5rem var(--display);
+    white-space: nowrap;
+}
+.marquee:empty { display: none; }
+.marquee > div { display: flex; flex: none; }
+.marquee span { padding-inline: 1rem; }
+@media (prefers-reduced-motion: no-preference) {
+    .marquee > div { animation: marquee 60s linear infinite; }
+    @keyframes marquee { to { transform: translateX(-100%); } }
+}
+
+.home-index a {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    gap: 1rem;
+    padding: .6rem var(--gutter);
+    border-bottom: 1px solid var(--line);
+    background: linear-gradient(90deg, var(--accent) 50%, transparent 50%) right / 200% 100% no-repeat;
+    color: var(--text);
+    font: clamp(3rem, 11vw, 9rem)/1 var(--display);
+    text-decoration: none;
+    transition: background-position .35s cubic-bezier(.22, 1, .36, 1), color .2s;
+}
+.home-index a:hover, .home-index a:focus-visible { background-position: left; color: var(--on-accent); }
+.home-index strong { color: inherit; font-weight: 400; opacity: .75; }
 
 @media (max-width: 767px) {
     .hero {
-        justify-items: start;
-        align-items: end;
-        min-height: 78dvh;
-        background-position: left top;
-        background-size: auto 62%;
+        grid-template-columns: minmax(0, 1fr);
+        min-height: calc(100dvh - var(--header-height) - 2rem);
     }
-    .home-links { grid-template-columns: repeat(2, 1fr); }
+    .hero-agent { inset: 9vw 0 auto; height: 50dvh; }
+    .hero-text { padding-top: 56dvh; max-width: none; }
+    .hero-agent-link { position: absolute; top: 38dvh; right: var(--gutter); text-shadow: 0 1px 8px var(--bg); }
+    .hero-agent-link strong { font-size: 2rem; }
 }
+
+@keyframes rise { from { opacity: 0; transform: translateY(24px); } }
+@keyframes wipe-in { from { clip-path: inset(100% 0 0 0); } to { clip-path: inset(-10% -10% 0 -10%); } }
 
 /* Agents */
 .agent-stage {
@@ -325,15 +391,17 @@ a { color: var(--accent-text); }
     --agent-b: #00121a;
     --agent-c: #123442;
     display: grid;
-    grid-template-columns: minmax(0, 5fr) minmax(0, 6fr);
+    grid-template-columns: minmax(0, 1fr) auto clamp(4rem, 8vw, 7.5rem);
     align-items: center;
-    gap: 1rem;
-    padding: .5rem var(--gutter);
+    gap: 1.5rem;
+    min-height: calc(100dvh - var(--header-height) - 2rem);
+    padding: .75rem 0 .75rem var(--gutter);
     overflow: hidden;
     background: linear-gradient(120deg, var(--agent-a), var(--agent-b) 55%, var(--agent-c));
 }
-.agent-detail { display: grid; justify-items: start; gap: .9rem; }
-.agent-name { font-size: clamp(4rem, 10vw, 8rem); line-height: .9; }
+.agent-detail { display: grid; justify-items: start; gap: .75rem; max-width: 36rem; }
+.agent-name { overflow: hidden; font-size: clamp(4rem, 9vw, 8rem); line-height: .95; }
+.agent-name span { display: block; }
 .agent-role {
     display: flex;
     align-items: center;
@@ -342,13 +410,53 @@ a { color: var(--accent-text); }
     font: 1.6rem var(--display);
     letter-spacing: .04em;
 }
-.agent-bio { max-width: 34rem; font-size: 1.1rem; }
-.agent-role-note { max-width: 34rem; color: var(--muted); }
+.agent-bio { font-size: 1.05rem; }
+
+/* The name as a poster strip down the edge of the stage. */
+.agent-vertical {
+    align-self: stretch;
+    overflow: hidden;
+    padding-block: 1rem;
+    background: var(--accent);
+    color: var(--on-accent);
+    font: clamp(4rem, 8vw, 7.5rem)/1 var(--display);
+    text-align: center;
+    text-transform: uppercase;
+    white-space: nowrap;
+    writing-mode: vertical-rl;
+    user-select: none;
+}
+
+.ability-picker { display: grid; gap: .6rem; width: 100%; }
+.ability-picks { display: flex; flex-wrap: wrap; gap: .4rem; }
+.ability-pick {
+    display: grid;
+    justify-items: center;
+    align-content: center;
+    gap: .15rem;
+    min-width: 58px;
+    min-height: 58px;
+    padding: .3rem .4rem;
+    border: 1px solid var(--line);
+    border-radius: 2px;
+    background: rgb(0 18 26 / .6);
+    color: var(--text);
+    font: inherit;
+    font-size: .8rem;
+    font-weight: 700;
+    cursor: pointer;
+    transition: background-color .15s, border-color .15s;
+}
+.ability-pick img { width: 30px; height: 30px; }
+.ability-pick:hover { border-color: var(--text); }
+.ability-pick[aria-pressed="true"] { border-color: var(--accent-text); background: var(--surface-2); color: var(--accent-text); }
+.ability-panel { display: grid; gap: .25rem; min-height: 7.5rem; font-size: .98rem; }
+.ability-panel h2 { color: var(--accent-text); font-size: 1.5rem; }
 
 /* The wheel. Its size and the agent count set the thumb size, so a new agent
    makes the thumbs slightly smaller instead of breaking the ring. */
 .agent-wheel-area {
-    --wheel: clamp(480px, 82dvh, 640px);
+    --wheel: clamp(460px, min(calc(100dvh - var(--header-height) - 3.5rem), 44vw), 680px);
     --radius: calc(var(--wheel) / 2 - 34px);
     position: relative;
     justify-self: center;
@@ -356,12 +464,17 @@ a { color: var(--accent-text); }
     height: var(--wheel);
     overflow: hidden;
     touch-action: pan-y;
+    cursor: grab;
+    user-select: none;
 }
+.agent-wheel-area.is-dragging { cursor: grabbing; }
+.agent-wheel-area img { -webkit-user-drag: none; }
 .agent-art {
     position: absolute;
     inset: 13%;
     display: grid;
     place-items: center;
+    pointer-events: none;
 }
 .agent-art-word {
     position: absolute;
@@ -391,7 +504,7 @@ a { color: var(--accent-text); }
     padding: 0;
     overflow: hidden;
     border: 2px solid var(--line);
-    border-radius: 999px;
+    border-radius: 50%;
     background: var(--surface);
     cursor: pointer;
     /* Counter-rotates so each face stays upright while the ring turns. */
@@ -409,7 +522,7 @@ a { color: var(--accent-text); }
     height: 48px;
     padding: 0;
     border: 1px solid var(--line);
-    border-radius: 999px;
+    border-radius: 50%;
     background: rgb(0 18 26 / .85);
     color: var(--text);
     font: 1.75rem/1 var(--display);
@@ -420,14 +533,23 @@ a { color: var(--accent-text); }
 .wheel-next { right: 13%; }
 
 @media (prefers-reduced-motion: no-preference) {
-    .agent-ring, .agent-thumb { transition: transform .45s cubic-bezier(.22, 1, .36, 1); }
-    .agent-art-portrait { animation: portrait-in .35s ease-out; }
-    @keyframes portrait-in { from { transform: scale(.97); } }
+    .agent-ring, .agent-thumb { transition: transform .5s cubic-bezier(.22, 1, .36, 1); }
+    .is-dragging .agent-ring, .is-dragging .agent-thumb { transition: none; }
+    .agent-art-portrait { animation: portrait-in .45s cubic-bezier(.22, 1, .36, 1); }
+    .agent-art-word { animation: fade-in .45s ease-out; }
+    .agent-art .is-leaving { animation: leave .3s ease-in forwards; }
+    .agent-name span { animation: name-in .45s cubic-bezier(.22, 1, .36, 1); }
+    .agent-vertical { animation: fade-in .3s ease-out; }
+    @keyframes portrait-in { from { clip-path: inset(0 0 0 100%); transform: translateX(24px); } to { clip-path: inset(-10%); } }
+    @keyframes leave { to { opacity: 0; transform: translateX(-24px); } }
+    @keyframes name-in { from { transform: translateY(100%); } }
+    @keyframes fade-in { from { opacity: 0; } }
 }
 
 @media (max-width: 999px) {
     .agent-stage { grid-template-columns: minmax(0, 1fr); padding: 0 0 1.5rem; }
-    .agent-detail { padding-inline: var(--gutter); }
+    .agent-detail { padding-inline: var(--gutter); max-width: none; }
+    .agent-vertical { display: none; }
     /* On a phone the ring is wider than the screen, so the top arc stays big
        enough to tap and the bottom of the wheel is cropped. */
     .agent-wheel-area {
@@ -456,7 +578,7 @@ a { color: var(--accent-text); }
     display: inline-block;
     padding: .4rem .9rem;
     border: 1px solid var(--line);
-    border-radius: 999px;
+    border-radius: 2px;
     color: var(--text);
     font-size: .95rem;
     font-weight: 600;
@@ -472,7 +594,7 @@ a { color: var(--accent-text); }
     padding: 1.75rem var(--gutter);
     border-top: 1px solid var(--line);
 }
-.ability-agent img, .ability-agent .img-missing { width: 64px; height: 64px; border-radius: 8px; }
+.ability-agent img, .ability-agent .img-missing { width: 64px; height: 64px; border-radius: 2px; }
 .ability-agent { display: grid; align-content: start; gap: .6rem; }
 .ability-agent h2 { font-size: 2.5rem; }
 .ability-agent h2 a { color: inherit; text-decoration-color: var(--accent); text-underline-offset: .15em; }
@@ -491,7 +613,7 @@ a { color: var(--accent-text); }
     margin-left: auto;
     padding: 0 .55rem;
     border: 1px solid var(--line);
-    border-radius: 999px;
+    border-radius: 2px;
     color: var(--accent-text);
     font-size: .85rem;
     font-weight: 700;
@@ -510,7 +632,7 @@ a { color: var(--accent-text); }
     gap: 1rem;
     padding: 0 var(--gutter) 1rem;
 }
-.map-card { overflow: hidden; border-radius: 8px; background: var(--surface); }
+.map-card { clip-path: var(--notch); overflow: hidden; border-radius: 2px; background: var(--surface); }
 .map-banner { width: 100%; height: 110px; object-fit: cover; }
 .map-card > .img-missing { width: 100%; height: 110px; border-radius: 0; }
 .map-body { display: grid; gap: .4rem; padding: .85rem 1rem 1rem; }
@@ -535,11 +657,12 @@ a { color: var(--accent-text); }
     padding: 0 var(--gutter) 1rem;
 }
 .weapon {
+    clip-path: var(--notch);
     display: grid;
     align-content: start;
     gap: .75rem;
     padding: 1rem;
-    border-radius: 8px;
+    border-radius: 2px;
     background: var(--surface);
 }
 .weapon h3 { font-size: 2rem; }
@@ -558,3 +681,40 @@ a { color: var(--accent-text); }
 .damage th:first-child { text-align: left; }
 .damage thead th { color: var(--muted); font-size: .85rem; font-weight: 600; border-bottom: 1px solid var(--line); }
 .damage tbody th { font-weight: 400; color: var(--muted); }
+
+/* Sections arrive as they scroll in. Without support they are simply there. */
+@supports (animation-timeline: view()) {
+    @media (prefers-reduced-motion: no-preference) {
+        .ability-group, .map-card, .weapon {
+            animation: rise linear both;
+            animation-timeline: view();
+            animation-range: entry 0% entry 30%;
+        }
+    }
+}
+
+/* Abilities: the agent stays in view while its abilities scroll past. */
+@media (min-width: 768px) {
+    .ability-agent { position: sticky; top: calc(var(--header-height) + 1rem); align-self: start; }
+}
+
+/* Maps and weapons respond to the pointer. */
+.map-banner { transition: transform .4s cubic-bezier(.22, 1, .36, 1); }
+.map-card:hover .map-banner { transform: scale(1.06); }
+.weapon-icon { transition: transform .35s cubic-bezier(.22, 1, .36, 1); }
+.weapon:hover .weapon-icon { transform: translateX(6px) scale(1.06); }
+.weapon-group > h2, .map-group > h2 { font-size: clamp(2rem, 4vw, 3rem); }
+@media (prefers-reduced-motion: reduce) {
+    .map-banner, .weapon-icon { transition: none; }
+    .map-card:hover .map-banner, .weapon:hover .weapon-icon { transform: none; }
+}
+
+/* Moving between pages: the header stays, the page wipes in. */
+@media (prefers-reduced-motion: no-preference) {
+    @view-transition { navigation: auto; }
+    .site-header { view-transition-name: site-header; }
+    ::view-transition-old(root) { animation: 160ms ease-in both page-out; }
+    ::view-transition-new(root) { animation: 320ms cubic-bezier(.22, 1, .36, 1) both page-in; }
+    @keyframes page-out { to { opacity: 0; } }
+    @keyframes page-in { from { clip-path: inset(0 0 0 100%); } to { clip-path: inset(0); } }
+}
