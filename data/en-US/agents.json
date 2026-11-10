@@ -2,11 +2,11 @@
  "source": "https://valorant-api.com",
  "language": "en-US",
  "version": {
-  "version": "13.09.00.5804228",
-  "patch": "13.09",
-  "buildDate": "2026-10-28T06:11:26Z"
+  "version": "13.10.00.5893614",
+  "patch": "13.10",
+  "buildDate": "2026-11-07T00:25:20Z"
  },
- "generatedAt": "2026-11-06T02:15:39.943Z",
+ "generatedAt": "2026-11-10T19:51:45.563Z",
  "items": [
   {
    "id": "41fb69c1-4189-7b37-f117-bcaf1e96f1bf",
@@ -567,7 +567,7 @@
     {
      "key": "Q",
      "name": "Undercut",
-     "description": "EQUIP an Undercut. FIRE to send it forward. Applies suppress and vulnerable to all players.",
+     "description": "EQUIP Undercut. FIRE to send it forward. Applies suppress and vulnerable to all players.",
      "icon": "https://media.valorant-api.com/agents/0e38b510-41a8-5780-5e8f-568b2a4f2d6c/abilities/ability1/displayicon.png"
     },
     {
@@ -1017,7 +1017,7 @@
     {
      "key": "X",
      "name": "Empress",
-     "description": "INSTANTLY gain Empress.\n\nEmpress grants combat stim, endless Soul Orb consumption, and permanent overheal.",
+     "description": "INSTANTLY gain empress.\n\nEmpress grants combat stim, endless Soul Orb consumption, and permanent overheal.",
      "icon": "https://media.valorant-api.com/agents/a3bfb853-43b2-7238-a4f1-ad90e9e46bcc/abilities/ultimate/displayicon.png"
     },
     {
@@ -1437,7 +1437,7 @@
     {
      "key": "E",
      "name": "GATECRASH",
-     "description": "EQUIP Gatecrash. FIRE to send it forward. ALT FIRE to place. REACTIVATE to teleport to it. INTERACT to fake a teleport.\n\nResets every two kills.",
+     "description": "EQUIP a Gatecrash. FIRE to send it forward. ALT FIRE to place. REACTIVATE to teleport to it. INTERACT to fake a teleport.\n\nResets every two kills.",
      "icon": "https://media.valorant-api.com/agents/7f94d92c-4234-0a36-9646-3a87eb8b5c89/abilities/ability2/displayicon.png"
     },
     {

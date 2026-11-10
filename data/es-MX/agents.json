@@ -2,11 +2,11 @@
  "source": "https://valorant-api.com",
  "language": "es-MX",
  "version": {
-  "version": "13.09.00.5804228",
-  "patch": "13.09",
-  "buildDate": "2026-10-28T06:11:26Z"
+  "version": "13.10.00.5893614",
+  "patch": "13.10",
+  "buildDate": "2026-11-07T00:25:20Z"
  },
- "generatedAt": "2026-11-06T02:15:39.943Z",
+ "generatedAt": "2026-11-10T19:51:45.563Z",
  "items": [
   {
    "id": "41fb69c1-4189-7b37-f117-bcaf1e96f1bf",
@@ -285,7 +285,7 @@
     {
      "key": "X",
      "name": "Asalto Neural",
-     "description": "ACTÍVALO sobre el enemigo muerto seleccionado. Tras un breve lapso, toma dos veces una imagen de los enemigos con vida.",
+     "description": "ACTÍVALO sobre el enemigo muerto seleccionado. Tras un breve lapso, revela dos veces una imagen de la ubicación de los enemigos con vida.",
      "icon": "https://media.valorant-api.com/agents/117ed9e3-49f3-6512-3ccf-0cada7e3823b/abilities/ultimate/displayicon.png"
     }
    ]
@@ -683,7 +683,7 @@
     {
      "key": "X",
      "name": "NULL/cmd",
-     "description": "Obtén una sobrecarga AL INSTANTE y emite pulsos continuos que suprimen a los enemigos dentro del alcance.\n\nSobrecarga otorga potenciador de combate. Al recibir daño letal, KAY/O cae derribado y sus aliados pueden volver a estabilizarlo.",
+     "description": "Obtén una sobrecarga AL INSTANTE y emite pulsos continuos que suprimen a los enemigos dentro del alcance.\n\nSobrecarga otorga un potenciador de combate. Al recibir daño letal, KAY/O cae derribado y sus aliados pueden volver a estabilizarlo.",
      "icon": "https://media.valorant-api.com/agents/601dbbe7-43ce-be57-2a40-4abd24953621/abilities/ultimate/displayicon.png"
     }
    ]
@@ -1017,7 +1017,7 @@
     {
      "key": "X",
      "name": "La Emperatriz",
-     "description": "Accede a La Emperatriz AL INSTANTE.\n\nLa Emperatriz otorga un potenciador de combate, consumo infinito de Orbes de Alma y sobrecuración permanente.",
+     "description": "Accede a La Emperatriz AL INSTANTE.\n\nLa Emperatriz otorga potenciador de combate, consumo infinito de Orbes de Alma y sobrecuración permanente.",
      "icon": "https://media.valorant-api.com/agents/a3bfb853-43b2-7238-a4f1-ad90e9e46bcc/abilities/ultimate/displayicon.png"
     },
     {
@@ -1437,7 +1437,7 @@
     {
      "key": "E",
      "name": "Infiltración",
-     "description": "EQUIPA Infiltración. DISPARA para enviarla hacia adelante. Usa el DISPARO SECUNDARIO para colocarla. REACTIVA para teletransportarte a ella. INTERACTÚA para fingir una teletransportación.\n\nSe reinicia cada dos asesinatos.",
+     "description": "EQUIPA Infiltración. DISPARA para enviarlo hacia adelante. Usa el DISPARO SECUNDARIO para colocarla. REACTIVA para teletransportarte a ella. INTERACTÚA para fingir una teletransportación.\n\nSe reinicia cada dos asesinatos.",
      "icon": "https://media.valorant-api.com/agents/7f94d92c-4234-0a36-9646-3a87eb8b5c89/abilities/ability2/displayicon.png"
     },
     {
